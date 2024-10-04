@@ -1,0 +1,227 @@
+.galeria-contenedor {
+    width: 100%;
+
+    .contenedor-de-imagen {
+        width: 100%;
+        margin: 26px 0 40px 0;
+
+        .img {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+
+        .titulo-foto {
+            background-color: #313131;
+            padding: 4px 0px 24px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            .tit {
+                margin: 16.5px 11px 16.5px 22px;
+
+                h3 {
+                    color: white;
+                    font-size: 22px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .titulo-de-galeria {
+        margin: 15px 0;
+
+        h2 {
+            color: #919191;
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+
+    .contenedor-de-productos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 3.4% 0;
+
+        .card-product {
+            width: 23%;
+            margin: 16px 0 0 0;
+            cursor: pointer;
+            height: 236px;
+
+            .img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
+
+            .titulo-texto {
+                padding: 10.2px 10.2px 0px;
+
+                h4 {
+                    color: #616161;
+                    font-size: 13.6px;
+                    margin: 0;
+                    font-weight: 400;
+                }
+            }
+
+            &:hover {
+                animation: 0.5s 0s alternate none running movimiento-arriba-abajo;
+
+                @keyframes movimiento-arriba-abajo {
+                    from {
+                        transform: translateY(-5px);
+                    }
+
+                    to {
+                        transform: translateY(0px);
+                    }
+                }
+
+                .img {
+                    filter: brightness(0.9) saturate(2.2) drop-shadow(0 0 5px rgba(68, 29, 207, 0.322));
+                }
+            }
+        }
+    }
+}
+
+.contenedor-de-productos-en-venta {
+    margin-top: 88px;
+
+    .img-single {
+        width: 100%;
+        margin: 20px 0px 20px 0;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+
+    .contenedor-estructural-inicio-pagina {
+        margin-top: 76px;
+        padding-top: -100px;
+
+        .parte-superior {
+            margin-top: -162px;
+            padding-top: 0px;
+        }
+
+        .estilo-inferior-inferior{
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+    }
+
+    .asistencia-pokemon {
+        margin-top: 0px;
+    }
+
+    .galeria-contenedor {
+        width: 100%;
+
+        .contenedor-de-imagen {
+            width: 100%;
+            margin: 0% 0 26px 0;
+
+            .img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .titulo-foto {
+                padding: 4px 0px 24px;
+
+                .tit {
+                    margin: 16.5px 11px 16.5px 22px;
+
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+
+        .titulo-de-galeria {
+            margin: 15px;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        .contenedor-de-productos {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .card-product {
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .titulo-texto {
+                    padding: 10.2px 10.2px 0px;
+
+                    h4 {
+                        font-size: 13.6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .asistencia-pokemon-galeria-de-productos {
+        .contenedor {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .galeria-contenedor {
+
+        .contenedor-de-imagen {
+            margin-top: 3%;
+        }
+
+        .contenedor-de-productos {
+            padding: 0 5%;
+        }
+    }
+}

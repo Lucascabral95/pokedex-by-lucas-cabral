@@ -1,0 +1,1109 @@
+.margin-de-header {
+    margin-top: 88px;
+}
+
+.galeria-fuerzas-temporales {
+    width: 100%;
+
+    .contenedor-banner {
+        width: 100%;
+        display: flex;
+        background-color: #FFFFFF;
+        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-size: 10%;
+
+        .img-borde {
+            width: 17.2%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .informacion-bi-cartas {
+            width: 65.5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0;
+            z-index: 11;
+
+            .fuerzas-temporales-informacion {
+                width: 50%;
+                padding: 0 12px;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .titulo {
+
+                    h5 {
+                        margin: 0;
+                        font-size: 38px;
+                        color: #00435A;
+                        font-weight: 800;
+                        text-align: center;
+                    }
+                }
+
+                .texto {
+                    margin: 16px 0 0 0;
+
+                    p {
+                        font-size: 16px;
+                        margin: 0;
+                        color: #000000;
+                        text-align: center;
+                        line-height: 1.8;
+                    }
+                }
+            }
+
+            .dos-cartas {
+                width: 50%;
+                padding: 0 12px;
+                display: flex;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        // width: 100%;
+                        width: 84%;
+                        height: auto;
+                    }
+                }
+
+                .imagen-uno{
+                    transform: translateY(-10%) translateX(24%) rotate(-14deg);
+                 }
+ 
+                 .imagen-dos{
+                     transform: translateY(30px) translateX(-8%) rotate(14deg);
+                 }
+            }
+        }
+
+
+        .img-borde-violeta {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .img-borde-violeta-medio {
+            display: none;
+        }
+
+        .img-borde-violeta-chico {
+            display: none;
+        }
+
+        .img-borde-bordo {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .img-borde-bordo-medio {
+            display: none;
+        }
+
+        .img-borde-bordo-chico {
+            display: none;
+        }
+    }
+
+    .contenedor-navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #00445C 0%, #04536E 50%, #00445C 100%);
+        border-top: 8px solid #BFDDC8;
+        border-bottom: 8px solid #BFDDC8;
+        height: 78px;
+        padding: 24px 12.5%;
+
+        .seccion {
+            width: 50%;
+            display: flex;
+
+            .seccion-interna {
+                display: flex;
+                justify-content: center;
+                width: 472px;
+
+                .interno {
+                    display: flex;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+
+                    .icon {
+                        margin-left: 2px;
+                        color: white;
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &:hover {
+                        border: 0.5px solid rgba(0, 0, 0, 0.356);
+                        border-radius: 2px;
+                        background-image: linear-gradient(to right, #75E0E9, #E6EFD1);
+                        padding: 4px 12px;
+
+                        p {
+                            color: black;
+                        }
+
+                        .icon {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .seccion-interna-izquierda {
+            justify-content: flex-end;
+
+            .seccion-interna {
+                border-right: 1px solid #99CCC1;
+            }
+        }
+
+        .seccion-interna-derecha {
+            justify-content: flex-start;
+
+            .seccion-interna {
+                border-left: 1px solid #99CCC1;
+            }
+        }
+    }
+}
+
+.tipos-de-cartas {
+    width: 100%;
+    background-color: #1A1C1E;
+    background-image: url('/public/img/fondo-cartas-definitivo.png');
+    background-size: 10%;
+    padding: 48px 0 100px 0;
+
+    .contenedor {
+        width: 100%;
+
+        .contenedor-botones {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .boton {
+                padding: 16px 32px;
+                border: 4px solid #D4DABE;
+                background-color: transparent;
+                border-radius: 2px;
+                cursor: pointer;
+                margin: 0 8px 14px 8px;
+
+                p {
+                    margin: 0;
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: white;
+                }
+
+                &:hover {
+                    background-image: linear-gradient(to right, #76E0E9 0%, #E4EED1 100%);
+                    border: 4px solid #1E5968;
+
+                    p {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        // 6 cartas
+        .contenedor-de-cartas {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            padding: 40px 9%;
+
+            .carta {
+                margin: 1% 0 1.7% 0;
+                width: 14.3%;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        border-radius: 10px;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .imagen-skeleton {
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 7 cartas
+@media (min-width: 2194px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 40px 10%;
+
+                .carta {
+                    margin: 1% 0 2% 0;
+                    width: 12.6%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 6 cartas
+@media (min-width: 1882px) and (max-width: 2193px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 40px 9%;
+
+                .carta {
+                    margin: 1% 0 1.7% 0;
+                    width: 14.3%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 5 cartas
+@media (min-width: 1570px) and (max-width: 1881px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 40px 9%;
+                width: 100%;
+
+                .carta {
+                    margin: 1% 0 2% 0;
+                    width: 16.8%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 4 cartas
+@media (min-width: 920px) and (max-width: 1569px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                padding: 40px 2.6%;
+
+                .carta {
+                    margin: 1% 0 1.4% 0;
+                    width: 21.5%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Aca solo le doy menos padding a los laterales
+@media (max-width: 1143px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-de-cartas {
+
+                .carta {
+
+                    .img {
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 3 cartas
+@media (min-width: 560px) and (max-width: 919px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                padding: 40px 4%;
+
+                .carta {
+                    margin: 1% 0 2.8% 0;
+                    width: 28.5%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 2 carta
+@media (min-width: 376px) and (max-width: 559px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                padding: 40px 6%;
+
+                .carta {
+                    margin: 1% 0 4% 0;
+                    width: 45%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 1 carta
+@media (max-width: 375px) {
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+
+                .boton {
+
+                    p {}
+                }
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                padding: 40px 6%;
+
+                .carta {
+                    margin: 1% 0 5.8% 0;
+                    width: 98%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//------------------------------------------------------------------------------------------------------------------------------
+
+@media (min-width: 1150px) and (max-width: 1500px) {
+    .galeria-fuerzas-temporales {
+
+        .contenedor-banner {
+            width: 100%;
+            display: flex;
+            background-size: 10%;
+
+            .img-borde {
+                width: 10%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .informacion-bi-cartas {
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 40px 0;
+
+                .fuerzas-temporales-informacion {
+                    width: 50%;
+                    padding: 0 12px;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .titulo {
+
+                        h5 {
+                            font-size: 38px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 16px 0 0 0;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 1.8;
+                        }
+                    }
+                }
+
+                .dos-cartas {
+                    width: 50%;
+                    padding: 0 12px;
+                    display: flex;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .imagen-uno{
+                    
+                    }
+    
+                    .imagen-dos{
+    
+                    }
+                }
+            }
+
+
+            .img-borde-violeta {
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .img-borde-violeta-medio {
+                display: none;
+            }
+
+            .img-borde-violeta-chico {
+                display: none;
+            }
+
+            .img-borde-bordo {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .img-borde-bordo-medio {
+                display: none;
+            }
+
+            .img-borde-bordo-chico {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (min-width:640px) and (max-width: 1149px) {
+    .galeria-fuerzas-temporales {
+
+        .contenedor-banner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-size: 10%;
+
+            .img-borde {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .informacion-bi-cartas {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 0px 12px;
+                margin-top: -170px;
+
+                .fuerzas-temporales-informacion {
+                    width: 86%;
+                    max-width: 830px;
+                    padding: 0 0px;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .titulo {
+
+                        h5 {
+                            font-size: 31px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 16px 0 0 0;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 1.8;
+                        }
+                    }
+                }
+
+                .dos-cartas {
+                    max-width: 830px;
+                    width: 86%;
+                    padding: 0 12px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 34px;
+
+                    .img {
+
+                        width: auto;
+
+                        img {
+                            // width: 100%;
+                            // height: auto;
+                            width: 230px;
+                            height: auto;
+                        }
+                    }
+
+                    .imagen-uno{
+                       transform: translateY(0px) translateX(0px) rotate(-14deg);
+                    }
+    
+                    .imagen-dos{
+                        transform: translateY(30px) translateX(-40px) rotate(14deg);
+                    }
+                }
+            }
+
+            .img-borde-violeta {
+                display: none;
+            }
+
+            .img-borde-violeta-medio {
+                display: flex;
+                align-items: flex-start;
+
+                .img-interior {
+                    width: 300px;
+                    height: 252px;
+
+                    img {
+                        width: 300px;
+                        height: 252px;
+                    }
+                }
+            }
+
+            .img-borde-violeta-chico {
+                display: none;
+            }
+
+            .img-borde-bordo {
+                display: none;
+            }
+
+            .img-borde-bordo-medio {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                margin-top: -170px;
+
+                .img-interior {
+                    width: 100%;
+                    width: 300px;
+                    height: 230px;
+                }
+            }
+
+            .img-borde-bordo-chico {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .galeria-fuerzas-temporales {
+
+        .contenedor-banner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-size: 10%;
+
+            .img-borde {
+                width: 17.2%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .informacion-bi-cartas {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 0px 12px;
+                margin-top: -64px;
+
+                .fuerzas-temporales-informacion {
+                    width: 98%;
+                    max-width: 830px;
+                    padding: 0 0px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .titulo {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 0 0 0;
+                        margin: 0;
+
+                        h5 {
+                            font-size: 31px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 16px 0 0 0;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 1.8;
+                        }
+                    }
+                }
+
+                .dos-cartas {
+                    max-width: 830px;
+                    width: 86%;
+                    padding: 0 12px;
+                    display: flex;
+                    margin: 24px 0 0 0;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .imagen-uno{
+                        transform: translateY(0px) translateX(30px) rotate(-14deg);
+                     }
+     
+                     .imagen-dos{
+                         transform: translateY(20px) translateX(-20px) rotate(14deg);
+                     }
+                }
+            }
+
+
+            .img-borde-violeta {
+                display: none;
+            }
+
+            .img-borde-violeta-medio {
+                display: none;
+            }
+
+            .img-borde-violeta-chico {
+                display: flex;
+                width: 100%;
+
+                .img-interior {
+                    width: 100%;
+                    width: 164px;
+                    height: 125px;
+                }
+            }
+
+            .img-borde-bordo {
+                display: none;
+            }
+
+            .img-borde-bordo-medio {
+                display: none;
+            }
+
+            .img-borde-bordo-chico {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                // margin-top: -116px;
+                margin-top: -80px;
+
+                .img-interior {
+                    width: 100%;
+                    width: 164px;
+                    height: 125px;
+                }
+            }
+        }
+    }
+}
+
+// para modear la botonera de categorias de cartas && para la seccion de pagina de la expansion/encuentra una tienda
+@media (max-width: 1023px) {
+    
+    .contenedor-navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom, #00445C 0%, #04536E 50%, #00445C 100%);
+        border-top: 0px solid #BFDDC8;
+        border-bottom: 0px solid #BFDDC8;
+        height: auto !important;
+        padding: 0px 2% !important;
+
+        .seccion {
+            width: 100% !important;
+            display: flex;
+
+            .seccion-interna {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100% !important;
+                height: 84px;
+
+                .interno {
+                    display: flex;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 15px !important;
+                    }
+
+                    .icon {
+                        margin-left: 2px;
+                        color: white;
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &:hover {
+                        border: 0.5px solid rgba(0, 0, 0, 0.356);
+                        border-radius: 2px;
+                        background-image: linear-gradient(to right, #75E0E9, #E6EFD1);
+                        padding: 4px 12px;
+
+                        p {
+                            color: black;
+                        }
+
+                        .icon {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .seccion-interna-izquierda {
+            justify-content: flex-end;
+
+            .seccion-interna {
+                border-right: 0px solid #99CCC1 !important;
+                border-bottom: 1px solid #99CCC1;
+            }
+        }
+
+        .seccion-interna-derecha {
+            justify-content: flex-start;
+
+            .seccion-interna {
+                border-left: 0px solid #99CCC1 !important;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tipos-de-cartas {
+
+        .contenedor {
+
+            .contenedor-botones {
+                display: none;
+            }
+
+            .contenedor-de-cartas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                padding: 40px 9%;
+
+                .carta {
+                    margin: 1% 0 1.7% 0;
+                    width: 14.3%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            border-radius: 10px;
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .imagen-skeleton {
+                            width: auto;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// para la seccion de pagina de la expansion/encuentra una tienda
+@media (max-width: 639px) {
+    .galeria-fuerzas-temporales {
+
+        .contenedor-navbar {
+            padding: 0px 2%;
+
+            .seccion {
+
+                .seccion-interna {
+
+                    .interno {
+
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,420 @@
+.footer-website-cards {
+    width: 100%;
+    background-color: white;
+    padding: 40px 0 20px 0;
+
+    .contenedor {
+        max-width: 1416px;
+        margin: auto;
+
+        .div-superior {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            .div-chico {
+                width: 354px;
+                margin: 24px 0 0 0;
+
+                .imagenes {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .img {
+                        background-color: white;
+                        border-radius: 50%;
+
+                        .imagen {
+                            border-radius: 5px;
+                            width: 48px;
+                            height: 48px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .icon {
+                                width: 48px;
+                                height: 48px;
+                                color: black;
+                            }
+                        }
+
+                        &:hover {
+
+                            .imagen-fb {
+                                background: #3b5998;
+
+
+                                .fb {
+                                    color: white;
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+
+                            .imagen-x {
+                                background-color: black;
+
+                                .x {
+                                    color: white;
+                                    width: 44px;
+                                    height: 44px;
+                                }
+                            }
+
+                            .imagen-yt {
+                                background-color: #FF0808;
+
+                                .yt {
+                                    color: white;
+                                    width: 44px;
+                                    height: 44px;
+                                }
+                            }
+
+                            .imagen-ig {
+                                background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+
+                                .ig {
+                                    color: white;
+                                    width: 44px;
+                                    height: 44px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .contenedor-interno {
+                    margin: 24px 0;
+
+                    .suscribirse {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 0 10px 0;
+
+                        .contenedor {
+                            display: flex;
+                            margin: 0 0 8px;
+
+                            .icon {
+                                width: 20px;
+                                height: 20px;
+                                color: black;
+                                margin-right: 8px;
+                            }
+
+                            p {
+                                color: black;
+                                margin: 0;
+                                font-weight: 500;
+                                font-size: 15px;
+                                letter-spacing: -0.2px;
+                            }
+                        }
+                    }
+
+                    .contenedor-boton-suscripcion {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .boton {
+                            background-color: black;
+                            width: 135.13px;
+                            height: 42px;
+                            padding: 6px 20px;
+                            border: 2px solid black;
+                            cursor: pointer;
+
+                            button {
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 400;
+                                border: none;
+                                background-color: transparent;
+                            }
+
+                            &:hover {
+                                transition: 0.3s ease-in-out;
+                                background-color: #E2BA65;
+
+                                button {
+                                    color: black;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .div-grande {
+                width: 708px;
+                padding: 0 12px;
+
+                .contenedor {
+
+                    .img-pokemon-company {
+                        margin: 0 243.5px 20px;
+                        cursor: pointer;
+                        
+                        img {
+                            width: 219px;
+                            height: 24px;
+                        }
+                    }
+                    
+                    .imagen-coppa {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        img {
+                            width: 146px;
+                            height: 59.6px;
+                        }
+                    }
+
+                    .politicas {
+                        margin: 10px 0 20px;
+
+                        .texto {
+
+                            p {
+                                text-align: center;
+                                color: black;
+                                margin: 0;
+                                font-size: 14px;
+                            
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                    margin: 0 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .div-ultimo {
+                width: 354px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .contenedor-boton-pais {
+                    background-color: black;
+                    padding: 6px 24px;
+                    cursor: pointer;
+                    border: black 2px solid;
+
+                    button {
+                        cursor: pointer;
+                        border: navajowhite;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+
+                    &:hover {
+                        transition: 0.3s ease-in-out;
+                        background-color: #E2BA65;
+
+                        button {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .div-inferior {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 40px 0 0 0;
+
+            .texto {
+                margin: 0 0 7px;
+
+                p {
+                    margin: 0;
+                    color: black;
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1399px) {
+    .footer-website-cards {
+        padding: 40px 0 20px 0;
+
+        .contenedor {
+            max-width: 1416px;
+            margin: auto;
+
+            .div-superior {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .div-chico {
+                    width: 354px;
+                    margin: 0px 0 0 0;
+                    height: auto;
+
+                    .imagenes {
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+
+                        .img {
+                            border-radius: 50%;
+
+                            .imagen {
+                                border-radius: 5px;
+                                width: 48px;
+                                height: 48px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                .icon {
+                                    width: 48px;
+                                    height: 48px;
+                                }
+                            }
+                        }
+                    }
+
+                    .contenedor-interno {
+                        margin: 24px 0;
+
+                        .suscribirse {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 0 0 10px 0;
+
+                            .contenedor {
+                                display: flex;
+                                margin: 0 0 8px;
+
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 8px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+
+                        .contenedor-boton-suscripcion {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .boton {
+                                width: 135.13px;
+                                height: 42px;
+                                padding: 6px 20px;
+                                border: 2px solid black;
+
+                                button {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .div-grande {
+                    width: 708px;
+                    padding: 0 12px;
+
+                    .contenedor {
+
+                        .img-pokemon-company {
+                            margin: 0 243.5px 20px;
+
+                            img {
+                                width: 219px;
+                                height: 24px;
+                            }
+                        }
+
+                        .imagen-coppa {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 146px;
+                                height: 59.6px;
+                            }
+                        }
+
+                        .politicas {
+                            margin: 10px 0 20px;
+
+                            .texto {
+
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .div-ultimo {
+                    width: 354px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .contenedor-boton-pais {
+                        padding: 6px 24px;
+                        cursor: pointer;
+                        border: black 2px solid;
+
+                        button {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            .div-inferior {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin: 34px 0 0 0;
+                padding: 0 24px;
+
+                .texto {
+                    margin: 0 0 7px;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

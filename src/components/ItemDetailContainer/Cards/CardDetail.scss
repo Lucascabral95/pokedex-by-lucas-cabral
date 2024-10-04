@@ -1,0 +1,994 @@
+.card-detail {
+    width: 912px;
+    margin: auto;
+
+    .itemCardDetail {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        // margin-top: -66px;
+
+        .imagen-card {
+            width: 49.5%;
+
+            .imagen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 22px;
+
+                img {
+                    width: 245px;
+                    height: 342px;
+                }
+            }
+
+            .botones {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .contenedor {
+                    cursor: pointer;
+                    background-color: #EE6B2F;
+                    border-radius: 5px;
+                    margin: 8.4px;
+                    padding: 8px 21px 8px;
+                    width: fit-content;
+                    display: flex;
+                    justify-content: center;
+
+                    .boton-texto {
+                        font-weight: 500;
+                        font-size: 17.8px;
+                        color: white;
+                        margin-bottom: 0px;
+                    }
+
+                    &:hover {
+                        background-color: #DA471B;
+                    }
+                }
+            }
+        }
+
+        .datos-card {
+            width: 49.5%;
+
+            .titulo-carta {
+                background-color: #A4A4A4;
+                padding: 12.8px 19.2px;
+                display: flex;
+                align-items: center;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+
+                .title {
+                    color: white;
+                    font-size: 32px;
+                    font-weight: 500;
+                    margin-bottom: 0px;
+                }
+            }
+
+            .tipo-carta {
+                background-color: #F2F2F2;
+                padding: 12.8px;
+                display: flex;
+                // align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .texto-icono {
+                    display: flex;
+                    justify-content: space-between;
+                    // align-items: center;
+
+                    .texto {
+                        color: black;
+
+                        .title {
+                            font-size: 20px;
+                            margin: 3px 0px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .icono {
+                        display: flex;
+                        align-items: center;
+
+                        .title {
+                            font-size: 25px;
+                            margin-bottom: 0px;
+                            font-weight: 600;
+                        }
+
+                        img {}
+
+                        .icono-de-tipo {
+                            margin-left: 5px;
+                            width: 25px;
+                            height: 25px;
+                            background-image: url('/public/img/tipos-pokemon.png');
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .seccion-evolutiva {
+                    margin: 10px 0px;
+
+                    .evolucion-texto {
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                        color: black;
+                        line-height: 1.2;
+                    }
+
+                    .evolucion-nombre {
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                        color: #1B53BA;
+                        cursor: pointer;
+                        line-height: 1.2;
+                        font-weight: 500;
+
+                        &:hover {
+                            color: rgb(71, 191, 238);
+                        }
+                    }
+                }
+            }
+
+            .caracteristicas {
+                padding: 17.6px 19.2px;
+
+                .titulo-caracteristica {
+                    margin-top: 24px;
+
+                    .titulo {
+                        margin: 6px 10px;
+
+                        .title {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .titulo-ataque {
+
+                    .tit {
+                        margin: 6px 10px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .contenedor-titulo-icon {
+                            display: flex;
+
+                            .titulo {
+                                font-size: 20px;
+                            }
+
+                            .i {
+                                display: flex;
+                                margin-right: 8px;
+
+                                .icono-de-tipo {
+                                    margin-left: 5px;
+                                    width: 25px;
+                                    height: 25px;
+                                    background-image: url('/public/img/tipos-pokemon.png');
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                        .dano {
+                            font-size: 20px;
+                            color: #616161;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .texto {
+                    margin: 6.8px 0px;
+
+                    .texto-p {
+                        color: #919191;
+                        font-size: 13.6px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .contenedor-debilidades-resistencia {
+                padding: 8px 0px;
+                margin: 10px 0px 0px;
+                background-color: #F2F2F2;
+
+                .debilidad-resistencia {
+                    width: 100%;
+                    height: 90px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .debilidad {
+                        width: 32%;
+                        display: flex;
+                        flex-direction: column;
+
+                        .debilidad-texto {
+                            font-size: 20px;
+                            font-weight: 400;
+                            text-align: center;
+                            margin: 6.4px 0px;
+                            line-height: 125%;
+                            color: #212121;
+                        }
+
+                        .tipo-debilidad {
+                            display: flex;
+                            justify-content: center;
+
+                            .div-icono-tipo {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-right: 8px;
+
+                                .icono-de-tipo {
+                                    margin-left: 5px;
+                                    width: 25px;
+                                    height: 25px;
+                                    background-image: url('/public/img/tipos-pokemon.png');
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .debilidad-texto-dos {
+                                font-size: 32px;
+                                font-weight: 400;
+                                text-align: center;
+                                margin: 6.4px 0px;
+                            }
+                        }
+
+                        .contenedor-icono-del-tipo {
+                            display: flex;
+                            justify-content: center;
+
+                            .icono-de-tipo {
+                                margin-left: 5px;
+                                width: 25px;
+                                height: 25px;
+                                background-image: url('/public/img/tipos-pokemon.png');
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .resistencia {
+                        width: 32%;
+
+                    }
+
+                    .costo-de-retirada {
+                        width: 32%;
+
+                    }
+                }
+
+                .rareza-precio {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 20px;
+
+                    .rareza {
+                        width: 49%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .texto {
+
+                            .texto-rareza {
+                                margin-bottom: 0px;
+                                font-size: 20px;
+                                color: black;
+                            }
+
+                            .rareza-tipo {
+                                margin-bottom: 0px;
+                                font-weight: 500;
+                                color: #1B53BA;
+                                font-size: 16px;
+
+                                &:hover {
+                                    color: rgb(71, 191, 238);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ilustrador {
+                margin: 17.6px 0px;
+                padding: 8px 16px;
+
+                .contenedor {
+
+                    .texto-ilustrador {
+                        color: #919191;
+                        margin-bottom: 0px;
+                        font-size: 20px;
+                        font-weight: 400;
+
+                        .ilustrador-nombre {
+                            color: #1B53BA;
+                            font-weight: 500;
+                            font-size: 20px;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: rgb(71, 191, 238);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .card-detail {
+        margin: auto;
+        width: 88%;
+
+        .itemCardDetail {
+            background-color: white;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 6%;
+            margin-top: -24px;
+
+            .imagen-card {
+                width: 100%;
+
+                .imagen {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 22px;
+                    padding-top: 38px;
+
+                    img {
+                        width: 245px;
+                        height: 342px;
+                    }
+                }
+
+                .botones {
+                    display: none;
+                }
+            }
+
+            .datos-card {
+                width: 100%;
+
+                .titulo-carta {
+                    background-color: #A4A4A4;
+                    padding: 12.8px 19.2px;
+                    display: flex;
+                    align-items: center;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+
+                    .title {
+                        color: white;
+                        font-size: 32px;
+                        font-weight: 500;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .tipo-carta {
+                    background-color: #F2F2F2;
+                    padding: 12.8px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    .texto-icono {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .texto {
+                            color: black;
+
+                            .title {
+                                font-size: 20px;
+                                margin: 3px 0px;
+                                font-weight: 500;
+                            }
+                        }
+
+                        .icono {
+                            display: flex;
+                            align-items: center;
+
+                            .title {
+                                font-size: 25px;
+                                margin-bottom: 0px;
+                                font-weight: 600;
+                            }
+
+                            img {}
+
+                            .icono-de-tipo {
+                                margin-left: 5px;
+                                width: 25px;
+                                height: 25px;
+                                background-image: url('/public/img/tipos-pokemon.png');
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .seccion-evolutiva {
+                        margin: 10px 0px;
+
+                        .evolucion-texto {
+                            font-size: 20px;
+                            margin-bottom: 0px;
+                            color: black;
+                            line-height: 1.2;
+                        }
+
+                        .evolucion-nombre {
+                            font-size: 20px;
+                            margin-bottom: 0px;
+                            color: #1B53BA;
+                            cursor: pointer;
+                            line-height: 1.2;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .caracteristicas {
+                    padding: 17.6px 19.2px;
+
+                    .titulo-caracteristica {
+                        margin-top: 24px;
+
+                        .titulo {
+                            margin: 6px 10px;
+
+                            .title {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .titulo-ataque {
+
+                        .tit {
+                            margin: 6px 10px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .contenedor-titulo-icon {
+                                display: flex;
+
+                                .titulo {
+                                    font-size: 20px;
+                                }
+
+                                .i {
+                                    display: flex;
+                                    margin-right: 8px;
+
+                                    .icono-de-tipo {
+                                        margin-left: 5px;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-image: url('/public/img/tipos-pokemon.png');
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+
+                            .dano {
+                                font-size: 20px;
+                                color: #616161;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    .texto {
+                        margin: 6.8px 0px;
+
+                        .texto-p {
+                            color: #919191;
+                            font-size: 13.6px;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+
+                .contenedor-debilidades-resistencia {
+                    padding: 8px 0px;
+                    margin: 10px 0px 0px;
+                    background-color: #F2F2F2;
+
+                    .debilidad-resistencia {
+                        width: 100%;
+                        height: 90px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .debilidad {
+                            width: 32%;
+                            display: flex;
+                            flex-direction: column;
+
+                            .debilidad-texto {
+                                font-size: 20px;
+                                font-weight: 400;
+                                text-align: center;
+                                margin: 6.4px 0px;
+                                line-height: 125%;
+                                color: #212121;
+                            }
+
+                            .tipo-debilidad {
+                                display: flex;
+                                justify-content: center;
+
+                                .div-icono-tipo {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-right: 8px;
+
+                                    .icono-de-tipo {
+                                        margin-left: 5px;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-image: url('/public/img/tipos-pokemon.png');
+                                        cursor: pointer;
+                                    }
+                                }
+
+                                .debilidad-texto-dos {
+                                    font-size: 32px;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    margin: 6.4px 0px;
+                                }
+                            }
+
+                            .contenedor-icono-del-tipo {
+                                display: flex;
+                                justify-content: center;
+
+                                .icono-de-tipo {
+                                    margin-left: 5px;
+                                    width: 25px;
+                                    height: 25px;
+                                    background-image: url('/public/img/tipos-pokemon.png');
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                        .resistencia {
+                            width: 32%;
+
+                        }
+
+                        .costo-de-retirada {
+                            width: 32%;
+
+                        }
+                    }
+
+                    .rareza-precio {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+
+                        .rareza {
+                            width: 49%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            .texto {
+
+                                .texto-rareza {
+                                    margin-bottom: 0px;
+                                    font-size: 20px;
+                                    color: black;
+                                }
+
+                                .rareza-tipo {
+                                    margin-bottom: 0px;
+                                    font-weight: 500;
+                                    color: #1B53BA;
+                                    font-size: 16px;
+
+                                    &:hover {
+                                        color: rgb(71, 191, 238);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .ilustrador {
+                    margin: 17.6px 0px;
+                    padding: 8px 16px;
+
+                    .contenedor {
+
+                        .texto-ilustrador {
+                            color: #919191;
+                            margin-bottom: 0px;
+                            font-size: 20px;
+                            font-weight: 400;
+
+                            .ilustrador-nombre {
+                                color: #1B53BA;
+                                font-weight: 500;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .botones-mobile {
+                display: flex !important;
+                flex-direction: column;
+                justify-content: center;
+
+                .contenedor {
+                    cursor: pointer;
+                    background-color: #EE6B2F;
+                    border-radius: 5px;
+                    margin: 8.4px;
+                    padding: 8px 21px 8px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+
+                    .boton-texto {
+                        font-weight: 500;
+                        font-size: 17.8px;
+                        color: white;
+                        margin-bottom: 0px;
+                    }
+
+                    &:hover {
+                        background-color: #DA471B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .card-detail {
+        // width: 88%;
+        width: 100%;
+
+        .itemCardDetail {
+            display: flex;
+            flex-direction: column;
+            // padding: 0px 6%;
+            padding: 0px 22px;
+
+            .imagen-card {
+                // width: 49.5%;
+                width: 100%;
+
+                .imagen {
+                    margin-bottom: 22px;
+
+                    img {
+                        width: 245px;
+                        height: 342px;
+                    }
+                }
+            }
+
+            .datos-card {
+                width: 100%;
+
+                .titulo-carta {
+                    background-color: #A4A4A4;
+                    padding: 12.8px 19.2px;
+                    display: flex;
+                    align-items: center;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+
+                    .title {
+                        color: white;
+                        font-size: 32px;
+                        font-weight: 500;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .tipo-carta {
+                    background-color: #F2F2F2;
+                    padding: 12.8px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    .texto-icono {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .texto {
+                            color: black;
+
+                            .title {
+                                font-size: 20px;
+                                margin: 3px 0px;
+                                font-weight: 500;
+                            }
+                        }
+
+                        .icono {
+                            display: flex;
+                            align-items: center;
+
+                            .title {
+                                font-size: 25px;
+                                margin-bottom: 0px;
+                                font-weight: 600;
+                            }
+
+                            img {}
+
+                            .icono-de-tipo {
+                                margin-left: 5px;
+                                width: 25px;
+                                height: 25px;
+                                background-image: url('/public/img/tipos-pokemon.png');
+                            }
+                        }
+                    }
+
+                    .seccion-evolutiva {
+                        margin: 10px 0px;
+
+                        .evolucion-texto {
+                            font-size: 20px;
+                            margin-bottom: 0px;
+                            color: black;
+                            line-height: 1.2;
+                        }
+
+                        .evolucion-nombre {
+                            font-size: 20px;
+                            margin-bottom: 0px;
+                            color: #1B53BA;
+                            line-height: 1.2;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .caracteristicas {
+                    padding: 17.6px 19.2px;
+
+                    .titulo-caracteristica {
+                        margin-top: 24px;
+
+                        .titulo {
+                            margin: 6px 10px;
+
+                            .title {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .titulo-ataque {
+
+                        .tit {
+                            margin: 6px 10px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .contenedor-titulo-icon {
+                                display: flex;
+
+                                .titulo {
+                                    font-size: 20px;
+                                }
+
+                                .i {
+                                    display: flex;
+                                    margin-right: 8px;
+
+                                    .icono-de-tipo {
+                                        margin-left: 5px;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-image: url('/public/img/tipos-pokemon.png');
+                                    }
+                                }
+                            }
+
+                            .dano {
+                                font-size: 20px;
+                                color: #616161;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    .texto {
+                        margin: 6.8px 0px;
+
+                        .texto-p {
+                            color: #919191;
+                            font-size: 13.6px;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+
+                .contenedor-debilidades-resistencia {
+                    padding: 8px 0px;
+                    margin: 10px 0px 0px;
+                    background-color: #F2F2F2;
+
+                    .debilidad-resistencia {
+                        width: 100%;
+                        height: 90px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .debilidad {
+                            width: 32%;
+                            display: flex;
+                            flex-direction: column;
+
+                            .debilidad-texto {
+                                font-size: 20px;
+                                font-weight: 400;
+                                text-align: center;
+                                margin: 6.4px 0px;
+                                line-height: 125%;
+                                color: #212121;
+                            }
+
+                            .tipo-debilidad {
+                                display: flex;
+                                justify-content: center;
+
+                                .div-icono-tipo {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-right: 8px;
+
+                                    .icono-de-tipo {
+                                        margin-left: 5px;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-image: url('/public/img/tipos-pokemon.png');
+                                    }
+                                }
+
+                                .debilidad-texto-dos {
+                                    font-size: 32px;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    margin: 6.4px 0px;
+                                }
+                            }
+
+                            .contenedor-icono-del-tipo {
+                                display: flex;
+                                justify-content: center;
+
+                                .icono-de-tipo {
+                                    margin-left: 5px;
+                                    width: 25px;
+                                    height: 25px;
+                                    background-image: url('/public/img/tipos-pokemon.png');
+                                }
+                            }
+                        }
+
+                        .resistencia {
+                            width: 32%;
+
+                        }
+
+                        .costo-de-retirada {
+                            width: 32%;
+
+                        }
+                    }
+
+                    .rareza-precio {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+
+                        .rareza {
+                            width: 49%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            .texto {
+
+                                .texto-rareza {
+                                    margin-bottom: 0px;
+                                    font-size: 20px;
+                                    color: black;
+                                }
+
+                                .rareza-tipo {
+                                    margin-bottom: 0px;
+                                    font-weight: 500;
+                                    color: #1B53BA;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .ilustrador {
+                    margin: 17.6px 0px;
+                    padding: 8px 16px;
+
+                    .contenedor {
+
+                        .texto-ilustrador {
+                            color: #919191;
+                            margin-bottom: 0px;
+                            font-size: 20px;
+                            font-weight: 400;
+
+                            .ilustrador-nombre {
+                                color: #1B53BA;
+                                font-weight: 500;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

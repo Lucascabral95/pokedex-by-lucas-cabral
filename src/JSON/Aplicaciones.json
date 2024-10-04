@@ -1,0 +1,67 @@
+[
+    {
+        "imagen": "/img/pokemon-live-azul.png",
+        "pelicula": "Juego de Cartas Coleccionables Pokemon Live" ,
+        "link": "/aplicaciones/pokemon-live"
+    },
+    {
+        "imagen": "/img/app-dos.jpg",
+        "pelicula": "Pokemon Sleep",
+        "link": "/aplicaciones/pokemon-sleep"
+    },
+    {
+        "imagen": "/img/app-tres.jpg",
+        "pelicula": "Pokémon UNITE",
+        "link": "/aplicaciones/pokemon-unite"
+    },
+    {
+        "imagen": "/img/app-cuatro.jpg",
+        "pelicula": "Pokémon GO",
+        "link": "/aplicaciones/pokemon-go"
+    },
+    {
+        "imagen": "/img/app-cinco.jpg",
+        "pelicula": "Pokémon Masters EX",
+        "link": "/aplicaciones/pokemon-masters-ex"
+    },
+    {
+        "imagen": "/img/app-seis.jpg",
+        "pelicula": "Pokémon HOME",
+        "link": "/aplicaciones/pokemon-home"
+    },
+    {
+        "imagen": "/img/app-siete.jpg",
+        "pelicula": "Pokémon Café Mix",
+        "link": "/aplicaciones/pokemon-cafe-mix"
+    },
+    {
+        "imagen": "/img/app-ocho.jpg",
+        "pelicula": "Pokémon Smile",
+        "link": "/aplicaciones/pokemon-smile"
+    },
+    {
+        "imagen": "/img/app-nueve.jpg",
+        "pelicula": "Pokémon Rumble Rush",
+        "link": "/aplicaciones/pokemon-rumble-rush"
+    },
+    {
+        "imagen": "/img/app-diez.jpg",
+        "pelicula": "Pokémon Quest",
+        "link": "/aplicaciones/pokemon-quest"
+    },
+    {
+        "imagen": "/img/app-once.jpg",
+        "pelicula": "Casa de Juegos Pokémon",
+        "link": "/aplicaciones/pokemon-casa-de-juegos"
+    },
+    {
+        "imagen": "/img/app-doce.jpg",
+        "pelicula": "Pokémon: Magikarp Jump",
+        "link": "/aplicaciones/pokemon-magikarp-jump"
+    },
+    {
+        "imagen": "/img/app-trece.jpg",
+        "pelicula": "Pokémon Shuffle Mobile",
+        "link": "/aplicaciones/pokemon-shuffle-mobile"
+    }
+]

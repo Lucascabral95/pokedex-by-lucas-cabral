@@ -1,0 +1,805 @@
+* {
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url('/public/img/fondo-negro.png');
+    overflow-x: hidden;
+
+    p {
+        user-select: none;
+    }
+
+    h2 {
+        user-select: none;
+    }
+
+    img {
+        user-select: none;
+    }
+
+    span {
+        user-select: none;
+    }
+}
+
+main {
+    background-image: url('/public/img/fondo-negro.png');
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    padding-top: 98px;
+    background-color: white;
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    max-width: 1279.97px;
+    margin: auto;
+
+    .contenedor-del-main {
+
+        .titulo-pokedex {
+            width: 100%;
+            height: 78px;
+
+            .contenedor-titulo {
+                width: 912px;
+                padding: 25px 0px 16px;
+                user-select: none;
+                background-color: white;
+                margin: auto;
+                margin-top: -10px;
+
+                .title {
+                    color: #919191;
+                    font-size: 30px;
+                    font-weight: 400;
+                    margin-left: 12px;
+                }
+            }
+        }
+
+        .contenedor-buscador {
+            background-color: #313131;
+
+            .buscador {
+                width: 912px;
+                margin: auto;
+                height: 194px;
+                display: flex;
+                padding-top: 26px;
+                display: flex;
+                justify-content: space-between;
+
+                .primera-mitad {
+                    width: 49%;
+
+                    .cont-texto {
+
+                        .texto-nombre {
+                            color: white;
+                            font-size: 29px;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    .buscador-icono {
+                        display: flex;
+
+                        .input-busqueda {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: solid 3px #616161;
+                            width: 80%;
+
+                            input {
+                                width: 100%;
+                                height: 100%;
+                                padding: 10px;
+                            }
+
+                        }
+
+                        .icono-search {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 20%;
+
+                            .icono-icono {
+                                background-color: #EE6B2F;
+                                border-radius: 5px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 54.6px;
+                                height: 48px;
+                                cursor: pointer;
+
+                                .icono {
+                                    color: white;
+                                }
+
+                                &:hover {
+                                    background-color: #DA471B;
+                                    transition: 0.2s;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .instruccion {
+                        margin: 0px 0px 24px;
+
+                        .texto-instruccion {
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 400;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                        }
+                    }
+                }
+
+                .segunda-mitad {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    .busca-pokemon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        background-color: #4DAD5B;
+                        border-radius: 10px;
+                        padding: 15px 10px 15px 20px;
+
+                        .nombre {
+                            color: white;
+                            font-size: 20px;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedor-mostrar-busqueda {
+            background-color: white;
+            padding-bottom: 16px;
+
+            .primer-contenedor {
+                background-color: #616161;
+                height: 24px;
+                padding: 16px 41px;
+            }
+
+            .segundo-contenedor {
+                width: 400px;
+                margin: auto;
+                height: 12px;
+                margin-top: -2px;
+
+                .cont {
+                    display: flex;
+
+                    .primera-img {
+                        width: 40px;
+                        height: 28px;
+                        transform: rotate(360deg);
+
+
+                        &::after {
+                            display: block;
+                            width: 40px;
+                            height: 28px;
+                        }
+                    }
+
+                    .segunda-img {
+                        width: 40px;
+                        height: 28px;
+                        transform: rotate(180deg);
+
+                        &::after {
+                            display: block;
+                            width: 40px;
+                            height: 28px;
+                        }
+                    }
+
+                    .t-t {
+                        background-color: #616161;
+                        border: 3px solid #616161;
+                        width: 350px;
+                        height: 28px;
+
+                        .texto-sorpresa {
+                            cursor: pointer;
+                            color: white;
+                            font-size: 16px;
+                            text-align: center;
+                            margin: 0px 0px 0px 0px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+
+        .contenedor-del-main {
+
+            .contenedor-mostrar-busqueda {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .main {
+        padding-top: 98px;
+        background-color: white;
+        background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+        max-width: 1279.97px;
+        margin: auto;
+
+        .contenedor-del-main {
+
+            .titulo-pokedex {
+                height: 78px;
+                margin: auto;
+                width: 90%;
+
+                .contenedor-titulo {
+                    padding: 25px 0px 16px;
+                    user-select: none;
+                    background-color: white;
+                    margin: auto;
+                    margin-top: -10px;
+                    width: 100%;
+
+                    .title {
+                        color: #919191;
+                        font-size: 30px;
+                        font-weight: 400;
+                        margin-left: 12px;
+                    }
+                }
+            }
+
+            .contenedor-buscador {
+                background-color: #313131;
+
+                .buscador {
+                    display: flex;
+                    padding-top: 26px;
+                    display: flex;
+                    margin: auto;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 300px;
+                    width: 80%;
+
+                    .primera-mitad {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        height: 202px;
+
+                        .cont-texto {
+                            display: flex;
+                            justify-content: flex-start;
+
+                            .texto-nombre {
+                                color: white;
+                                font-size: 29px;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                                margin-bottom: 0px;
+                            }
+                        }
+
+                        .buscador-icono {
+                            display: flex;
+
+                            .input-busqueda {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: solid 3px #616161;
+                                width: 80%;
+
+                                input {
+                                    width: 100%;
+                                    height: 100%;
+                                    padding: 10px;
+                                }
+
+                            }
+
+                            .icono-search {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 20%;
+
+                                .icono-icono {
+                                    background-color: #EE6B2F;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 54.6px;
+                                    height: 48px;
+                                    cursor: pointer;
+
+                                    .icono {
+                                        color: white;
+                                    }
+
+                                    &:hover {
+                                        background-color: #DA471B;
+                                        transition: 0.2s;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        .instruccion {
+                            margin: 12px 0px 24px;
+
+                            .texto-instruccion {
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 400;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                            }
+                        }
+                    }
+
+                    .segunda-mitad {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 128px;
+                        margin-bottom: 20px;
+
+                        .busca-pokemon {
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-start;
+                            background-color: #4DAD5B;
+                            border-radius: 10px;
+                            padding: 15px 10px 15px 20px;
+
+                            .nombre {
+                                color: white;
+                                font-size: 20px;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contenedor-mostrar-busqueda {
+                background-color: white;
+                padding-bottom: 16px;
+
+                .primer-contenedor {
+                    background-color: #616161;
+                    height: 24px;
+                    padding: 16px 41px;
+                }
+
+                .segundo-contenedor {
+                    width: 400px;
+                    margin: auto;
+                    height: 12px;
+                    margin-top: -2px;
+
+                    .cont {
+                        display: flex;
+
+                        .primera-img {
+                            width: 40px;
+                            height: 28px;
+                            transform: rotate(360deg);
+
+
+                            &::after {
+                                display: block;
+                                width: 40px;
+                                height: 28px;
+                            }
+                        }
+
+                        .segunda-img {
+                            width: 40px;
+                            height: 28px;
+                            transform: rotate(180deg);
+
+                            &::after {
+                                display: block;
+                                width: 40px;
+                                height: 28px;
+                            }
+                        }
+
+                        .t-t {
+                            background-color: #616161;
+                            width: 350px;
+
+                            .texto-sorpresa {
+                                cursor: pointer;
+                                color: white;
+                                font-size: 18px;
+                                text-align: center;
+                                margin: 0px 0px 0px 0px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .main {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .main {
+        .contenedor-del-main {
+            .contenedor-buscador {
+                padding-bottom: 50px;
+
+                .buscador {
+                    height: 330px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+
+        .contenedor-del-main {
+
+            .contenedor-mostrar-busqueda {
+
+                .segundo-contenedor {
+
+                    .cont {
+
+                        .t-t {
+                            display: flex;
+                            justify-content: center;
+                            width: calc(90% - 80px);
+                            max-width: 320px;
+
+                            .texto-sorpresa {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .footer {
+//     width: 100%;
+//     // height: 535.81px;
+//     height: 562px;
+//     background-color: #1F1F1F;
+
+//     .contenedor-footer {
+//         margin: auto;
+//         width: 850px;
+//         padding: 64px 0px 32px;
+
+//         .registrate {
+//             display: flex;
+//             flex-direction: column;
+
+//             .title-registrate {
+//                 width: 100%;
+
+//                 .title {
+//                     color: white;
+//                     font-size: 21.6px;
+//                     margin: 10.8px 0px;
+//                 }
+//             }
+
+//             .contenedor-email-newsletter {
+//                 display: flex;
+//                 justify-content: space-between;
+
+//                 .correo {
+//                     width: 48%;
+
+//                     .correo-electronico {
+//                         width: 103%;
+//                         margin-bottom: 8px;
+
+//                         .input-email {
+//                             width: 100%;
+//                             border-radius: 5px;
+//                             color: #505050;
+//                             font-size: 16px;
+//                             height: 50px;
+//                             padding: 8px;
+//                             border: none;
+//                             border: 4px red solid;
+//                             font-weight: 600;
+//                         }
+//                     }
+
+//                     .pais-fecha-nacimiento {
+//                         width: 100%;
+//                         display: flex;
+//                         justify-content: space-between;
+//                         align-items: center;
+
+//                         .div-input {
+//                             width: 46%;
+
+//                             select {
+//                                 height: 50px;
+//                                 border-radius: 5px;
+//                                 color: #505050;
+//                                 font-size: 16px;
+//                                 padding: 8px;
+//                                 border: none;
+//                                 font-weight: 600;
+
+//                                 option {
+//                                     color: #505050;
+//                                     height: 50px;
+//                                     font-size: 16px;
+//                                     padding: 8px;
+//                                     border: none;
+//                                     font-weight: 600;
+//                                 }
+//                             }
+
+//                             .input-nacimiento {
+//                                 border-radius: 5px;
+//                                 height: 50px;
+//                                 color: #505050;
+//                                 font-size: 16px;
+//                                 padding: 8px;
+//                                 border: none;
+//                                 font-weight: 600;
+//                             }
+//                         }
+//                     }
+
+//                     .registro {
+//                         width: 100%;
+//                         margin-top: 6px;
+
+//                         .boton-registrate {
+//                             width: 160px;
+//                             height: 64px;
+//                             display: flex;
+//                             justify-content: center;
+//                             align-items: center;
+//                             background-color: #888888;
+//                             padding: 1px 6px;
+//                             border-radius: 5px;
+
+//                             .registrate {
+//                                 background-color: transparent;
+//                                 color: white;
+//                                 font-size: 16px;
+//                                 font-weight: 500;
+//                                 border: none;
+//                                 outline: none;
+//                             }
+//                         }
+//                     }
+//                 }
+
+//                 .newsletter {
+//                     width: 48%;
+
+//                     .recibir {
+//                         color: white;
+//                         margin: 0px 0px 24px;
+//                     }
+
+//                     .check-contenedor {
+
+//                         .check {
+//                             display: flex;
+
+//                             .checkk {
+//                                 transform: translateY(3px);
+
+//                                 .check-input {
+//                                     width: 25px;
+//                                     height: 25px;
+//                                 }
+//                             }
+
+//                             .contenedor-check-texto {
+//                                 margin-left: 12px;
+//                                 display: flex;
+
+//                                 .check-texto {
+//                                     color: white;
+//                                     line-height: 1.25;
+
+//                                     .check-texto-subrayado {
+//                                         color: white;
+//                                         text-decoration: underline;
+//                                         cursor: pointer;
+//                                         line-height: 1.25;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//         }
+
+//         .pokemon-company {
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: center;
+//             margin-top: 50px;
+
+//             .pokemon {
+//                 width: 32%;
+
+//                 .title {
+//                     margin: 0px 8.8px 17.6px;
+//                     padding: 27.8711 0px 0px;
+
+//                     .titulo {
+//                         color: white;
+//                         font-size: 18px;
+//                         font-weight: 600;
+//                         user-select: none;
+//                     }
+//                 }
+
+//                 ul {
+//                     margin: 0;
+//                     padding: 0;
+
+//                     li {
+//                         .link {
+//                             color: white;
+//                             text-decoration: none;
+//                             font-size: 16px;
+//                             margin: 0px 0px 8px 8px;
+//                             padding: 0px 0px 0px 0px;
+
+//                             &:hover {
+//                                 text-decoration: underline;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .icono {
+//                 width: 32%;
+//                 display: flex;
+//                 align-items: flex-start;
+//                 height: 191.28px;
+//                 margin-left: 24px;
+
+//                 .imagen-logo {
+//                     width: 34px;
+//                     height: 35px;
+//                     margin: 0px 6.4px 8px 0px;
+
+//                     img {
+//                         border-radius: 5px;
+//                         width: 34px;
+//                         height: 35px;
+//                     }
+//                 }
+
+//                 &:nth-child(-n+2) {
+//                     border-right: 2.4px solid black;
+//                 }
+//             }
+
+//             .terminos-condiciones {
+//                 width: 32%;
+
+//                 .img-coppa {
+
+//                     img {}
+//                 }
+
+//                 .ul-terminos-condiciones {
+//                     padding: 0;
+//                     margin: 0;
+
+//                     li {
+//                         .link-terminos {
+//                             color: white;
+//                             font-size: 11.10px;
+//                             padding: 5.504px 0px;
+//                         }
+//                     }
+//                 }
+
+//                 .fecha-pokemon {
+//                     padding: 5px 0px 0px;
+
+//                     .texto {
+//                         color: white;
+//                         font-size: 11.10px;
+//                         margin-bottom: 0px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

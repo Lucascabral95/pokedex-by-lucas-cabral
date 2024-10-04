@@ -1,0 +1,163 @@
+.header {
+    width: 100%;
+    background-color: #FFFFFF;
+
+    .contenedor-etiquetas {
+        height: 64px;
+        box-shadow: 0px 0px 2px 0px #666666cc;
+
+        .interior {
+            width: 912px;
+            margin: auto;
+
+            .interior-interior {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+
+                .tag-chica {
+                    margin: 2px;
+                    box-shadow: 0px 0px 7px 1px #666666;
+
+                    img {
+                        width: 79px;
+                        height: 45px;
+                    }
+                }
+
+                .tag-larga {
+                    margin: 2px;
+
+                    img {
+                        width: 175px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+
+        .navbar {
+            width: 100%;
+            height: 89px;
+            background-color: #FFFFFF;
+            padding: 0px;
+            box-shadow: 0px 0px 4px 0px #66666670;
+
+            .navbar-contenedor {
+                width: 912px;
+                display: flex;
+                margin: auto;
+                background-color: #FFFFFF;
+                cursor: pointer;
+
+                .interior-navbar {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 14.285714285714285%;
+
+                    .inicio {
+                        &:hover{
+                            background-color: #919191;
+                        }
+                    }
+                    
+                    .pokedex {
+                        &:hover{
+                            background-color: #E3350D;
+                        }
+                    }
+                    
+                    .aplicaciones {
+                        &:hover{
+                            background-color: #EE6B2F;
+                        }
+                    }
+                    
+                    .cartas {
+                        &:hover{
+                            background-color: #E6BC2F;
+                        }
+                    }
+                    
+                    .dibujos {
+                        &:hover{
+                            background-color: #4DAD5B;
+                        }
+                    }
+                    
+                    .eventos {
+                        &:hover{
+                            background-color: #30A7D7;
+                        }
+                    }
+                    
+                    .noticias {
+                        &:hover{
+                            background-color: #1B53BA;
+                        }
+                    }
+                    
+                    .contenido-categoria {
+                        width: 100%;
+                        height: 89px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img-img {
+                            margin: 15px 0px 4px;
+
+                            .icono {
+                                color: #464646;
+                                width: 26.26px;
+                                height: 26.00px;
+                            }
+                        }
+
+                        .p-p {
+                            margin: 7px 0px;
+
+                            p {
+                                color: #464646;
+                                font-size: 12px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .destelo-color {
+                        width: 100%;
+                        height: 10px;
+                    }
+
+                    &:hover{
+                        .contenido-categoria{
+                            .img-img{
+                                .icono{
+                                    color: white;
+                                    transition: 0.3s;
+                                }
+                            }
+                            .p-p{
+
+                                p{
+                                    color: white;
+                                    transition: 0.3s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .header {
+        display: none;
+    }
+}

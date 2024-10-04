@@ -1,0 +1,1916 @@
+.website-cards {
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    background-color: black;
+
+    // cartas destacadas (terminado)
+    .contenedor-cartas-destacadas {
+        padding: 72px 0 130px 0;
+        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-size: 10%;
+        background-color: #202225;
+        width: 100%;
+
+        .contenedor {
+            max-width: 1200px;
+            margin: auto;
+
+            .titulo-subtitulo {
+                margin: auto;
+                width: 100%;
+
+                .titulo {
+                    margin: 0 0 0 0;
+
+                    h3 {
+                        color: #e8efd0;
+                        font-weight: 800;
+                        margin: 0;
+                        font-size: 48px;
+                        text-align: center;
+                    }
+                }
+
+                .subtitulo {
+                    margin: 20px 0 0 0;
+
+                    p {
+                        color: white;
+                        margin: 0;
+                        font-weight: 600;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .contenedor-imagenes {
+                display: flex;
+                justify-content: center;
+                margin: 56px 0 0 0;
+
+                .contenedor-de-cartas-destacadas {
+                    width: 23%;
+                    display: flex;
+                    margin: 0 14px;
+                    cursor: pointer;
+
+                    .contenedor-de-carta {
+                        width: 100%;
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .contenedor-boton {
+                                border-bottom-left-radius: 5px;
+                                border-bottom-right-radius: 5px;
+                                background-image: linear-gradient(to right, #76E0E9 0%, #E4EED1 100%);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 37px;
+                                height: 34px;
+                                border-bottom: 4px solid #03516B;
+                                border-left: 4px solid #03516B;
+                                border-right: 4px solid #03516B;
+
+                                .icon {
+                                    color: black;
+                                    width: 17px;
+                                    height: 17px;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        transform: translateY(-6px);
+                        transition: 0.3s ease-in-out;
+
+                        .boton {
+
+                            .contenedor-boton {
+                                border-bottom: 4px solid #E8EFD0;
+                                border-left: 4px solid #E8EFD0;
+                                border-right: 4px solid #E8EFD0;
+                                background-image: linear-gradient(to right, #232627 0%, #444B4C 50%, #232627 100%);
+                                background-repeat: no-repeat;
+                                transition: 0.2s;
+
+                                .icon {
+                                    color: #E8EFD0;
+                                    transition: 0.2s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    // galeria de cartas (terminado)
+    .galeria-de-cartas {
+        width: 100%;
+
+        .contenedor {
+            width: 100%;
+            background-color: white;
+
+            .parte-superior {
+                display: flex;
+                width: 100%;
+
+                .img {
+                    width: 100%;
+                    height: 75px;
+
+                    img {
+                        height: 75px;
+                        width: 100%;
+                    }
+                }
+
+                .img-lateral {
+                    z-index: 10;
+                }
+            }
+
+            .p-s-uno {
+                z-index: -1;
+
+                .acomodador-borde {
+                    display: flex;
+                    align-items: flex-start;
+                    width: 100%;
+                    z-index: 1;
+
+                    .img {
+                        z-index: 1;
+                        height: 43px;
+                        transform: rotate(180deg);
+
+                        img {
+                            height: 43px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+
+            .p-s-dos {
+                z-index: -1;
+
+                .acomodador-borde {
+                    display: flex;
+                    align-items: flex-end;
+                    width: 100%;
+                    z-index: 1;
+
+                    .img {
+                        z-index: 1;
+
+                        img {
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+
+            .contenedor {
+                max-width: 1370px;
+                min-width: 900px;
+                margin: auto;
+                background-color: white;
+                display: block !important;
+
+                .contenido-galeria {
+                    margin: -30px 0 -60px 0;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .pack-cartas {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        height: 360px;
+                        position: relative;
+                        z-index: 1001;
+
+                        .img {
+                            display: flex;
+                            justify-content: center;
+                            width: 100%;
+                            z-index: 1001;
+                            position: relative;
+                            cursor: pointer;
+
+                            img {
+                                width: 180px;
+                                height: auto;
+                                z-index: 1001;
+                                position: relative;
+                            }
+                        }
+
+                        .rotacion-uno {
+                            transform: rotate(4deg);
+                        }
+
+                        .rotacion-dos {
+                            transform: translateY(-20px) translateX(42px) rotate(-6deg);
+                        }
+
+                        .rotacion-tres {
+                            transform: rotate(-6deg);
+                        }
+
+                        .rotacion-cuatro {
+                            transform: translateY(-20px) translateX(-42px) rotate(4deg);
+                        }
+                    }
+                }
+
+                .contenido {
+                    padding: 40px 2.7%;
+                    // width: 70%;
+
+                    .titulo {
+                        margin: 0px 0px 16px;
+
+                        h3 {
+                            text-align: center;
+                            margin: 0;
+                            font-size: 39px;
+                            font-weight: 800;
+                            color: #00435A;
+                        }
+                    }
+
+                    .subtitulo {
+                        margin: 0px 0px 8px;
+
+                        h4 {
+                            text-align: center;
+                            margin: 0;
+                            font-weight: 400;
+                            color: black;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .boton {
+                        background-color: #03526D;
+                        border: 4px solid #598CA4;
+                        width: fit-content;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        padding: 6px;
+                        margin: auto;
+
+                        .boton-contenedor {
+                            padding: 8px 32px;
+
+                            button {
+                                border: none;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 700;
+                                background-color: transparent;
+                            }
+                        }
+
+                        &:hover {
+                            transition: 0.2s;
+                            border: solid 4px #034F69;
+                            background-image: linear-gradient(to right, #E4EED1 0%, #76E0E9 100%);
+
+                            .boton-contenedor {
+
+                                button {
+                                    transition: 0.2s;
+                                    font-weight: 800;
+                                    color: #034F69;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // PRODUCTOS DESTACADOS (terminado)
+    .productos-destacados {
+        width: 100%;
+        padding: 126px 0 70px;
+        background-color: #034F69;
+        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-size: 10%;
+
+        .contenedor {
+            width: 100%;
+
+            .titulo {
+
+                h2 {
+                    text-align: center;
+                    color: #e8efd0;
+                    font-size: 48px;
+                    font-weight: 800;
+                }
+            }
+
+            .contenedor-de-cards {
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                flex-wrap: wrap;
+                max-width: 1100px;
+
+                .card {
+                    width: 340px;
+                    border-radius: 0px;
+                    cursor: pointer;
+                    margin: 12px;
+
+                    .imagenes {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #DEDEDE;
+
+                        .img-ilustrativa {
+
+                            img {
+                                width: 103px;
+                                height: 79px;
+                            }
+                        }
+
+                        .img-producto {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transform: scale(1.1);
+
+                            img {
+                                width: 250px;
+                                height: 260px;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        padding: 20px 14px;
+
+                        .informacion {
+
+                            .descripcion {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-bottom: 10px;
+
+                                h3 {
+                                    line-height: 1;
+                                    text-align: center;
+                                    margin: 0;
+                                    padding: 0;
+                                    color: #00435a;
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+
+                        .informacion-extra {
+                            display: flex;
+                            justify-content: center;
+
+                            .texto {
+
+                                span {
+                                    text-align: center;
+                                    color: #598CA4;
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 16px;
+                                    font-weight: 800;
+                                    line-height: 1;
+                                }
+                            }
+
+                            .icono {
+                                margin-left: 4px;
+                                transform: translateY(-1px);
+
+                                .icon {
+                                    color: #598CA4;
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        transition: 0.3s ease;
+                        transform: translateY(-6px);
+
+                        .imagenes {
+
+                            .img-producto {
+
+                                img {
+                                    transition: 0.3s ease;
+                                    transform: scale(1.08);
+                                }
+                            }
+                        }
+
+                        .contenido {
+
+                            .informacion-extra {
+
+                                .texto {
+                                    border-bottom: 2.2px solid #00435a;
+                                    transition: 0.3s ease;
+
+                                    span {
+                                        transition: 0.3s ease;
+                                        color: #00435a;
+                                    }
+                                }
+
+                                .icono {
+
+                                    .icon {
+                                        transition: 0.3s ease;
+                                        color: #00435a;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // NOVEDADES DE LA EXPANSION (terminado)
+    .novedades-expansion {
+        background-color: white;
+        margin-bottom: 34px;
+        // transform: translateY(-38px);
+        width: 100%;
+        margin: auto;
+        padding: 88px 0;
+
+        .contenedor {
+            margin: auto;
+            max-width: 1400px;
+
+            .titulo {
+
+                .titu {
+
+                    h2 {
+                        text-align: center;
+                        color: #00435A;
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin: 0;
+                    }
+                }
+
+                .img {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 16px;
+                    margin: 0 12px;
+                }
+            }
+
+            .contenedor-descripcion-cartas {
+                width: 100%;
+                padding: 0 12px;
+                margin: 50px 0 0;
+                display: flex;
+
+                .descripcion {
+                    padding: 0 34px;
+                    width: 40%;
+
+                    .titulo {
+
+                        h3 {
+                            text-align: center;
+                            font-size: 38px;
+                            font-weight: 800;
+                            color: #00435a;
+                        }
+                    }
+
+                    .desc {
+                        margin-top: 24px;
+
+                        p {
+                            margin: 0;
+                            color: black;
+                            font-size: 20px;
+                            font-weight: 400;
+                            text-align: center;
+                            line-height: 1.6;
+                        }
+                    }
+                }
+
+                .cartas {
+                    width: 60%;
+                    background-image: url('/public/img/fondo-carta.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                    padding: 0 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        margin: 0 5px;
+
+                        img {
+                            cursor: pointer;
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // POKEMON PROTAGONISTAS (terminado)
+    .pokemon-protagonistas {
+        background-color: #034F69;
+        padding: 88px 0 88px;
+        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-size: 10% 6.5%;
+        width: 100%;
+
+        .titulo {
+
+            .titu {
+
+                h2 {
+                    text-align: center;
+                    color: #e8efd0;
+                    font-size: 48px;
+                    font-weight: 800;
+                    margin: 0;
+                }
+            }
+
+            .img {
+                display: flex;
+                justify-content: center;
+                padding-top: 16px;
+                margin: 0 12px;
+            }
+        }
+
+        .contenedor-pokemon-protagonistas {
+            max-width: 1020px;
+            margin: auto;
+
+            .imagenes-contenedor {
+                margin: auto;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: 40px 0 30px;
+
+                .imagenes {
+                    display: flex;
+
+                    .img {
+                        margin: 12px;
+
+                        img {
+                            cursor: pointer;
+                            width: 264px;
+                            height: 368px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedor-contenido {
+            max-width: 1020px;
+            width: 50%;
+            margin: auto;
+
+            .titulo {
+
+                h2 {
+                    text-align: center;
+                    margin: 0;
+                    font-size: 38px;
+                    color: #e8efd0;
+                }
+            }
+
+            .texto {
+                margin-top: 16px;
+
+                p {
+                    text-align: center;
+                    margin: 0;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    // FONDO DE ESCRITORIO (terminado)
+    .fondo-de-escritorio {
+        background-image: linear-gradient(to right, #74E1EA, #E7EFD0);
+        // padding: 72px 0 10px 0;
+        padding: 40px 0 10px 0;
+        border-top: 8px solid #4EABB3;
+        border-bottom: 8px solid #4EABB3;
+
+        .contenedor {
+
+            .titulo-subtitulo {
+                padding: 0 10%;
+
+                .titulo {
+
+                    h3 {
+                        margin: 0;
+                        color: #055275;
+                        font-size: 48px;
+                        font-weight: 800;
+                        text-align: center;
+                    }
+                }
+
+                .subtitulo {
+                    margin: 16px 0 0 0;
+
+                    p {
+                        color: black;
+                        font-size: 20px;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .contenedor-cards {
+                padding: 30px 0;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                width: 1260px;
+                margin: auto;
+
+                .card {
+                    width: 566px;
+                    // width: 48%;
+                    border-radius: 2px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                    margin: 15px;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            border-top-left-radius: 2px;
+                            border-top-right-radius: 2px;
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .contenido {
+                        padding: 12px 24px 40px;
+
+                        .texto {
+                            margin-bottom: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            p {
+                                color: black;
+                                text-align: center;
+                                margin: 0;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .contenedor-calidad {
+                            border: 1px solid #999999;
+                            border-radius: 2px;
+                            padding: 8px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .texto {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .text {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    transform: translateY(5px);
+                                    padding: 4px 8px;
+
+                                    span {
+                                        letter-spacing: 1;
+                                        line-height: 1;
+                                        color: black;
+                                        font-weight: 600;
+                                        margin: 0;
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+
+                            .icono {
+                                background-color: black;
+                                width: 40px;
+                                height: 40px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+
+                                .icon {
+                                    color: white;
+                                    width: 24px;
+                                    height: 24px;
+                                }
+
+                                &:hover {
+                                    transition: 0.2s ease-in-out;
+                                    background-color: #E2BA65;
+
+                                    .icon {
+                                        transition: 0.2s ease-in-out;
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 24px 0 0 0;
+
+                            .contenedor {
+                                background-color: #024C66;
+                                width: 216px;
+                                height: 60px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: solid 4px #92B3C3;
+                                border-radius: 2px;
+                                cursor: pointer;
+
+                                button {
+                                    border: none;
+                                    color: white;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    margin: 0;
+                                    background-color: transparent;
+                                }
+
+                                .icon {
+                                    width: 24px;
+                                    height: 24px;
+                                    color: white;
+                                }
+
+                                &:hover {
+                                    border: solid 4px #024C66;
+                                    transition: 0.2s ease-in-out;
+                                    background-image: linear-gradient(to left, #5AB0B5, #E7EFD0);
+
+                                    button {
+                                        color: #024C66;
+                                        transition: 0.2s ease-in-out;
+                                    }
+
+                                    .icon {
+                                        color: #024C66;
+                                        transition: 0.2s ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // JUGAR AHORA (terminado)
+    .jugar-ahora {
+        width: 100%;
+        background-image: url('/public/img/fondo-puntitos.png');
+        background-color: #25282A;
+        padding: 70px 0 0 0;
+
+        .contenedor {
+            margin: auto;
+            min-width: 960px;
+            max-width: 1300px;
+
+            .contenido {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .imagenes {
+                    width: 57.5%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .dos-images {
+                        width: 24%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                    .imagen-uno {
+                        width: 24%;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .imagen-dos {
+                        width: 52%;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            width: auto;
+                            height: 520px;
+                        }
+                    }
+                }
+
+                .texto {
+                    width: 37.5%;
+
+                    .text {
+                        margin: 0 0 16px 0;
+
+                        p {
+                            margin: 0;
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            line-height: 1.8;
+                        }
+                    }
+                }
+
+                .boton {
+                    border-radius: 5px;
+                    background-color: #E6171E;
+                    padding: 6px;
+                    width: fit-content;
+                    height: 64px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+
+                    .bot {
+                        width: 167px;
+                        cursor: pointer;
+                        border-top: 3px solid #EB4348;
+                        border-bottom: 3px solid #EB4348;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        button {
+                            margin: 10px 0;
+                            background-color: transparent;
+                            border: none;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    &:hover {
+                        transition: 0.2s ease-in-out;
+                        background-color: #F0CF60;
+
+                        .bot {
+                            transition: 0.2s ease-in-out;
+                            border-top: 3px solid pink;
+                            border-bottom: 3px solid pink;
+
+                            button {
+                                transition: 0.2s ease-in-out;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div CARTAS DESTACADAS
+// div de POKEMON PROTAGONISTAS  
+// div de NOVEDADES DE LA EXPANSION
+@media (max-width: 1024px) {
+    .website-cards {
+
+        // div CARTAS DESTACADAS
+        .contenedor-cartas-destacadas {
+            padding: 30px 0 80px 0;
+            // padding: 12% 0 180px 0;
+            width: 100%;
+
+            .contenedor {
+                // max-width: 1200px;
+                width: auto;
+                padding: 0 1%;
+                margin: auto;
+
+                .titulo-subtitulo {
+                    margin: auto;
+                    width: 100%;
+
+                    .titulo {
+                        margin: 0 0 0 0;
+
+                        h3 {
+                            font-size: 39px;
+                        }
+                    }
+
+                    .subtitulo {
+                        margin: 20px 0 0 0;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 1.6;
+                        }
+                    }
+                }
+
+                .contenedor-imagenes {
+                    display: flex;
+                    margin: 56px 0 0 0;
+
+                    .contenedor-de-cartas-destacadas {
+                        // width: 23%;
+                        width: 36%;
+                        display: flex;
+                        margin: 0 14px;
+
+                        .contenedor-de-carta {
+                            width: 100%;
+
+                            .img {
+                                width: 100%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .boton {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+
+                                .contenedor-boton {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 37px;
+                                    height: 34px;
+
+                                    .icon {
+                                        width: 17px;
+                                        height: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // div galeria de cartas
+        .galeria-de-cartas {
+            width: 100%;
+
+            .contenedor {
+                width: 100%;
+
+                .parte-superior {
+                    display: flex;
+                    width: 100%;
+
+                    .img {
+                        width: 100%;
+                        height: 75px;
+
+                        img {
+                            width: 100%;
+                            height: 35px;
+                        }
+                    }
+
+                    .img-lateral {
+                        z-index: 10;
+                        margin-top: -20px;
+
+                        img {
+                            width: 104px;
+                        }
+                    }
+                }
+
+                .p-s-uno {
+                    z-index: -1;
+
+                    .img-lateral-inferior {
+                        z-index: 1;
+                    }
+
+                    .acomodador-borde {
+                        width: 100%;
+                        display: flex;
+                        align-items: flex-start;
+                        z-index: 1;
+                        margin-top: -17px;
+
+                        .img {
+                            z-index: 1;
+                            height: 21px;
+
+                            img {
+                                height: 21px;
+                                z-index: 1;
+                            }
+                        }
+                    }
+                }
+
+                .p-s-dos {
+                    // transform: translateY(-75px);
+                    z-index: -1;
+
+                    .acomodador-borde {
+                        display: flex;
+                        align-items: flex-end;
+                        width: 100%;
+                        z-index: 1;
+
+                        .img {
+                            z-index: 1;
+
+                            img {
+                                z-index: 1;
+                            }
+                        }
+                    }
+                }
+
+                .contenedor {
+                    display: none !important;
+
+                    .contenido-galeria {
+                        // margin: ;
+                        // padding: 0 16%;
+                        // transform: translateY(-38px);
+                        margin: 0 0 0 0;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 0%;
+                        align-items: center;
+
+                        .pack-cartas {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            // flex-direction: column;
+                            // justify-content: center;
+                            // align-items: center;
+                            height: auto;
+                            position: relative;
+                            z-index: 1001;
+                            width: 25%;
+
+                            .img {
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-end;
+                                width: 100%;
+                                z-index: 1001;
+                                position: relative;
+
+                                img {
+                                    // width: 180px;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: 1001;
+                                    position: relative;
+                                }
+                            }
+
+                            .rotacion-uno {
+                                transform: rotate(4deg);
+                            }
+
+                            .rotacion-dos {
+                                transform: translateY(-20px) translateX(42px) rotate(-6deg);
+                            }
+
+                            .rotacion-tres {
+                                transform: rotate(-6deg);
+                            }
+
+                            .rotacion-cuatro {
+                                transform: translateY(-20px) translateX(-42px) rotate(4deg);
+                            }
+                        }
+
+                        .contenido {
+                            padding: 40px 0;
+                            // width: 70%;
+                            width: 49% !important;
+
+                            .titulo {
+                                margin: 0px 0px 16px;
+
+                                h3 {
+                                    text-align: center;
+                                    font-size: 39px;
+                                }
+                            }
+
+                            .subtitulo {
+                                margin: 0px 0px 8px;
+
+                                h4 {
+                                    text-align: center;
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .boton {
+                                width: fit-content;
+                                padding: 6px;
+                                margin: auto;
+
+                                .boton-contenedor {
+                                    padding: 8px 32px;
+
+                                    button {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // div novedades expansion
+        .novedades-expansion {
+            background-color: white;
+            margin-bottom: 34px;
+            // transform: translateY(-38px);
+            width: 100%;
+            margin: auto;
+            padding: 88px 0;
+            display: none !important;
+
+            .contenedor {
+                margin: auto;
+                max-width: 1400px;
+
+                .titulo {
+
+                    .titu {
+
+                        h2 {
+                            text-align: center;
+                            color: #00435A;
+                            font-size: 48px;
+                            font-weight: 800;
+                            margin: 0;
+                        }
+                    }
+
+                    .img {
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 16px;
+                        margin: 0 12px;
+                    }
+                }
+
+                .contenedor-descripcion-cartas {
+                    width: 100%;
+                    padding: 0 12px;
+                    margin: 50px 0 0;
+                    display: flex;
+
+                    .descripcion {
+                        padding: 0 34px;
+                        width: 40%;
+
+                        .titulo {
+
+                            h3 {
+                                text-align: center;
+                                font-size: 38px;
+                                font-weight: 800;
+                                color: #00435a;
+                            }
+                        }
+
+                        .desc {
+                            margin-top: 24px;
+
+                            p {
+                                margin: 0;
+                                color: black;
+                                font-size: 20px;
+                                font-weight: 400;
+                                text-align: center;
+                                line-height: 1.6;
+                            }
+                        }
+                    }
+
+                    .cartas {
+                        width: 60%;
+                        background-image: url('/public/img/fondo-carta.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                        padding: 0 12px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img {
+                            width: 100%;
+                            margin: 0 5px;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .novedades-de-la-expansion {
+            display: block !important;
+        }
+
+        .pokemon-protagonistas {
+            padding: 9% 4% 10% 4%;
+            // padding: 126px 4% 88px 4%;
+            margin: auto;
+
+            .titulo {
+
+                .titu {
+
+                    h2 {
+                        font-size: 39px;
+                        text-align: center;
+                    }
+                }
+
+                .img {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 16px;
+                    margin: 0 12px;
+                }
+            }
+
+            .contenedor-pokemon-protagonistas {
+                // max-width: 1020px;
+                width: 100%;
+                margin: auto;
+
+                .imagenes-contenedor {
+                    margin: auto;
+                    width: 100%;
+                    display: flex;
+                    margin: 40px 0 30px;
+
+                    .imagenes {
+                        display: flex;
+
+                        .img {
+                            margin: 12px;
+
+                            img {
+                                width: 264px;
+                                height: 368px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contenedor-contenido {
+                width: 100%;
+                margin: auto;
+
+                .titulo {
+
+                    h2 {
+                        font-size: 31px;
+                    }
+                }
+
+                .texto {
+                    margin-top: 16px 0;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div de POKEMON PROTAGONISTAS
+@media (max-width: 960px) {
+    .website-cards {
+
+        // divs de jugar-ahora 
+        .jugar-ahora {
+            display: none;
+        }
+
+        .jugar-ahora-mobile {
+            display: flex !important;
+        }
+
+        // POkEMON PROTAGONISTAS 
+        .pokemon-protagonistas {
+            // padding: 126px 4% 88px 4%;
+            margin: auto;
+
+            .titulo {
+
+                .titu {
+
+                    h2 {
+                        font-size: 39px;
+                        text-align: center;
+                    }
+                }
+
+                .img {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 16px;
+                    margin: 0 12px;
+                }
+            }
+
+            .contenedor-pokemon-protagonistas {
+                width: 100%;
+                margin: auto;
+
+                .imagenes-contenedor {
+                    margin: auto;
+                    width: 100%;
+                    display: flex;
+                    margin: 40px 0 30px;
+
+                    .imagenes {
+                        display: flex;
+
+                        .img {
+                            margin: 12px;
+
+                            img {
+                                width: 264px;
+                                height: 368px;
+                            }
+                        }
+                    }
+                }
+
+                .tres-imagenes {
+                    margin: auto;
+                    width: 100%;
+                    display: flex;
+                    margin: 40px 0 30px;
+                    justify-content: flex-start;
+                    overflow-x: scroll;
+                }
+            }
+
+            .contenedor-contenido {
+                width: 100%;
+                margin: auto;
+
+                .titulo {
+
+                    h2 {
+                        font-size: 31px;
+                    }
+                }
+
+                .texto {
+                    margin-top: 16px 0;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div de fondo de escritorio
+@media (min-width: 640px) and (max-width: 1300px) {
+    .website-cards {
+
+        .fondo-de-escritorio {
+            // padding: 72px 0 10px 0;
+            padding: 40px 0 10px 0;
+
+            .contenedor {
+
+                .titulo-subtitulo {
+                    padding: 0 10%;
+
+                    .titulo {
+
+                        h3 {
+                            font-size: 39px;
+                        }
+                    }
+
+                    .subtitulo {
+                        margin: 16px 0 0 0;
+
+                        p {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .contenedor-cards {
+                    padding: 30px 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin: auto;
+                    width: 100%;
+
+                    .card {
+                        width: 49%;
+                        margin: 17px 0 0 0;
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .contenido {
+                            padding: 12px 24px 40px;
+
+                            .texto {
+                                margin-bottom: 10px;
+                            }
+
+                            .contenedor-calidad {
+                                padding: 8px;
+
+                                .texto {
+
+                                    .text {
+
+                                        span {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+
+                                .icono {
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+
+                            .boton {
+                                margin: 24px 0 0 0;
+
+                                .contenedor {
+                                    width: 216px;
+                                    height: 60px;
+
+                                    button {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div PRODUCTOS DESTACADOS
+@media (min-width: 640px) and (max-width: 1024px) {
+    .website-cards {
+
+        .productos-destacados {
+            padding: 126px 0 70px;
+            background-size: 10%;
+
+            .contenedor {
+                width: 100%;
+
+                .titulo {
+
+                    h2 {
+                        font-size: 39px;
+                    }
+                }
+
+                .contenedor-de-cards {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin: auto;
+
+                    .card {
+                        width: 47%;
+                        border-radius: 0px;
+                        margin: 12px 0px;
+
+                        .imagenes {
+                            display: flex;
+                            flex-direction: column;
+
+                            .img-ilustrativa {
+
+                                img {
+                                    width: 103px;
+                                    height: 79px;
+                                }
+                            }
+
+                            .img-producto {
+
+                                img {
+                                    width: 250px;
+                                    height: 260px;
+                                }
+                            }
+                        }
+
+                        .contenido {
+                            padding: 20px 14px;
+
+                            .informacion {
+
+                                .descripcion {
+                                    margin-bottom: 10px;
+
+                                    h3 {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+
+                            .informacion-extra {
+
+                                .texto {
+
+                                    span {
+                                        font-size: 16px;
+                                    }
+                                }
+
+                                .icono {
+                                    margin-left: 4px;
+
+                                    .icon {
+                                        width: 16px;
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div CARTAS DESTACADAS
+// div FONDO DE ESCRITORIO
+// div PRODUCTOS DESTACADOS
+@media (max-width: 640px) {
+    .website-cards {
+
+        .contenedor-cartas-destacadas{
+            padding: 30px 0 150px 0;
+        }
+
+        // div PRODUCTOS DESTACADOS
+        .productos-destacados {
+            padding: 126px 0  70px;
+            // padding: 126px 0 70px;
+            background-size: 10%;
+
+            .contenedor {
+                width: 100%;
+
+                .titulo{
+                    h2{
+                        font-size: 39px;
+                    }
+                }
+
+                .contenedor-de-cards {
+                    width: 100%;
+                    display: none;
+                    overflow: scroll;
+
+                    .card {
+                        width: 300px;
+                        // width: 47%;
+                        border-radius: 0px;
+                        margin: 12px 0px;
+
+                        .imagenes {
+                            display: flex;
+                            flex-direction: column;
+
+                            .img-ilustrativa {
+
+                                img {
+                                    width: 84px;
+                                    height: 64px;
+                                }
+                            }
+
+                            .img-producto {
+                                width: 220px;
+                                height: 260px;
+                                margin: auto;
+
+                                img {
+                                    align-items: center;
+                                    width: 100%;
+                                    height: auto;
+                                    transform: scale(1.1);
+                                }
+                            }
+                        }
+
+                        .contenido {
+                            padding: 20px 14px;
+
+                            .informacion {
+
+                                .descripcion {
+                                    margin-bottom: 10px;
+
+                                    h3 {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+
+                            .informacion-extra {
+
+                                .texto {
+
+                                    span {
+                                        font-size: 16px;
+                                    }
+                                }
+
+                                .icono {
+                                    margin-left: 4px;
+
+                                    .icon {
+                                        width: 16px;
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .productos-destacados-mobile {
+                display: flex !important;
+            }
+        }
+
+
+        // FONDO DE ESCRITORIO (TERMINADO)
+        .fondo-de-escritorio {
+
+            .contenedor {
+                padding: 0 0 10px 0;
+
+                .titulo-subtitulo{
+                    padding: 0 5%;
+
+                    .titulo{
+                        h3{
+                            font-size: 39px;
+                        }
+                    }
+                }
+                .contenedor-cards {
+                    padding: 1.6% 5% 2% 5%;
+                    // padding: 30px 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin: auto;
+                    width: 100%;
+
+                    .card {
+                        width: 100%;
+                        margin: 17px 0 0 0;
+
+                        .contenido {
+
+                            .contenedor-calidad {
+
+                                .texto {
+
+                                    .text {
+                                        padding: 4px 8px;
+
+                                        span {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div de POKEMON PROTAGONISTAS
+@media (max-width: 590px) {
+    .website-cards {
+
+        .pokemon-protagonistas {
+            padding: 15% 4% 14% 4%;
+            // padding: 126px 4% 88px 4%;
+
+            .titulo {
+
+                .titu {
+
+                    h2 {
+                        font-size: 39px;
+                    }
+                }
+
+                .img {
+                    padding-top: 16px;
+                    margin: 0 12px;
+                }
+            }
+
+            .contenedor-pokemon-protagonistas {
+                width: 100%;
+                margin: auto;
+
+                .imagenes-contenedor {
+                    margin: auto;
+                    width: 100%;
+                    display: flex;
+                    margin: 40px 0 30px;
+                    justify-content: flex-start;
+                    overflow-x: scroll;
+
+                    .imagenes {
+                        display: flex;
+
+                        .img {
+                            margin: 12px;
+
+                            img {
+                                width: 264px;
+                                height: 368px;
+                            }
+                        }
+                    }
+                }
+
+                .tres-imagenes {
+                    margin: auto;
+                    width: 100%;
+                    display: flex;
+                    margin: 40px 0 30px;
+                    justify-content: flex-start;
+                    overflow-x: scroll;
+                }
+            }
+
+            .contenedor-contenido {
+                width: 100%;
+                margin: auto;
+
+                .titulo {
+
+                    h2 {
+                        font-size: 31px;
+                    }
+                }
+
+                .texto {
+                    margin-top: 16px 0;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

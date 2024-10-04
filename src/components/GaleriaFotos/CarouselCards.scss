@@ -1,0 +1,217 @@
+.carousel-cards {
+    width: 100%;
+    margin: auto;
+    margin-top: -10px;
+    
+    .contenedor {
+        width: 1279.97px;
+        margin: auto;
+        background-color: white;
+        background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+
+        .div-cartas-destacadas {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 6px;
+
+            .cartas {
+                background-color: #232323;
+                width: fit-content;
+                padding: 11px 20px 8px;
+                border-radius: 5px;
+
+                p {
+                    margin: 0;
+                    color: #919191;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .contenedor-imagenes {
+            display: flex;
+            background-color: #313131;
+            padding: 10px;
+
+            .contenedor {
+
+                .img {
+                    img {}
+                }
+
+                .contenido {
+                    padding: 20px 12px 20px;
+                    // background-color: #313131;
+                    background-color: #232323;
+
+                    .titulo {
+                        margin: 8.8px 0px 20px;
+
+                        h4 {
+                            color: white;
+                            margin: 0;
+                            font-size: 17.6px;
+
+                        }
+                    }
+
+                    .descripcion {
+                        p {
+                            color: white;
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .botones {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            width: 1279px;
+            border-top: 6px solid #232323;
+            padding-top: 140px;
+
+            .boton-izquierdo {
+                width: 60.8px;
+                height: 63.6px;
+                z-index: 10000;
+                cursor: pointer;
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #919191;
+                border-radius: 5px;
+                background-color: #919191;
+                border-radius: 5px;
+                cursor: pointer;
+                opacity: 0.7;
+                background-color: #313131;
+                margin-left: 50px;
+
+                .icon {
+                    color: white;
+                    width: 72px;
+                    height: 72px;
+                }
+
+                &:hover {
+                    opacity: 0.9;
+                    transition: 0.2s;
+                }
+            }
+
+            .boton-derecho {
+                width: 60.8px;
+                height: 63.6px;
+                z-index: 10000;
+                cursor: pointer;
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #919191;
+                border-radius: 5px;
+                background-color: #919191;
+                border-radius: 5px;
+                cursor: pointer;
+                opacity: 0.7;
+                background-color: #313131;
+                margin-right: 50px;
+
+                .icon {
+                    color: white;
+                    width: 72px;
+                    height: 72px;
+                }
+
+                &:hover {
+                    opacity: 0.9;
+                    transition: 0.2s;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .carousel-cards {
+        width: 100%;
+        margin: auto;
+        margin-top: -10px;
+        overflow: scroll;
+        background-color: white;
+        background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+
+        .contenedor {
+            width: 1279.97px;
+            margin: auto;
+
+            .div-cartas-destacadas {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding-top: 6px;
+
+                .cartas {
+                    width: fit-content;
+                    padding: 11px 20px 8px;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .contenedor-imagenes {
+                // display: flex;
+                display: none;
+                padding: 10px;
+
+                .contenedor {
+                    // display: none;
+
+                    .img {
+                        img {}
+                    }
+
+                    .contenido {
+                        padding: 20px 12px 20px;
+
+                        .titulo {
+                            margin: 8.8px 0px 20px;
+
+                            h4 {
+                                font-size: 17.6px;
+
+                            }
+                        }
+
+                        .descripcion {
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contenedor-imagenes-mobile {
+                display: flex !important;
+
+                .contenedor {
+                    margin: 0 4px;
+                }
+            }
+
+            .botones {
+                display: none;
+            }
+        }
+    }
+}

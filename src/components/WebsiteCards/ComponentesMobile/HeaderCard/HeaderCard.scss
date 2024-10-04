@@ -1,0 +1,240 @@
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 84px;
+    padding: 0px 15px;
+    background-color: #191919;
+
+    .logo {
+        display: flex;
+
+        .img-img {
+
+            img {}
+        }
+    }
+
+    .secciones {
+        width: fit-content;
+        display: flex;
+        cursor: pointer;
+
+        .seccion {
+            display: flex;
+            width: fit-content;
+            padding: 0px 16px;
+            height: 84px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h4 {
+                color: #FFFFFF;
+                margin: 0;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .icon {
+                color: white;
+                width: 20px;
+                height: 20px;
+            }
+
+            .icono-menu {
+                color: white;
+                width: 24px;
+                height: 24px;
+            }
+
+            &:hover {
+                border-bottom: #FDD528 1.6px solid;
+                transition: 0.1s;
+
+                h4 {
+                    color: #FDD528;
+                    transition: 0.1s;
+                }
+
+                .icon {
+                    color: #FDD528;
+                    transition: 0.1s;
+                }
+            }
+        }
+    }
+}
+
+.menu-hamburguesa-mobile {
+    background-color: #191919;
+    // position: absolute;
+    width: 100%;
+    z-index: 999;
+    // height: 81vw;
+    height: 337.49px;
+
+    .contenedor {
+        width: 100%;
+
+        .seccion {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 0.2px solid #66666698;
+            width: 100%;
+
+            .categoria {
+
+                .texto {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    padding-left: 24px;
+
+                    p {
+                        margin: 0;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .contenedor-boton {
+                width: 52px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #DEAF4F;
+
+                .boton {
+
+                    .icon {
+                        color: black;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+
+            &:hover {
+                .categoria {
+
+                    .texto {
+
+                        p {
+                            color: #B1883F;
+                        }
+                    }
+                }
+            }
+        }
+
+        .seccion-sin-boton {
+            height: 55px;
+        }
+    }
+}
+
+@media (max-width: 1143px) {
+    .contenedor-header {
+
+        .secciones {
+
+            .display-menu-hamburguesa {
+                display: flex !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1144px) {
+    .menu-hamburguesa-mobile {
+        display: none !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1143px) {
+    .contenedor-header {
+
+        .secciones {
+
+            .seccion-como-jugar {
+                display: none;
+            }
+
+            .seccion-noticias {
+                display: none;
+            }
+
+            .seccion-donde-jugar {
+                display: none;
+            }
+        }
+    }
+
+    .menu-hamburguesa-mobile {
+        height: 169.4px;
+
+        .contenedor {
+
+            .seccion-mobile-expansiones {
+                display: none !important;
+            }
+
+            .seccion-mobile-cartas {
+                display: none !important;
+            }
+
+            .seccion-mobile-jccPokemon {
+                display: none !important;
+            }
+
+            .seccion-mobile-comoJugar {
+                border-top: 3px solid #DEAF4F;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .contenedor-header {
+        margin-top: -90px;
+    }
+}
+
+
+@media (max-width: 799px) {
+    .contenedor-header {
+
+        .secciones {
+
+            .seccion-expansiones {
+                display: none;
+            }
+
+            .seccion-cartas {
+                display: none;
+            }
+
+            .seccion-jcc-pokemon {
+                display: none;
+            }
+
+            .seccion-como-jugar {
+                display: none;
+            }
+
+            .seccion-noticias {
+                display: none;
+            }
+
+            .seccion-donde-jugar {
+                display: none;
+            }
+        }
+    }
+}

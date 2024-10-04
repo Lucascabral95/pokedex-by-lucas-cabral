@@ -1,0 +1,289 @@
+[
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/escarlata-purpura",
+        "imagen": "/public/img/fuerzas-temporales-cartas.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "21 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "El Juego de Cartas Coleccionables Pokemon Live incorpora Escarlata Y Purpura-Fuerzas Temporales de JCC Pokemon",
+        "cuerpo": "La nueva expansión incluye increíbles cartas de AS TÁCTICO, Pokémon Teracristal, y Pokémon del pasado y del futuro."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/estrategias-para-las-barajas-coleccionables",
+        "imagen": "/public/img/cartas-live.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "19 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Estrategias para las barajas iniciales del Juego de Cartas Coleccionables Pokemon Live de marzo de 2024",
+        "cuerpo": "Aprovechá el poder legedndario de Giratina V-ASTRO, caldea el ambiente con Charizard ex y mucho más."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/estrategias-para-las-barajas-del-pase-de-combate-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
+        "imagen": "/public/img/carta-tres.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "14 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Estrategias para las barajas del pase de combate de Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon ",
+        "cuerpo": "Desata el draconiano poder del pasado o apuesta por el futuro con las barajas de Electrofuria ex y de Ferrotesta ex en JCC Pokémon Live."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/ogerpon-debuta-en-la-expansion-escarlata-y-purpura-mascarada-crepuscular-de-jcc-pokemon",
+        "imagen": "/public/img/mascara-crepuscular.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "14 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Ogerpon debuta en la expansión Escarlata y Púrpura-Mascarada Crepuscular de JCC Pokémon",
+        "cuerpo": "Disfruta del tráiler de lanzamiento para descubrir las nuevas cartas de esta expansión, a la venta el 24 de mayo de 2024."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/farigiraf-ex-cinturon-colosal-y-mucho-mas-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
+        "imagen": "/public/img/carta-cinco.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "08 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Farigiraf ex, Cinturón Colosal y mucho más de Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon",
+        "cuerpo": "Desde adorables ilustraciones hasta cartas de AS TÁCTICO, dale un vistazo a lo que llegará con esta nueva expansión."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/consigue-la-caja-de-combina-y-combate-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon-de-manera-anticipada",
+        "imagen": "/public/img/carta-seis.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "07 de marzo de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Consigue la caja de Combina y Combate de Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon de manera anticipada",
+        "cuerpo": "Disfruta de partidas rápidas y de poderosas cartas de promoción de Prelanzamiento con la caja de Combina y Combate de Escarlata y Púrpura-Fuerzas Temporales."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/un-primer-vistazo-a-las-cartas-de-la-expansion-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
+        "imagen": "/public/img/carta-siete.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "23 de febrero de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Consigue la caja de Combina y Combate de Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon de manera anticipada",
+        "cuerpo": "Descubre una nueva carta de AS TÁCTICO, Ferrotesta debuta como Pokémon ex y mucho más en la nueva expansión."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/brilla-con-luz-propia-con-mimikyu-gardevoir-ex-charizard-ex-y-muchos-mas-en-escarlata-y-purpura-destinos-de-paldea",
+        "imagen": "/public/img/carta-ocho.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "21 de febrero de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Brilla con luz propia con Mimikyu, Gardevoir ex, Charizard ex y muchos más en Escarlata y Púrpura-Destinos de Paldea",
+        "cuerpo": "Estas cartas de JCC Pokémon han estado en lo más alto de la clasificación toda la temporada, y ahora están preparadas para brillar aún más en forma de Pokémon variocolor."
+    },
+    {
+        "tipo": "Coleccionable",
+        "link": "/noticias/consigue-paquetes-de-premio-de-play-pokemon-de-la-serie-4-en-tu-tienda-de-juegos-mas-cercana",
+        "imagen": "/public/img/carta-nueve.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "07 de febrero de 2024",
+        "subtitulo": "Juego de Cartas Coleccionables",
+        "titulo": "Consigue paquetes de premio de Play! Pokémon de la Serie 4 en tu tienda de juegos más cercana",
+        "cuerpo": "Participa en eventos en tu Liga local para obtener estos paquetes de premio especiales con populares cartas de JCC Pokémon."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/sprigatito",
+        "imagen": "/public/img/dibujo-uno.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "15 de marzo de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Consigue a la Sprigatito de Liko como regalo misterioso en Pokémon Scarlet o Pokémon Violet",
+        "cuerpo": "Usa la contraseña para añadir a este Pokémon tan peculiar a tu equipo."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/disfruta-ya-de-la-serie-horizontes-pokemon-en-netflix",
+        "imagen": "/public/img/dibujo-dos.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "07 de marzo de 2024",
+        "subtitulo": "Dibujos animados",
+        "titulo": "Disfruta ya de la serie Horizontes Pokémon en Netflix",
+        "cuerpo": "Sigue a Liko y Rod mientras se embarcan en un emocionante viaje en esta nueva serie de dibujos animados."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/la-serie-horizontes-pokemon-se-estrenara-el-7-de-marzo",
+        "imagen": "/public/img/dibujo-tres.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "22 de enero de 2024",
+        "subtitulo": "Dibujos animados",
+        "titulo": "La serie Horizontes Pokémon se estrenará el 7 de marzo",
+        "cuerpo": "No te pierdas una nueva y maravillosa historia Pokémon, que pronto llegará a Netflix."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/trivia-de-la-serie-viajes-definitivos-pokemon",
+        "imagen": "/public/img/dibujo-cuatro.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "10 de enero de 2024",
+        "subtitulo": "Dibujos animados",
+        "titulo": "Trivia de la serie Viajes Definitivos Pokémon",
+        "cuerpo": "¿Qué tan bien recuerdas los épicos eventos de la temporada 25 de la serie Pokémon?"
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/tv-pokemon-llega-a-su-fin-en-marzo-de-2024",
+        "imagen": "/public/img/dibujo-cinco.jpg",
+        "descripcion": "Se publica una noticia",
+        "fecha": "08 de enero de 2024",
+        "subtitulo": "Dibujos animados",
+        "titulo": "TV Pokémon llega a su fin en marzo de 2024",
+        "cuerpo": "El servicio finalizará próximamente; te contamos dónde puedes seguir disfrutando de los dibujos animados Pokémon."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/pokemon-por-siempre-y-heroes-pokemon-ya-estan-disponibles-para-su-compra-digital",
+        "imagen": "/public/img/dibujo-seis.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "22 de diciembre de 2023",
+        "subtitulo": "Dibujos animados",
+        "titulo": "Pokémon por Siempre y Héroes Pokémon ya están disponibles para su compra digital",
+        "cuerpo": "Diviértete viendo la cuarta y quinta película, que ya están a la venta en iTunes y Google Play."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/el-cuarto-episodio-de-pokemon-vientos-de-paldea-ya-esta-disponible",
+        "imagen": "/public/img/dibujo-siete.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "13 de diciembre de 2023",
+        "subtitulo": "Dibujos animados",
+        "titulo": "El cuarto episodio de Pokémon: Vientos de Paldea ya está disponible",
+        "cuerpo": "Embárcate en una aventura Pokémon por la región de Paldea."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/barajas-iniciales",
+        "imagen": "/public/img/dibujo-ocho.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "13 de diciembre de 2024",
+        "subtitulo": "Dibujos animados",
+        "titulo": "Nuestra guía de 2023 de dibujos animados Pokémon en Netflix, YouTube, Twitch y mucho más",
+        "cuerpo": "Si quieres vivir una aventura animada Pokémon durante estas fiestas, nosotros te ayudaremos a encontrar algo genial para ver."
+    },
+    {
+        "tipo": "Dibujos",
+        "link": "/noticias/barajas-iniciales",
+        "imagen": "/public/img/dibujo-nueve.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "29 de noviembre de 2023",
+        "subtitulo": "Dibujos animados",
+        "titulo": "La serie Horizontes Pokémon se estrenará en Netflix en febrero de 2024",
+        "cuerpo": "Prepárate para toda una nueva aventura estelarizada por Liko, Rod, Sprigatito y Fuecoco."
+    },
+
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/actualizacion-de-los-reglamentos-de-play-pokemon-para-el-primer-trimestre-de-2024",
+        "imagen": "/public/img/evento-uno.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "18 de marzo de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Actualización de los reglamentos de Play! Pokémon para el primer trimestre de 2024",
+        "cuerpo": "Revisa los reglamentos más recientes y prepárate para las competencias oficiales."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/novedades-sobre-los-eventos-locales-de-junio-de-la-serie-de-campeonatos",
+        "imagen": "/public/img/evento-dos.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "18 de marzo de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Novedades sobre los eventos locales de junio de la Serie de Campeonatos",
+        "cuerpo": "Los eventos con Championship Points se pondrán en pausa durante junio, aunque seguirá habiendo premios en las Ligas Pokémon junto a un trío de nuevas cartas holográficas de promoción."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/obten-un-pokemon-durante-la-transmision-del-campeonato-internacional-de-europa-2024",
+        "imagen": "/public/img/evento-tres.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "08 de marzo de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Obtén un Pokémon durante la transmisión del Campeonato Internacional de Europa 2024",
+        "cuerpo": "Sigue en directo el Campeonato Internacional de Europa 2024 para conseguir recompensas en el juego."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/celebra-el-dia-de-pokemon-en-un-evento-local-de-play-pokemon",
+        "imagen": "/public/img/evento-cuatro.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "20 de febrero de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Celebra el Día de Pokémon en un evento local de Play! Pokémon",
+        "cuerpo": "Las tiendas de juegos participantes ofrecerán promociones especiales y premios para conmemorar este gran día."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/consigue-paquetes-de-premio-de-play-pokemon-de-la-serie-4-en-tu-tienda-de-juegos-mas-cercana",
+        "imagen": "/public/img/evento-cinco.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "07 de enero de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Consigue paquetes de premio de Play! Pokémon de la Serie 4 en tu tienda de juegos más cercana",
+        "cuerpo": "Participa en eventos en tu Liga local para obtener estos paquetes de premio especiales con populares cartas de JCC Pokémon."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/anuncio-de-la-rotacion-del-formato-estandar-de-jcc-pokemon-en-2024",
+        "imagen": "/public/img/evento-seis.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "12 de enero de 2023",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Anuncio de la rotación del formato Estándar de JCC Pokémon en 2024",
+        "cuerpo": "La rotación del formato Estándar en el juego competitivo de 2024 entrará en vigor el 5 de abril de 2024."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/pokemon-go-se-une-a-los-eventos-de-juego-organizado-en-latinoamerica",
+        "imagen": "/public/img/evento-siete.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "08 de enero de 2023",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Pokémon GO se une a los eventos de Juego Organizado en Latinoamérica",
+        "cuerpo": "Los Entrenadores pueden participar en eventos oficiales de Pokémon GO, incluyendo Desafíos y Copas de Pokémon GO."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/actualizacion-de-los-reglamentos-de-play-pokemon-para-el-cuarto-trimestre-de-2023",
+        "imagen": "/public/img/evento-ocho.jpg",
+        "descripcion": "Se publica una noticia",
+        "fecha": "09 de noviembre de 2024",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Actualización de los reglamentos de Play! Pokémon para el cuarto trimestre de 2023",
+        "cuerpo": "Si quieres vivir una aventura animada Pokémon durante estas fiestas, nosotros te ayudaremos a encontrar algo genial para ver."
+    },
+    {
+        "tipo": "Eventos",
+        "link": "/noticias/consigue-al-dragapult-de-alex-gomez-berna-y-anade-la-carta-ferropaladin-ex-a-tu-coleccion-en-jcc-pokemon-live",
+        "imagen": "/public/img/evento-nueve.png",
+        "descripcion": "Se publica una noticia",
+        "fecha": "26 de octubre de 2023",
+        "subtitulo": "Diubjos animados",
+        "titulo": "Consigue al Dragapult de Alex Gómez Berna y añade la carta Ferropaladín ex a tu colección en JCC Pokémon Live",
+        "cuerpo": "Sigue en directo el Campeonato Internacional de Latinoamérica 2024 para conseguir estos regalos en el juego."
+    }
+]

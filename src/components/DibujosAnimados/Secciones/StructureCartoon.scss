@@ -1,0 +1,271 @@
+.StructureCartoon {
+    width: 100%;
+
+    .contenedor-img-contenido {
+        background-color: #FF514F;
+        cursor: pointer;
+
+        .img-img {
+            width: 100%;
+
+            img {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                width: 100%;
+            }
+        }
+
+        .contenido {
+            padding: 4px 0px 24px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            .titulo {
+                margin: 16.5px 11px 0px 22px;
+
+                h3 {
+                    margin: 0;
+                    color: white;
+                    font-size: 22px;
+                }
+            }
+
+            .texto {
+                margin: 8px 8px 12px 20px;
+
+                p {
+                    margin: 0;
+                    color: #820100;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &:hover {
+            background-color: #FF1F1C;
+            transition: 0.2s;
+            animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+            @keyframes hover-otros-componentes {
+                from {
+                    transform: translateY(0px);
+                }
+
+                to {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+
+    .contenedor-de-peliculas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        margin-top: 40px;
+
+        .cont-pelicula {
+            width: 24%;
+            height: 236px;
+            padding: 10px 0px 0px 0px;
+
+            .img-img {
+                width: 100%;
+
+                img {
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .ano {
+                margin: 10.2px 10.2px 0px;
+
+                p {
+                    margin: 0;
+                    font-size: 13.6px;
+                    color: #616161;
+                }
+            }
+
+            .titulo {
+                margin: 4px 0px 8px 0px;
+
+                p {
+                    color: #212121;
+                    margin: 0;
+                    font-size: 15px;
+                    line-height: 1.3;
+                }
+            }
+
+            &:hover {
+                animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+                @keyframes hover-otros-componentes {
+                    from {
+                        transform: translateY(0px);
+                    }
+
+                    to {
+                        transform: translateY(-5px);
+                    }
+                }
+
+                .img-img {
+                    // filter: saturate(1.5) sepia(1) hue-rotate(70deg) brightness(1.2);
+                    filter: brightness(0.9) saturate(2.2) drop-shadow(0 0 5px rgba(68, 29, 207, 0.322));
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 960px) {
+    .StructureCartoon {
+        width: 100%;
+
+        .contenedor-img-contenido {
+
+            .img-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .contenido {
+
+                .titulo {
+                    margin: 16.5px 11px 0px 22px;
+
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+
+                .texto {
+                    margin: 8px 8px 12px 20px;
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .contenedor-de-peliculas {
+            margin-top: 40px;
+
+            .cont-pelicula {
+                height: auto;
+                width: 100%;
+                padding: 10px 0px 0px 0px;
+
+                .img-img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .ano {
+                    margin: 10.2px 10.2px 0px;
+
+                    p {
+                        font-size: 13.6px;
+                    }
+                }
+
+                .titulo {
+                    margin: 4px 0px 8px 0px;
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .StructureCartoon {
+
+        .contenedor-img-contenido {
+
+            .img-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .contenido {
+                padding: 4px 0px 24px;
+
+                .titulo {
+                    margin: 16.5px 11px 0px 22px;
+
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+
+                .texto {
+                    margin: 8px 8px 12px 20px;
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .contenedor-de-peliculas {
+            margin-top: 40px;
+
+            .cont-pelicula {
+                height: auto;
+                padding: 10px 0px 0px 0px;
+                width: 90%;
+                margin: auto;
+
+                .img-img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .ano {
+                    margin: 10.2px 10.2px 0px;
+
+                    p {
+                        font-size: 13.6px;
+                    }
+                }
+
+                .titulo {
+                    margin: 4px 0px 8px 0px;
+
+                    p {
+                        font-size: 15px;
+                        line-height: 1.3;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,305 @@
+.contenedor-imagen-mas-grande {
+    cursor: pointer;
+    margin-top: 90px;
+
+    .img-img {
+        width: 100%;
+        border-radius: 5px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+
+    .contenido {
+        background-color: #FF90C4;
+        padding: 4px 0px 24px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        .titulo {
+            margin: 16.5px 11px 0px 22px;
+
+            h3 {
+                font-size: 22px;
+                color: white;
+                margin: 0;
+            }
+        }
+
+        .texto {
+            margin: 8px 8px 12px 20px;
+
+            p {
+                font-size: 16px;
+                color: #C3005c;
+            }
+        }
+    }
+
+    .contenido-cartas-coleccionables {
+        background-color: #30A7D7;
+
+        .texto {
+            p {
+                color: black;
+            }
+        }
+    }
+
+    .cimg-uno {
+        background-color: #30A7D7;
+        border-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .cimg-uno-cartas-destacadas {
+        background-color: #313131;
+    }
+
+    .cimg-dos {
+        background-color: #FF514F;
+        border-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .cimg-dos-cartas-destacadas {
+        background-color: #A4A4A4;
+    }
+
+    &:hover {
+        animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+        .contenido {
+            background-color: #FF2A8E;
+            transition: 0.2s
+        }
+
+        .cimg-uno {
+            background-color: #1B82B1;
+            transition: 0.2s
+        }
+
+        .cimg-uno-cartas-destacadas {
+            background-color: #282828;
+            transition: 0.2s;
+        }
+
+        .cimg-dos {
+            background-color: #FF1F1C;
+            transition: 0.2s
+        }
+
+        .cimg-dos-cartas-destacadas {
+            background-color: #8B8B8B;
+            transition: 0.2s;
+        }
+
+        .contenido-cartas-coleccionables {
+            background-color: #1b82b1;
+        }
+
+        @keyframes hover-otros-componentes {
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+.contenedor-de-pics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+
+    .imagee {
+        width: 49%;
+        padding: 0px 0px 8px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        .im {
+            width: 100%;
+
+            img {
+                border-radius: 5px;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .tti {
+            padding: 16.5px 11px 16.5px 22px;
+
+            h3 {
+                font-size: 22px;
+                color: white;
+                font-weight: 500;
+                margin: 0;
+            }
+        }
+    }
+
+    .imagee-uno {
+        background-color: #E6BC2F;
+
+
+        &:hover {
+            background-color: #DAA31C;
+            transition: 0.2s;
+            animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+            @keyframes hover-otros-componentes {
+                from {
+                    transform: translateY(0px);
+                }
+
+                to {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+
+    .imagee-dos {
+        background-color: #4DAD5B;
+
+        &:hover {
+            background-color: #369143;
+            transition: 0.2s;
+            animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+            @keyframes hover-otros-componentes {
+                from {
+                    transform: translateY(0px);
+                }
+
+                to {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+}
+
+.contenedor-chico-peliculas {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    cursor: pointer;
+
+    .img-img {
+        width: 40%;
+
+        .img {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+
+            }
+        }
+    }
+
+    .cont {
+        background-color: #1B53BA;
+        width: 60%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+
+        .texto {
+            padding: 16.5px 11px 0px 22px;
+
+            h3 {
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .cont-cartas-coleccionables {
+        background-color: #EE6B2F;
+    }
+
+    &:hover {
+        animation: 0.2s ease-in-out 0s alternate none running hover-otros-componentes;
+
+        .cont {
+            transition: 0.2s;
+            background-color: #1847D7;
+        }
+
+        .cont-cartas-coleccionables {
+            transition: 0.2s;
+            background-color: #DA471B;
+        }
+
+        @keyframes hover-otros-componentes {
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+    .contenedor-de-pics {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+
+        .imagee {
+            // width: 49%;
+            width: 92%;
+            padding: 0px 0px 8px;
+            border-radius: 5px;
+            margin-bottom: 2%;
+
+            .im {
+                width: 100%;
+
+                img {
+                    border-radius: 5px;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .tti {
+                padding: 16.5px 11px 16.5px 22px;
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .imagee-uno {
+        }
+
+        .imagee-dos {
+        }
+    }
+}

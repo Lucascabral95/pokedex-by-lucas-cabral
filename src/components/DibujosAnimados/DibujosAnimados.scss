@@ -1,0 +1,33 @@
+.contenedor-de-ubicacion {
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 16px 0;
+
+    .titulo-de-donde-ver {
+        margin: 24px 0px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            text-align: center;
+            color: #1D79DE;
+            font-size: 32px;
+            font-weight: 600;
+        }
+    }
+
+    .contenedor-de-imagen-promocional {
+        margin: 20px 0px;
+        // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.15);
+
+        .img-img {
+            width: 96%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

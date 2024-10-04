@@ -1,0 +1,102 @@
+[
+    {
+        "imagen": "/public/img/pokemon-logo.png",
+        "texto": "Información general",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/avatar.png",
+        "texto": "Club de Entrenadores Pokemon / Cuenta",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-tres.png",
+        "texto": "Pokémon UNITE",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/pokemon-logo-live.png",
+        "texto": "Juego de Cartas Coleccionables Pokémon Live",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-cinco.png",
+        "texto": "Pokémon HOME",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-seis.png",
+        "texto": "Play! Pokémon",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-siete.png",
+        "texto": "Pokémon GO",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-ocho.png",
+        "texto": "Juego de Cartas Collecionables Pokémon",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-nueve.png",
+        "texto": "Boletin",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-diez.png",
+        "texto": "Juego de Cartas Coleccionalbes Pokemon Pocket",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-once.png",
+        "texto": "Pokemon Sleep",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-doce.png",
+        "texto": "Pokemon GO Plus +",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-trece.png",
+        "texto": "Pokemon Cafe ReMix",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-catorcce.png",
+        "texto": "Videojuegos de Pokemon",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-quince.png",
+        "texto": "Casa de Juegos Pokemon | Pokemon TV",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-cliente-dieciseis.png",
+        "texto": "Poke Ball Plus",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-al-cliente-pulsera.png",
+        "texto": "Pokémon GO Plus",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-al-cliente-otras-aplicaciones.png",
+        "texto": "Otras aplicaciones",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-al-cliente-online.png",
+        "texto": "Información sobre la retirada de JCC Pokémon Online",
+        "link": ""
+    },
+    {
+        "imagen": "/public/img/atencion-al-cliente-cartadex.png",
+        "texto": "Información sobre la retirada de CartaDex de JCC Pokémon",
+        "link": ""
+    }
+]

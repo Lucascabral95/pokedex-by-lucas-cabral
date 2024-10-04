@@ -1,0 +1,32 @@
+.contenedor-carousel-destacados {
+    width: 1279px;
+    margin: auto;
+
+    .contenedor {
+
+        .pokemones-destacados {
+            width: 100%;
+            margin: auto;
+            margin: 8px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+
+            .titulo {
+                width: fit-content;
+                background-color: #232323;
+                padding: 11px 20px 8px;
+                border-radius: 5px;
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    color: #919191;
+                    font-weight: 600;
+                    font-family: 20px;
+                }
+            }
+        }
+
+        .contenedor-carousel {}
+    }
+}

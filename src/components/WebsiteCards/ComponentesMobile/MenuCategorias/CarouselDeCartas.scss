@@ -1,0 +1,248 @@
+.inicio-carousel-de-cartas {
+    width: 100%;
+
+    .contenedor {
+        width: 100%;
+        display: flex;
+
+        .img {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .contenedor-de-fuerzas-temporales {
+            height: 42vw;
+            width: 33.5%;
+            max-width: 566px;
+            position: absolute;
+            display: flex;
+            right: 10.2%;
+
+            .contenedor {
+                width: 100%;
+                min-width: 336.33px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .titulo {
+                    margin: 0px 0 12px 0;
+
+                    h4 {
+                        color: white;
+                        margin: 0;
+                        font-weight: 800;
+                        font-size: 38px;
+                        text-align: center;
+                    }
+                }
+
+                .contenedor-boton {
+                    width: 100%;
+
+                    .boton {
+                        width: 288.2px;
+                        height: 60px;
+                        // width: 53%;
+                        cursor: pointer;
+                        margin: auto;
+                        background: linear-gradient(to bottom, #014961, #04546E 50%, #014961);
+                        border: 4px solid #4A8098;
+                        border-radius: 2px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 32px;
+
+                        button {
+                            height: 26px;
+                            border: none;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 16px;
+                            background-color: transparent;
+                        }
+
+                        &:hover {
+                            transition: 0.3s ease-in-out;
+                            background: linear-gradient(to left, #51ACB3, #DFEBCE);
+                            border-radius: 4px solid #155E71;
+
+                            button {
+                                transition: 0.3s ease-in-out;
+                                color: #155E71;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.inicio-carousel-de-cartas-mobile {
+    width: 100%;
+
+    .contenedor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .img {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .contenedor-de-fuerzas-temporales {
+            height: 180vw;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            margin: auto;
+
+            .contenedor {
+                // width: 404px;
+                width: 71%;
+                margin: auto;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .titulo {
+
+                    h4 {
+                        text-align: center;
+                        margin: 0;
+                        color: white;
+                        font-size: 31px;
+                        font-weight: 800;
+                    }
+                }
+
+                .contenedor-boton {
+                    width: 100%;
+                    margin: 16px 0 0 0;
+
+                    .boton {
+                        width: 288.2px;
+                        height: 60px;
+                        // width: 53%;
+
+
+
+                        cursor: pointer;
+                        margin: auto;
+                        background: linear-gradient(to bottom, #014961, #04546E 50%, #014961);
+                        border: 4px solid #4A8098;
+                        border-radius: 2px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 32px;
+
+                        button {
+                            height: 26px;
+                            border: none;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 16px;
+                            background-color: transparent;
+                        }
+
+                        &:hover {
+                            transition: 0.3s ease-in-out;
+                            background: linear-gradient(to left, #51ACB3, #DFEBCE);
+                            border-radius: 4px solid #155E71;
+
+                            button {
+                                transition: 0.3s ease-in-out;
+                                color: #155E71;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1023px) {
+    .inicio-carousel-de-cartas {
+        display: none;
+
+        .contenedor {
+
+            .img {}
+        }
+    }
+
+    .inicio-carousel-de-cartas-mobile {
+        display: block !important;
+    }
+}
+
+@media (max-width: 639px) {
+    .inicio-carousel-de-cartas-mobile {
+
+        .contenedor {
+
+            .img {
+                img {
+                    height: 132vw;
+
+                }
+            }
+
+            .contenedor-de-fuerzas-temporales {
+                top: 250px;
+
+                .contenedor {
+
+                    .img {
+
+                        img {}
+                    }
+
+                    .titulo {
+
+                        h4 {}
+                    }
+
+                    .contenedor-boton {
+
+                        .boton {
+
+                            button {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

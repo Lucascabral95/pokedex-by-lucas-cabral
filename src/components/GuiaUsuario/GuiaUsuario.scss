@@ -1,0 +1,2073 @@
+.guia-de-usuario {
+    margin-top: 88px;
+    background-color: white;
+    background-image: url('https://parents.pokemon.com/images/common/bg-tile.svg');
+    width: 100%;
+    padding: 26px 0;
+
+    .contenedor {
+        margin: auto;
+        max-width: 1360px;
+        // padding: 0 20px 70px 0;
+        background-color: white;
+
+        p {
+            line-height: 1.425;
+        }
+
+        .sitio-web-oficial {
+            width: 100%;
+            position: absolute;
+
+            .contenedor-imagen {
+                width: 100%;
+                display: flex;
+                background-image: url('https://parents.pokemon.com/images/common/box-logo.svg');
+                height: 175px;
+                width: 500px;
+                padding: 10px 16px 76px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+
+                .texto {
+
+                    h2 {
+                        margin: 0;
+                        color: #373737;
+                        text-align: center;
+                        font-weight: 800;
+                        font-size: 30.8px;
+                        line-height: 1;
+                    }
+
+                    p {
+                        color: #373737;
+                        margin: 0;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: 26.4px;
+                    }
+                }
+            }
+        }
+
+        .imagen-principal-central {
+            width: 100%;
+            padding-top: 84px;
+
+
+            .img {
+                margin: auto;
+                width: 97%;
+
+                img {
+                    border-radius: 20px;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        .diversion-para-todos {
+            width: 100%;
+            transform: translateY(-94%);
+
+            .contenedor-imagen {
+                width: 100%;
+
+                .img-pikachu {
+                    width: 100%;
+                    margin-left: 66px;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 22.5%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .imagen-texto {
+                    background-image: url('https://parents.pokemon.com/images/common/box-header.svg');
+                    display: flex;
+                    align-items: flex-end;
+                    width: 942px;
+                    padding: 20px 60px;
+                    height: 180px;
+                    margin-top: -90px;
+                    border-radius: 22px;
+
+                    .texto {
+
+                        h4 {
+                            margin: auto;
+                            text-align: center;
+                            color: white;
+                            font-weight: 800;
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .que-son-los-pokemon {
+            margin-top: -27%;
+            // margin-top: -360px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .informacion {
+                width: 49%;
+
+                .contenido {
+                    margin: 0 0 0 40px;
+
+                    .primer-div {
+                        margin: 0 0 70px 0;
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            font-size: 19.36px;
+                            margin: 0;
+                            line-height: 1.425;
+                            color: #444444;
+                        }
+                    }
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            margin: 0;
+                            font-weight: 700;
+                            font-size: 40.656px;
+                            color: #444444;
+                        }
+                    }
+                }
+            }
+
+            .imagen {
+                width: 49%;
+                display: flex;
+                align-items: center;
+
+                .div-cuadro {
+                    display: flex;
+                    flex-direction: column;
+
+                    .snorlax {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        max-height: 480px;
+
+                        .img-snorlax {
+                            width: 70%;
+
+                            img {
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .snorlax-dos {
+                            width: 32%;
+                            display: flex;
+                            flex-direction: column;
+
+                            .img-mudkip {
+                                width: 100%;
+
+                                img {
+                                    // width: 35.5%;
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .img-eevee {
+                                width: 100%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+
+                    .eevee {
+                        display: flex;
+                        align-items: center;
+
+                        .img-squirtle {
+                            width: 40%;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .img-pokebola {
+                            width: 20%;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .img-bulbasur {
+                            width: 40%;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .juego-de-cartas-coleccionables-pokemon {
+            margin-top: 40px;
+
+            .borde-superior {
+                width: 100%;
+
+                .img {
+                    width: 100%;
+                    transform: translateY(-10px);
+                    rotate: 180deg;
+
+                    img {
+                        width: 101%;
+                        height: 140px;
+                    }
+                }
+            }
+
+            .contenido-medio {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                background-color: #FBCE1A;
+                padding: 28px 0;
+                padding: 2% 2%;
+
+                .img {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0 2%;
+
+                    .imagen {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 80%;
+                            height: auto;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+                .contenido {
+                    width: 49%;
+                    padding: 0 2%;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h4 {
+                            margin: auto;
+                            text-align: center;
+                            font-weight: 800;
+                            color: #444444;
+                            font-size: 40.656px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            margin: 0;
+                            font-size: 19.36px;
+                            color: #444444;
+                        }
+                    }
+
+                    .boton {
+                        width: 100%;
+
+                        .contenedor {
+                            cursor: pointer;
+                            background-color: white;
+                            width: fit-content;
+                            border-radius: 30px;
+                            padding: 10px 20px;
+
+                            button {
+                                display: flex;
+                                justify-content: space-between;
+                                border: none;
+                                background-color: transparent;
+
+                                p {
+                                    margin: 0;
+                                    font-size: 18px;
+                                }
+
+                                .icono {
+
+                                    .icon {
+                                        color: #444444;
+                                        width: 24px;
+                                        height: 24px;
+                                    }
+                                }
+                            }
+
+                            &:hover {
+                                button {
+
+                                    p {
+                                        color: #FBCE1A;
+                                    }
+                                }
+
+                                .icono {
+
+                                    .icon {
+                                        color: #FBCE1A;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .borde-inferior {
+                width: 100%;
+
+                .img {
+                    width: 100%;
+
+                    img {
+                        height: 120px;
+                        width: 101%;
+                        transform: translateY(-4px);
+                        rotate: 360deg;
+                    }
+                }
+            }
+        }
+
+        .videojuegos-aplicaciones-pokemon {
+            padding: 80px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .videojuegos {
+                width: 49%;
+                padding-left: 2%;
+
+                .titulo {
+                    margin: 0 0 26.4px 0;
+
+                    h3 {
+                        margin: 0;
+                        color: #444444;
+                        font-size: 40.66px;
+                        line-height: 1;
+                    }
+                }
+
+                .texto {
+                    margin: 0 0 26.4px 0;
+
+                    p {
+                        font-size: 19.36px;
+                        color: #444444;
+                        margin: 0;
+                    }
+                }
+
+                .boton {
+                    .contenedor-boton {
+                        cursor: pointer;
+                        border-radius: 50px;
+                        background-color: #F59820;
+                        width: fit-content;
+                        display: flex;
+                        padding: 10px 20px;
+
+                        .texto {
+                            margin: 0;
+                            padding: 0;
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                color: white;
+                                margin: 0;
+                                font-size: 19.36px;
+                            }
+                        }
+
+                        .icono {
+
+                            .icon {
+                                color: white;
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+
+                        &:hover {
+                            background-color: #444444;
+                        }
+                    }
+                }
+            }
+
+            .imagen {
+                width: 49%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .img {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 90%;
+                        height: auto;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .conten {
+            rotate: 7deg;
+            background-color: #F0604A;
+            border-radius: 20px;
+            margin-top: 70px;
+
+            .animacion {
+                rotate: -7deg;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 26.11px 0;
+                border-radius: 10px;
+
+                .imagen {
+                    width: 49%;
+                    padding: 0 0 0 2%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 90%;
+                            height: auto;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+                .contenido {
+                    width: 49%;
+                    padding: 80px 0 80px 2%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            margin: 0;
+                            color: white;
+                            font-size: 40.66px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            margin: 0;
+                            color: white;
+                            font-size: 19.36px;
+                        }
+                    }
+
+                    .boton {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .contenedor-boton {
+                            width: fit-content;
+                            padding: 10px 20px;
+                            background-color: white;
+                            display: flex;
+                            border-radius: 30px;
+                            cursor: pointer;
+
+                            .texto {
+                                margin: 0;
+                                padding: 0;
+
+                                p {
+                                    color: #444444;
+                                    margin: 0;
+                                    font-size: 19.36px;
+                                }
+                            }
+
+                            .icono {
+                                display: flex;
+                                align-items: center;
+
+                                .icon {
+                                    color: #444444;
+                                }
+                            }
+
+                            &:hover {
+                                .texto {
+                                    p {
+                                        color: #F0604A;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .productos {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 0 80px 2%;
+            margin-top: 80px;
+
+            .contenido {
+                width: 49%;
+
+                .titulo {
+                    margin: 0 0 26.4px 0;
+
+                    h3 {
+                        margin: 0;
+                        color: #444444;
+                        font-size: 40.66px;
+                    }
+                }
+
+                .texto {
+                    margin: 0 0 26.4px 0;
+
+                    p {
+                        color: #444444;
+                        margin: 0;
+                        font-size: 19.36px;
+                    }
+                }
+            }
+
+            .imagen {
+                width: 49%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .img {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 90%;
+                        border-radius: 5px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .proteccion {
+            background-color: #45C0FF;
+            rotate: 3deg;
+            border-radius: 20px;
+
+            .comprometidos-con-la-proteccion-infantil {
+                width: 100%;
+                padding: 0 0 70px 0;
+                display: flex;
+                rotate: -3deg;
+                padding: 80px 0 60px 0;
+
+                .imagen {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            border-radius: 5px;
+                            width: 80%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .contenido {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            color: white;
+                            font-size: 40.6px;
+                            margin: 0;
+                            line-height: 1;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            color: white;
+                            margin: 0;
+                            font-size: 19.36px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .guia-de-usuario {
+        // margin-top: 88px;
+        margin-top: 0px;
+        background-image: url('https://parents.pokemon.com/images/common/bg-tile.svg');
+        width: 100%;
+        padding: 26px 6px;
+
+        .contenedor {
+            margin: auto;
+            max-width: 1360px;
+            // padding: 0 20px 70px 0;
+
+            p {
+                line-height: 1.425;
+            }
+
+            .sitio-web-oficial {
+                width: 100%;
+                position: absolute;
+
+                .contenedor-imagen {
+                    width: 100%;
+                    width: 450px;
+                    display: flex;
+                    height: 175px;
+                    // width: 500px;
+                    padding: 10px 16px 76px 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .texto {
+
+                        h2 {
+                            font-size: 30.8px;
+                        }
+
+                        p {
+                            font-family: 26.4px;
+                        }
+                    }
+                }
+            }
+
+            .imagen-principal-central {
+                width: 100%;
+                padding-top: 84px;
+
+                .img {
+                    margin: auto;
+                    width: 97%;
+
+                    img {
+                        border-radius: 10px;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
+            .diversion-para-todos {
+                width: 100%;
+                transform: translateY(-94%);
+
+                .contenedor-imagen {
+                    width: 100%;
+
+                    .img-pikachu {
+                        width: 100%;
+                        margin-left: 66px;
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                width: 22.5%;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    .imagen-texto {
+                        background-image: url('https://parents.pokemon.com/images/common/box-header.svg');
+                        display: flex;
+                        align-items: flex-end;
+                        // width: 942px;
+                        width: 642px;
+                        padding: 20px 60px;
+                        // height: 180px;
+                        height: 131px;
+                        margin-top: -90px;
+                        border-radius: 22px;
+
+                        .texto {
+
+                            h4 {
+                                // font-size: 40px;
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .que-son-los-pokemon {
+                margin-top: -27%;
+                // margin-top: -360px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .informacion {
+                    width: 49%;
+
+                    .contenido {
+                        margin: 0 0 0 40px;
+
+                        .primer-div {
+                            margin: 0 0 70px 0;
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                            }
+                        }
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+
+                            h3 {
+                                font-size: 25.6px;
+                            }
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 49%;
+                    display: flex;
+                    align-items: center;
+
+                    .div-cuadro {
+                        display: flex;
+                        flex-direction: column;
+
+                        .snorlax {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            max-height: 480px;
+
+                            .img-snorlax {
+                                width: 70%;
+
+                                img {
+                                    max-width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .snorlax-dos {
+                                width: 32%;
+                                display: flex;
+                                flex-direction: column;
+
+                                .img-mudkip {
+                                    width: 100%;
+
+                                    img {
+                                        // width: 35.5%;
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+
+                                .img-eevee {
+                                    width: 100%;
+
+                                    img {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+
+                        .eevee {
+                            display: flex;
+                            align-items: center;
+
+                            .img-squirtle {
+                                width: 40%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .img-pokebola {
+                                width: 20%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .img-bulbasur {
+                                width: 40%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .juego-de-cartas-coleccionables-pokemon {
+                margin-top: 0px;
+
+                .borde-superior {
+                    width: 100%;
+
+                    .img {
+                        width: 100%;
+                        transform: translateY(-10px);
+                        rotate: 180deg;
+
+                        img {
+                            width: 101%;
+                            // height: 140px;
+                            height: 80px;
+                        }
+                    }
+                }
+
+                .contenido-medio {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 28px 0;
+                    padding: 2% 2%;
+
+                    .img {
+                        width: 49%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 2%;
+
+                        .imagen {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 98%;
+                                height: auto;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 49%;
+                        padding: 0 2%;
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+
+                            h4 {
+                                // font-size: 40.656px;
+                                font-size: 25.6px;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+
+                            .contenedor {
+                                width: fit-content;
+                                border-radius: 30px;
+                                padding: 10px 20px;
+
+                                button {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    border: none;
+                                    background-color: transparent;
+                                    align-items: center;
+
+                                    p {
+                                        margin: 0;
+                                        padding: 0;
+                                        // font-size: 18px;
+                                        font-size: 14px;
+                                    }
+
+                                    .icono {
+
+                                        .icon {
+                                            width: 24px;
+                                            height: 24px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .borde-inferior {
+                    width: 100%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            // height: 140px;
+                            height: 80px;
+                            width: 101%;
+                            transform: translateY(-4px);
+                            rotate: 360deg;
+                        }
+                    }
+                }
+            }
+
+            .videojuegos-aplicaciones-pokemon {
+                padding: 80px 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .videojuegos {
+                    width: 49%;
+                    padding-left: 2%;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            // font-size: 40.66px;
+                            font-size: 25.6px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            // font-size: 19.36px;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .boton {
+                        .contenedor-boton {
+                            border-radius: 50px;
+                            width: fit-content;
+                            display: flex;
+                            padding: 10px 20px;
+
+                            .texto {
+                                margin: 0;
+                                padding: 0;
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    // font-size: 19.36px;
+                                    font-size: 13.2px;
+                                    margin: 0;
+                                }
+                            }
+
+                            .icono {
+
+                                .icon {
+                                    width: 24px;
+                                    height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 99%;
+                            height: auto;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .conten {
+                rotate: 7deg;
+                border-radius: 20px;
+                margin-top: 0px;
+                padding: 0 2%;
+                margin: 0 1.6%;
+
+                .animacion {
+                    rotate: -7deg;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 10px;
+                    // padding: 26.11px 0;
+                    padding: 0px 0;
+
+                    .imagen {
+                        width: 49%;
+                        padding: 0 0 0 2%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                border-radius: 10px;
+                                width: 90%;
+                                height: auto;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 49%;
+                        padding: 80px 0 80px 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+
+                            h3 {
+                                // font-size: 40.66px;
+                                font-size: 25.6px;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .contenedor-boton {
+                                width: fit-content;
+                                padding: 10px 20px;
+                                background-color: white;
+                                display: flex;
+                                border-radius: 30px;
+
+                                .texto {
+                                    margin: 0;
+                                    padding: 0;
+
+                                    p {
+                                        // font-size: 19.36px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                                .icono {
+                                    display: flex;
+                                    align-items: center;
+
+                                    .icon {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .productos {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 0 80px 2%;
+                // margin-top: 80px;
+                margin-top: 4%;
+
+                .contenido {
+                    width: 49%;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            // font-size: 40.66px;
+                            font-size: 25.6px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            // font-size: 19.36px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 98%;
+                            border-radius: 5px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .proteccion {
+                rotate: 3deg;
+                border-radius: 20px;
+                margin-top: -1.6vw;
+
+                .comprometidos-con-la-proteccion-infantil {
+                    width: 100%;
+                    // padding: 0 0 70px 0;
+                    padding: 0 0 70px 0;
+                    display: flex;
+                    rotate: -3deg;
+                    // padding: 80px 0 60px 0;
+                    padding: 5vw 0 4vw 0;
+
+                    .imagen {
+                        width: 49%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                border-radius: 5px;
+                                width: 90%;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+
+                            h3 {
+                                // font-size: 40.6px;
+                                font-size: 25.6px;
+                                line-height: 1;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .guia-de-usuario {
+        margin-top: 0px;
+        background-image: url('https://parents.pokemon.com/images/common/bg-tile.svg');
+        width: 100%;
+        padding: 26px 6px;
+        overflow: hidden;
+
+        .contenedor {
+            margin: auto;
+            max-width: 1360px;
+            // padding: 0 20px 70px 20px;
+
+            p {
+                line-height: 1.425;
+            }
+
+            .sitio-web-oficial {
+                width: 100%;
+                position: absolute;
+
+                .contenedor-imagen {
+                    display: none !important;
+                }
+
+                .img {
+                    width: 96%;
+                    // width: 100%;
+                    display: block !important;
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+                
+                .texto{
+                    width: 100%;
+                    position: absolute;
+                    padding: 20px 5%;
+                    display: block !important;
+
+                    .interior{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        h2{
+                         margin: 0;
+                         font-size: 24px;
+                         color: #373737;
+                         font-weight: 800;
+                         line-height: 1;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-weight: 500;
+                            color: #373737;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+            .imagen-principal-central {
+                width: 100%;
+                padding-top: 84px;
+
+                .img {
+                    margin: auto;
+                    width: 97%;
+                    
+                    img {
+                        display: none;
+                        border-radius: 10px;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .familia-mobile{
+                        display: block !important;
+                    }
+                }
+            }
+
+            .diversion-para-todos {
+                width: 100%;
+                transform: translateY(-75%);
+
+                .contenedor-imagen {
+                    width: 100%;
+
+                    .img-pikachu {
+                        width: 100%;
+                        // margin-left: 66px;
+                        margin-left: 1%;
+                        margin-top: 0%;
+                        transform: translateY(18%);
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                // width: 22.5%;
+                                width: 32%;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    .imagen-texto {
+                        background-image: url('https://parents.pokemon.com/images/common/box-header.svg');
+                        display: flex;
+                        align-items: flex-end;
+                        // width: 642px;
+                        width: 102%;
+                        padding: 10px 20px;
+                        // height: 131px;
+                        height: 140px;
+                        // height: 28vw;
+                        border-radius: 22px;
+                        // margin-top: -90px;
+                        margin-top: -6vw;
+
+                        .texto {
+
+                            h4 {
+                                // font-size: 22px;
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .que-son-los-pokemon {
+                margin-top: -37%;
+                // margin-top: -27%;
+                width: 100%;
+                // display: flex;
+                // justify-content: space-between;
+                display: block;
+
+                .informacion {
+                    // width: 49%;
+                    width: 100%;;
+
+                    .contenido {
+                        // margin: 0 0 0 40px;
+                        margin: 0 0 0 0px;
+
+                        .primer-div {
+                            margin: 0 0 70px 0;
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                            }
+                        }
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+                            display: none;
+
+                            h3 {
+                                font-size: 25.6px;
+                            }
+                        }
+
+                        .texto-info{
+                            display: none;
+                        }
+                    }
+                }
+
+                .informacion-dos{
+                    display: block !important;
+                    .contenido{
+                        margin-top: 5%;
+
+                        .titulo{
+                            display: block;
+                        }
+
+                        .texto{
+                            display: block;
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 100%;
+                    // width: 49%;
+                    display: flex;
+                    align-items: center;
+
+                    .div-cuadro {
+                        display: flex;
+                        flex-direction: column;
+
+                        .snorlax {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            max-height: 480px;
+
+                            .img-snorlax {
+                                width: 70%;
+
+                                img {
+                                    max-width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .snorlax-dos {
+                                width: 32%;
+                                display: flex;
+                                flex-direction: column;
+
+                                .img-mudkip {
+                                    width: 100%;
+
+                                    img {
+                                        // width: 35.5%;
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+
+                                .img-eevee {
+                                    width: 100%;
+
+                                    img {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+
+                        .eevee {
+                            display: flex;
+                            align-items: center;
+
+                            .img-squirtle {
+                                width: 40%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .img-pokebola {
+                                width: 20%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .img-bulbasur {
+                                width: 40%;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .juego-de-cartas-coleccionables-pokemon {
+                // margin-top: 0px;
+                margin-top: 8%;
+
+                .borde-superior {
+                    width: 100%;
+
+                    .img {
+                        width: 100%;
+                        transform: translateY(-10px);
+                        rotate: 180deg;
+
+                        img {
+                            width: 101%;
+                            height: 80px;
+                        }
+                    }
+                }
+
+                .contenido-medio {
+                    width: 100%;
+                    display: block;
+                    padding: 28px 0;
+                    padding: 2% 2%;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 2%;
+
+                        .imagen {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 100%;
+                        // width: 49%;
+                        padding: 3.5% 2% 0 2%;
+
+                        .titulo {
+                            margin: 0 0 26.4px 0;
+
+                            h4 {
+                                // font-size: 40.656px;
+                                font-size: 25.6px;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                // font-size: 19.36px;
+                                font-size: 16px;
+                                line-height: 1.425;
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+
+                            .contenedor {
+                                width: fit-content;
+                                border-radius: 30px;
+                                padding: 10px 20px;
+
+                                button {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    border: none;
+                                    background-color: transparent;
+                                    align-items: center;
+
+                                    p {
+                                        margin: 0;
+                                        padding: 0;
+                                        // font-size: 18px;
+                                        font-size: 14px;
+                                    }
+
+                                    .icono {
+
+                                        .icon {
+                                            width: 24px;
+                                            height: 24px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .borde-inferior {
+                    width: 100%;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            // height: 140px;
+                            height: 80px;
+                            width: 101%;
+                            transform: translateY(-4px);
+                            rotate: 360deg;
+                        }
+                    }
+                }
+            }
+
+            .videojuegos-aplicaciones-pokemon {
+                padding: 7% 0 12% 0;
+                // padding: 80px 0;
+                width: 100%;
+                // display: flex;
+                // justify-content: space-between;
+                display: block;
+
+                .videojuegos {
+                    width: 100%;
+                    padding-left: 2%;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            font-size: 25.6px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .boton {
+                        display: flex;
+                        justify-content: center;
+                        .contenedor-boton {
+                            border-radius: 50px;
+                            width: fit-content;
+                            display: flex;
+                            // padding: 10px 20px;
+                            padding: 10px 20px;
+                            margin-bottom: 5%;
+
+                            .texto {
+                                margin: 0;
+                                padding: 0;
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    // font-size: 19.36px;
+                                    font-size: 13.2px;
+                                    margin: 0;
+                                }
+                            }
+
+                            .icono {
+
+                                .icon {
+                                    width: 24px;
+                                    height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 100%;
+                    // width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .conten {
+                rotate: 5deg;
+                border-radius: 20px;
+                margin-top: 0px;
+                padding: 0 2%;
+                margin: 0 1.6%;
+                background-image: linear-gradient( to bottom, #F0604A 0%, #EE4E36 50%, #EE4E36 100%);
+                margin-top: 0%;
+
+                .animacion {
+                    rotate: -5deg;
+                    width: 100%;
+                    display: flex;
+                    border-radius: 10px;
+                    padding: 0px 0;
+                    // justify-content: space-between;
+                    // align-items: center;
+                    display: block;
+                    padding: 6% 0;
+                    
+                    .imagen {
+                        width: 100%;
+                        // width: 49%;
+                        padding: 5% 0 0 0%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img {
+                            width: 100%;
+
+                            img {
+                                border-radius: 10px;
+                                width: 100%;
+                                height: auto;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 100%;
+                        // width: 49%;
+                        // padding: 80px 0 80px 2%;
+                        padding: 4% 0 5% 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .titulo {
+                            margin: 0 0 3% 0;
+
+                            h3 {
+                                font-size: 25.6px;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .boton {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .contenedor-boton {
+                                width: fit-content;
+                                padding: 10px 20px;
+                                background-color: white;
+                                display: flex;
+                                border-radius: 30px;
+
+                                .texto {
+                                    margin: 0;
+                                    padding: 0;
+
+                                    p {
+                                        font-size: 14px;
+                                    }
+                                }
+
+                                .icono {
+                                    display: flex;
+                                    align-items: center;
+
+                                    .icon {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .productos {
+                width: 100%;
+                align-items: center;
+                padding: 12% 0 16% 2%;
+                // padding: 80px 0 80px 2%;
+                margin-top: 4%;
+                // display: flex;
+                // justify-content: space-between;
+                display: block;
+
+                .contenido {
+                    width: 100%;
+                    // width: 49%;
+
+                    .titulo {
+                        margin: 0 0 26.4px 0;
+
+                        h3 {
+                            font-size: 25.6px;
+                        }
+                    }
+
+                    .texto {
+                        margin: 0 0 26.4px 0;
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 100%;
+                    // width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 100%;
+                            border-radius: 5px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .proteccion {
+                rotate: 3deg;
+                border-radius: 20px;
+                margin-top: -1.6vw;
+
+                .comprometidos-con-la-proteccion-infantil {
+                    width: 100%;
+                    padding: 0 0 1.8% 0;
+                    // padding: 0 0 70px 0;
+                    display: flex;
+                    rotate: -3deg;
+                    padding: 5vw 0 4vw 0;
+                    display: block;
+
+                    .imagen {
+                        width: 100%;
+                        // width: 49%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                border-radius: 5px;
+                                width: 90%;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    .contenido {
+                        width: 100%;
+                        // width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        padding: 0 6%;
+
+                        .titulo {
+                            // margin: 0 0 26.4px 0;
+                            margin: 4% 0 6% 0;
+
+                            h3 {
+                                font-size: 25.6px;
+                                line-height: 1;
+                            }
+                        }
+
+                        .texto {
+                            margin: 0 0 26.4px 0;
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

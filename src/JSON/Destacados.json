@@ -1,0 +1,205 @@
+[
+    {
+        "nombre": "Pikachu",
+        "tipos": ["Electrico"],
+        "Habilidades": ["Electricidad Estatica"],
+        "id": 25,
+        "imagen": "/public/img/pik.png"
+    }, 
+    {
+        "nombre": "Eevee",
+        "tipos": ["Normal"],
+        "Habilidades": ["Adaptabilidad"],
+        "id": 133,
+        "imagen": "/public/img/eevee.png"
+    }, 
+    {
+        "nombre": "Jigglypuff",
+        "tipos": ["Normal", "Hada"],
+        "Habilidades": ["Voz Cautivadora"],
+        "id": 39,
+        "imagen": "/public/img/jigg.png"
+    }, 
+    {
+        "nombre": "Vulpix",
+        "tipos": ["Fuego"],
+        "Habilidades": ["Absorbe fuego"],
+        "id": 37,
+        "imagen": "/public/img/vulpix.png"
+    }, 
+    {
+        "nombre": "Clefairy",
+        "tipos": ["Hada"],
+        "Habilidades": ["Gran Encanto"],
+        "id": 35,
+        "imagen": "/public/img/cleraify.png"
+    }, 
+    {
+        "nombre": "Cleffa",
+        "tipos": ["Hada"],
+        "Habilidades": ["Gran Encanto"],
+        "id": 175,
+        "imagen": "/public/img/cleffa.png"
+    }, 
+    {
+        "nombre": "Topegi",
+        "tipos": ["Hada"],
+        "Habilidades": ["Cura Natural"],
+        "id": 175,
+        "imagen": "/public/img/togepi.png"
+    }, 
+    {
+        "nombre": "Teddiursa",
+        "tipos": ["Normal"],
+        "Habilidades": ["Fuga", "Recogida"],
+        "id": 216,
+        "imagen": "/public/img/teddiursa.png"
+    }, 
+    {
+        "nombre": "Snubbull",
+        "tipos": ["Hada"],
+        "Habilidades": ["Intimidacion"],
+        "id": 209,
+        "imagen": "/public/img/snubbull.png"
+    }, 
+    {
+        "nombre": "Skitty",
+        "tipos": ["Normal"],
+        "Habilidades": ["Normalizado", "Punto Firme"],
+        "id": 152,
+        "imagen": "/public/img/skitty.png"
+    }, 
+    {
+        "nombre": "Pichu",
+        "tipos": ["Electrico"],
+        "Habilidades": ["Electricidad Estatica"],
+        "id": 172,
+        "imagen": "/public/img/pichu.png"
+    }, 
+    {
+        "nombre": "Mew",
+        "tipos": ["Psiquico"],
+        "Habilidades": ["Sintonia"],
+        "id": 151,
+        "imagen": "/public/img/mew.png"
+    }, 
+    {
+        "nombre": "Minccino",
+        "tipos": ["Normal"],
+        "Habilidades": ["Gran Encanto"],
+        "id": 572,
+        "imagen": "/public/img/minccino.png"
+    }, 
+    {
+        "nombre": "Furret",
+        "tipos": ["Normal"],
+        "Habilidades": ["Agallas", "Recogida"],
+        "id": 160,
+        "imagen": "/public/img/furret.png"
+    }, 
+    {
+        "nombre": "Audino",
+        "tipos": ["Normal"],
+        "Habilidades": ["Oido Interno", "Regeneracion"],
+        "id": 531,
+        "imagen": "/public/img/audino.png"
+    }, 
+    {
+        "nombre": "Sylveon",
+        "tipos": ["Hada"],
+        "Habilidades": ["Gran Encanto","Hechizo Magico"],
+        "id": 700,
+        "imagen": "/public/img/sylveon.png"
+    }, 
+    {
+        "nombre": "Espeon",
+        "tipos": ["Psiquico"],
+        "Habilidades": ["Sincronia"],
+        "id": 196,
+        "imagen": "/public/img/espeon.png"
+    }, 
+    {
+        "nombre": "Umbreon",
+        "tipos": ["Siniestro"],
+        "Habilidades": ["Sincronia"],
+        "id": 197,
+        "imagen": "/public/img/umbreon.png"
+    }, 
+    {
+        "nombre": "Flareon",
+        "tipos": ["Fuego"],
+        "Habilidades": ["Absorbe Fuego"],
+        "id": 136,
+        "imagen": "/public/img/flareon.png"
+    }, 
+    {
+        "nombre": "Vaporeon",
+        "tipos": ["Agua"],
+        "Habilidades": ["Absorbe Agua"],
+        "id": 134,
+        "imagen": "/public/img/vaporeon.png"
+    }, 
+    {
+        "nombre": "Leafeon",
+        "tipos": ["Planta"],
+        "Habilidades": ["Hojas Frescas"],
+        "id": 470,
+        "imagen": "/public/img/leafeon.png"
+    }, 
+    {
+        "nombre": "Glaceon",
+        "tipos": ["Hielo"],
+        "Habilidades": ["Cuerpo Gelido"],
+        "id": 471,
+        "imagen": "/public/img/glaceon.png"
+    }, 
+    {
+        "nombre": "Bulbasaur",
+        "tipos": ["Planta", "Veneno"],
+        "Habilidades": ["Clorofila"],
+        "id": 700,
+        "imagen": "/public/img/bulbasaur.png"
+    }, 
+    {
+        "nombre": "Chikorita",
+        "tipos": ["Planta"],
+        "Habilidades": ["Espesura"],
+        "id": 152,
+        "imagen": "/public/img/chikorita.png"
+    }, 
+    {
+        "nombre": "Togekiss",
+        "tipos": ["Hada", "Volador"],
+        "Habilidades": ["Cura Natural", "Entusiasmo"],
+        "id": 468,
+        "imagen": "/public/img/togekiss.png"
+    }, 
+    {
+        "nombre": "Piplup",
+        "tipos": ["Agua"],
+        "Habilidades": ["Torrente"],
+        "id": 393,
+        "imagen": "/public/img/piplup.png"
+    }, 
+    {
+        "nombre": "Shaymin",
+        "tipos": ["Planta"],
+        "Habilidades": ["Medicinaplanta"],
+        "id": 492,
+        "imagen": "/public/img/shaymin.png"
+    }, 
+    {
+        "nombre": "Swirlix",
+        "tipos": ["Planta"],
+        "Habilidades": ["Velo Dulce"],
+        "id": 348,
+        "imagen": "/public/img/swirlix.png"
+    }, 
+    {
+        "nombre": "Fennekin",
+        "tipos": ["Fuego"],
+        "Habilidades": ["Magician", "Cuerpo Llama"],
+        "id": 660,
+        "imagen": "/public/img/fennekin.png"
+    }
+]

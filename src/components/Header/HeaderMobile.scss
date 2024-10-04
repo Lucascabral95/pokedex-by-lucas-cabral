@@ -1,0 +1,213 @@
+.header-mobile {
+    background-color: #1E1E1E;
+    margin: auto;
+
+    .contenedor-header-mobile {
+        margin: auto;
+
+        .primer-contenedor {
+            height: 60px;
+            display: flex;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 7px 1px #666666;
+
+            .primer-div {
+                width: 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 0px;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .segundo-div {
+                width: 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #E8E8E8;
+                padding: 8px 0px;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .tercer-div {
+                width: clamp(64px, 10%, 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-left: 1.8px solid rgba(68, 68, 68, 0.267);
+                padding: 8px 0px;
+                background-color: #E8E8E8;
+                cursor: pointer;
+
+                .icon {
+
+                    .icono {
+                        width: 34px;
+                        height: 34px;
+                        color: black;
+                    }
+                }
+
+                &:hover {
+                    background-color: white;
+                    transition: 0.2s;
+                }
+            }
+        }
+
+        .segundo-contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100vw;
+            height: 60px;
+            padding: 8px 0px;
+
+            .menu-hamburguesa {
+                background-color: #313131;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60px;
+                width: 60px;
+                z-index: 1000;
+                
+                .icono {
+                    width: 30px;
+                    height: 30px;
+                    color: white;
+                }
+            }
+            
+            .logo-pokemon {
+                width: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                z-index: 1000;
+
+                img {
+                    width: 54px;
+                    height: 54px;
+                }
+            }
+        }
+
+        .contenedor-de-categorias {
+            background-image: url('/public/img/fondo-negro.png');
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+
+            .contenedor {
+                background-color: white;
+                display: flex;
+                align-items: center;
+                width: 100vw;
+                height: 56px;
+                border-bottom: 1px solid #66666642;
+                cursor: pointer;
+
+                .borde {
+                    height: 56px;
+
+                    .borde-de-color {
+                        width: 6px;
+                        height: 56px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                .icono {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 55px;
+                    height: 30px;
+                    margin: 0px 23.8px;
+
+                    .iconoo {
+                        width: 29px;
+                        height: 29px;
+                        color: #898989;
+                    }
+                }
+
+                .categoria {
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        font-size: 16px;
+                        color: #464646;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+
+        .boton-cierre {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20%;
+            height: 62px;
+            background-color: #E8E8E8;
+            z-index: 1010;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 7px 1px #666666;
+            cursor: pointer;
+            
+            .icono-cierre {
+                width: 30px;
+                height: 30px;
+                transform: rotate(180deg);
+            }
+        }
+
+        .contenedor-de-secciones {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80%;
+            height: 100%;
+            background-color: #E8E8E8;
+            padding: 0% 4%;
+            z-index: 1010;
+
+            .contenedor-imagen {
+                background-image: url('/public/img/fondo-blanco.png');
+                margin: 20px 0px 0px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 175px;
+                    height: 52.4px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 961px) {
+    .header-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.card-animacion {
+  background-color: white;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+  .seccion {
+    background-color: #29088A;
+    height: 100vh;
+    scroll-snap-align: start;
+    width: 100%;
+    
+    .img {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h4{
+        font-size: 4.2rem;
+        color: white;
+      }
+
+      img {
+        width: 300px;
+        height: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.card {
+    margin: auto;
+    width: 100%;
+    border: none;
+
+    .cont {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .imagen {
+            margin-bottom: 50px;
+
+            .skeleton-cardList {
+                width: 208.58px;
+                height: 291.16px
+            }
+
+            img {
+                max-width: 208.58px;
+                max-height: 291.16px;
+            }
+
+            &:hover {
+                animation: sube-y-vuelve 0.4s ease-in-out forwards;
+
+                @keyframes sube-y-vuelve {
+                    0% {
+                        transform: translateY(-5px);
+                    }
+
+                    100% {
+                        transform: translateY(0px);
+                    }
+                }
+
+                transform: translateY(-5px);
+            }
+        }
+    }
+    
+    .botones-de-card {
+        height: 84px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        margin-bottom: 50px;
+
+        .contenedor {
+            width: fit-content;
+            height: 42.4px;
+            background-color: #30A7D7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+
+            .numero-pagina {
+                padding: 11.81px 19.7px 10.63px;
+
+                span {
+                    color: white;
+                    font-size: 15.6px;
+                    font-weight: 500;
+                }
+            }
+
+            .boton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                width: 43.4px;
+                height: 40px;
+
+                .icono {
+                    color: white;
+                    width: 30px;
+                    height: 30px;
+                }
+
+                &:hover {
+                    background-color: #1B82B1;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 661px) {
+    .itemListContainer {
+        width: 90%;
+
+        .card {
+            margin: auto;
+            width: 100%;
+            border: none;
+
+            .cont {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .imagen {
+                    // margin-bottom: 50px;
+                    margin-bottom: 20px;
+                    width: 46%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .skeleton-cardList {
+                        height: 224px;
+                        width: 161.05px;
+                    }
+
+                    img {
+                        height: 224px;
+                        width: 161.05px;
+                    }
+                }
+            }
+        }
+
+        .botones-de-card {
+            margin: -20px 0px 10px;
+        }
+    }
+}

@@ -1,0 +1,291 @@
+.footer-guia-usuario {
+    width: 100%;
+    // margin-top: 100px;
+    margin-top: 80px;
+
+    .contenedor {
+        max-width: 1024px;
+        margin: auto;
+        padding: 0px 19.36px 0px 19.36px;
+
+        .parte-superior {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0 0 2% 0;
+
+            .div {
+                // width: 25%;
+                width: fit-content;
+
+                .img-pokemon-company {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 10px;
+
+                    img {
+                        width: 220.99px;
+                        height: 39.98px;
+                    }
+                }
+
+                .img-coppa {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 10px;
+
+                    img {
+                        width: 145.99px;
+                        height: 58.39px;
+                    }
+                }
+
+                .contenedorr {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .contenedor-icono {
+                        cursor: pointer;
+                        margin: 0 7.74px;
+                        width: 45px;
+                        height: 45px;
+                        border: 1px solid #444444;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icon {
+                            color: #444444;
+                        }
+
+                        &:hover {
+                            background-color: #30B9FF;
+                            border: 1px solid #30B9FF;
+
+                            .icon {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .boton {
+                    width: 100%;
+
+                    .contenedor-boton {
+                        background-color: #444444;
+                        border-radius: 100px;
+                        width: 213px;
+                        height: 44.5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        button {
+                            border: navajowhite;
+                            background-color: transparent;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 21.3px;
+                        }
+
+                        &:hover {
+                            background-color: #30B9FF;
+                        }
+                    }
+                }
+            }
+        }
+
+        .parte-inferior {
+            width: 62%;
+            margin: auto;
+
+            .terminos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 8.71px 0;
+                width: fit-content;
+
+                span {
+                    margin: 0 10px 0 10px;
+                    text-decoration: underline;
+                    text-align: center;
+
+                    .link-footer {
+                        text-align: center;
+                        text-decoration: none;
+                        color: #444444;
+                        // font-size: 17.42px;
+                        font-size: 16.6px;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .texto {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    text-align: center;
+                    color: #444444;
+                    // font-size: 17.42px;
+                    font-size: 16.6px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-guia-usuario {
+        width: 100%;
+        // margin-top: 100px;
+        margin-top: 10%;
+
+        .contenedor {
+            max-width: 1024px;
+            margin: auto;
+            padding: 0px 19.36px 0px 19.36px;
+
+            .parte-superior {
+                width: 100%;
+                align-items: center;
+                margin: 0 0 2% 0;
+                // display: flex;
+                // justify-content: space-evenly;
+                display: block;
+
+                .div {
+                    // width: 25%;
+                    // width: fit-content;
+                    width: 100%;
+
+                    .img-pokemon-company {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 0 10px;
+
+                        img {
+                            width: 220.99px;
+                            height: 39.98px;
+                        }
+                    }
+
+                    .img-coppa {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 0 10px;
+
+                        img {
+                            width: 145.99px;
+                            height: 58.39px;
+                        }
+                    }
+
+                    .contenedorr {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 20px 0;
+
+                        .contenedor-icono {
+                            margin: 0 7.74px;
+                            width: 36.8px;
+                            height: 36.8px;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .icon {}
+
+                        }
+                    }
+
+                    .boton {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .contenedor-boton {
+                            border-radius: 100px;
+                            // width: 213px;
+                            // height: 44.5px;
+                            width: 189.95px;
+                            height: 40.22px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            button {
+                                // font-size: 21.3px;
+                                font-size: 17.6px;
+                                font-weight: 400;
+                            }
+
+                            &:hover {
+                                background-color: #30B9FF;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .parte-inferior {
+                width: 100%;
+                // width: fit-content;
+                // margin: auto;
+
+                .terminos {
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    // width: fit-content;
+                    margin: 0 0 8.71px 0;
+                    display: block;
+
+                    span {
+                        margin: 0 10px 0 10px;
+                        width: fit-content;
+                        display: inline-block;
+                        line-height: 1;
+                        text-align: center;
+
+                        .link-footer {
+                            text-align: center;
+                            text-decoration: none;
+                            font-size: 14.4px;
+                            line-height: 1;
+                        }
+                    }
+                }
+
+                .texto {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        text-align: center;
+                        font-size: 14.4px;
+                    }
+                }
+            }
+        }
+    }
+}

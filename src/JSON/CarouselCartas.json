@@ -1,0 +1,18 @@
+[
+    {
+        "imagen": "/img/carta-destacada-uno.png",
+        "descripcion": "Ondulagua ex"
+    },
+    {
+        "imagen": "/img/carta-destacada-dos.png",
+        "descripcion": "Ferroverdor ex"
+    },
+    {
+        "imagen": "/img/carta-destacada-tres.png",
+        "descripcion": "Electrofuria ex"
+    },
+    {
+        "imagen": "/img/carta-destacada-cuatro.png",
+        "descripcion": "Ferrotesta ex"
+    }
+]

@@ -1,0 +1,141 @@
+.contenedor-de-botones-peliculas {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 52.5px;
+
+    .boton {
+        display: flex;
+        max-width: 250px;
+        cursor: pointer;
+
+        .icono {
+            // margin: 0px 0px 0px 8px;
+            margin: 0px 0px 0px 3px;
+
+            .icon {
+                color: #212121;
+                width: 22px;
+                height: 22px;
+            }
+        }
+
+        .texto {
+            // margin: 0px 0px 0px 8px;
+            margin: 0px 0px 0px 3px;
+
+            p {
+                margin: 0;
+                color: #313131;
+                font-size: 16px;
+                transform: translateY(2px);
+                font-weight: 500;
+                user-select: none
+            }
+
+            span {
+                margin: 0;
+                color: #313131;
+                font-size: 16px;
+                transform: translateY(2px);
+                font-weight: 500;
+                user-select: none
+            }
+        }
+
+        &:hover {
+            .icono {
+
+                .icon {
+                    color: #30A7D7;
+                    transition: 0.2s;
+                }
+            }
+
+            .texto {
+
+                p {
+                    color: #30A7D7;
+                    transition: 0.2s;
+                    user-select: none
+                }
+
+                span {
+                    color: #30A7D7;
+                    transition: 0.2s;
+                    user-select: none
+                }
+            }
+        }
+    }
+}
+
+.subtitulo-pelicula {
+
+    .subtitulo {
+        margin: 10px 0px;
+
+        h4 {
+            color: #212121;
+            margin: 0;
+            font-size: 20px;
+            font-weight: 400;
+            user-select: none
+        }
+    }
+}
+
+.titulo-pelicula {
+
+    .titulo {
+        margin: 21.36px 0px 28.48px;
+
+        h3 {
+            font-size: 28.48px;
+            color: #212121;
+            margin: 0;
+            font-weight: 400;
+            user-select: none
+        }
+    }
+}
+
+.contenedor-imagen-pelicula {
+
+    .img {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .contenedor-de-botones-peliculas {
+        .boton {
+
+            .texto {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .contenedor-imagen-pelicula {
+        margin: 5% 0 2.6%;
+        display: flex;
+        justify-content: center;
+
+        .img {
+            width: auto;
+
+            img {
+                width: 146px;
+                height: 219px;
+            }
+        }
+    }
+}

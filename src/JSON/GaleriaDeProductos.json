@@ -1,0 +1,121 @@
+[
+    {
+        "imagen": "/public/img/galeria-cartas-dos.png",
+        "link": "/jcc-pokemon/galeria-de-productos/caja-entrenador-elite-escarlata-purpura-mascarada-crepuscular",
+        "id": 1,
+        "texto": "Caja de Entrenador Élite",
+        "titulo": "Caja de Entrenador Élite de Escarlata y Púrpura-Mascarada Crepuscular de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-tres.png",
+        "link": "/jcc-pokemon/galeria-de-productos/lata-coalision-paradojica",
+        "id": 2,
+        "texto": "Lata Colisión Paradójica",
+        "titulo": "Lata Colisión Paradójica de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-cuatro.png",
+        "link": "/jcc-pokemon/galeria-de-productos/escarlata-y-purpura-fuerzas-temporales",
+        "id": 3,
+        "texto": "Escarlata y Púrpura-Fuerzas Temporales",
+        "titulo": "Escarlata y Púrpura-Fuerzas Temporales"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-cinco.png",
+        "link": "/jcc-pokemon/galeria-de-productos/caja-de-entrenador-elite-de-escarlata-y-purpura-fuerzas-temporales",
+        "id": 4,
+        "texto": "Caja de Entrenador Élite",
+        "titulo": "Caja de Entrenador Élite de Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon        "
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-seis.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-premium-armarouge-ex",
+        "id": 5,
+        "texto": "Colección prémium Armarouge ex",
+        "titulo": "Colección prémium Armarouge ex de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-siete.png",
+        "link": "/jcc-pokemon/galeria-de-productos/lote-de-paquetes-de-mejora-de-escarlata-y-purpura-destinos-de-paldea",
+        "id": 6,
+        "texto": "Lote de paquetes de mejora",
+        "titulo": "Lote de paquetes de mejora de Escarlata y Púrpura-Destinos de Paldea"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-ocho.png",
+        "link": "/jcc-pokemon/galeria-de-productos/baraja-combate-ex-de-melmetal-ex-baraja-combate-ex-de-houndoom-ex",
+        "id": 7,
+        "texto": "Baraja Combate ex de Melmetal ex",
+        "titulo": "Baraja Combate ex de Melmetal ex de JCC Pokémon Baraja Combate ex de Houndoom ex de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-nueve.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-torneo-premium-e-nigma",
+        "id": 8,
+        "texto": "Colección torneo prémium e‑Nigma",
+        "titulo": "Colección torneo prémium e‑Nigma de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-diez.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-grafaiai-ex",
+        "id": 9,
+        "texto": "Colección Grafaiai ex",
+        "titulo": "Colección Grafaiai ex de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-once.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-premium-pokemon-ex-de-escarlata-y-purpura-destinos-de-paldea",
+        "id": 10,
+        "texto": "Colección prémium Pokémon ex",
+        "titulo": "Colección prémium Pokémon ex de Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-doce.png",
+        "link": "/jcc-pokemon/galeria-de-productos/lata-escarlata-y-purpura-destinos-de-paldea",
+        "id": 11,
+        "texto": "Lata Escarlata y Púrpura-Destinos",
+        "titulo": "Lata Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-trece.png",
+        "link": "/jcc-pokemon/galeria-de-productos/baraja-combate-deluxe-de-ninetales-ex-y-baraja-combate-deluxe-de-zapdos-ex",
+        "id": 12,
+        "texto": "Baraja Combate Deluxe de Ninetales ex",
+        "titulo": "Baraja Combate Deluxe de Ninetales ex y baraja Combate Deluxe de Zapdos ex de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-catorce.png",
+        "link": "/jcc-pokemon/galeria-de-productos/caja-de-entrenador-elite-de-escarlata-y-purpura-destinos-de-paldea",
+        "id":  13,
+        "texto": "Caja de Entrenador Élite",
+        "titulo": "Caja de Entrenador Élite de Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-quince.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-con-pegatina-especial-de-escarlata-y-purpura-destinos-de-paldea",
+        "id": 14,
+        "texto": "Colección con pegatina especial",
+        "titulo": "Colección con pegatina especial de Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-dieciseis.png",
+        "link": "/jcc-pokemon/galeria-de-productos/lata-apilable",
+        "id": 15,
+        "texto": "Lata apilable",
+        "titulo": "Lata apilable de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-diecisiete.png",
+        "link": "/jcc-pokemon/galeria-de-productos/maletin-aventuras-en-paldea",
+        "id": 16,
+        "texto": "Maletín Aventuras en Paldea",
+        "titulo": "Maletín Aventuras en Paldea de JCC Pokémon"
+    },
+    {
+        "imagen": "/public/img/galeria-cartas-dieciocho.png",
+        "link": "/jcc-pokemon/galeria-de-productos/coleccion-mabosstiff-ex",
+        "id": 17,
+        "texto": "Colección Mabosstiff ex",
+        "titulo": "Colección Mabosstiff ex de JCC Pokémon"
+    }
+]

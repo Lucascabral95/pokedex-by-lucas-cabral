@@ -1,0 +1,721 @@
+.buscador-completo {
+    width: 100%;
+    background-image: url('/public/img/fondo-negro.png');
+
+    button {
+        user-select: none;
+    }
+
+    .contenedor {
+        margin-top: 50px;
+        width: 1279px;
+        margin: auto;
+        background-color: #616161;
+
+
+        .contenedor-tipo {
+            padding: 8.84px 0px;
+            border-top: 2px solid #A4A4A4;
+            border-bottom: 1px solid #313131;
+            cursor: pointer;
+
+            .contenedor-interno {
+                width: 875.4px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 40.8px;
+
+                .tipo {
+                    p {
+                        color: white;
+                        font-size: 27.2px;
+                        font-weight: 500;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .icono {
+                    margin-right: 13.7px;
+
+                    .c {
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 20px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icon {
+                            color: #616161;
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedor-tipo-contenido {
+            width: 1279px;
+            margin: auto;
+            background-color: #494949;
+
+            .contenedor-interno {
+                background-color: #494949;
+                width: 875.4px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                .texto {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    padding-top: 14px;
+
+                    p {
+                        text-align: center;
+                        color: white;
+                        font-size: 16px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .input-range {
+                    height: 60px;
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100%;
+
+                    .span {
+                        width: 5%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        span {
+                            color: white;
+                            font-weight: 600;
+                            font-size: 20px;
+                        }
+                    }
+
+                    input {
+                        width: 80%;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .titulo-rareza {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-bottom: 14px;
+                    width: 100%;
+
+                    button {
+                        background-color: #A4A4A4;
+                        color: white;
+                        font-size: 16.8px;
+                        font-weight: 500;
+                        padding: 12.6px 21px 11.34px;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background-color: #8B8B8B;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+
+                .distribuidor {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 100%;
+
+                    .tipos-de-rareza {
+                        width: 32%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 6px;
+
+                        .contenedor {
+                            width: 100%;
+                            background-color: #373737;
+                            height: 38px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            border-radius: 1.2em;
+                            cursor: pointer;
+
+                            .texto {
+                                display: flex;
+                                padding: 0;
+                                margin: 0;
+                                margin-left: 16px;
+
+                                span {
+                                    color: white;
+                                    font-weight: 500;
+                                    font-size: 16.48px;
+                                }
+                            }
+                        }
+
+                        .circle {
+                            margin-right: 6px;
+                            border-radius: 50%;
+                            background-color: #4B4B4B;
+                            height: 28px;
+                            width: 28px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .iconooo {
+                                color: black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .titulo-ilustrador {
+                    margin-top: 12px;
+                    margin-bottom: 6px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+
+                    h6 {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #919191;
+                    }
+                }
+
+                .input-search-ilustrador {
+                    width: 100%;
+
+                    form {
+
+                        input {
+                            padding: 6px 2px 6px 10px;
+                            width: 100%;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .f {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .debilidades {
+                cursor: pointer;
+                background-color: #212121;
+                padding: 2px;
+                border-radius: 1.2em;
+                height: 38px;
+                width: 32%;
+                margin-bottom: 6px;
+                display: flex;
+
+                .icono0-texto {
+                    display: flex;
+                    align-items: center;
+
+                    .ic {
+                        width: 25px;
+                        height: 25px;
+                        background-image: url('/public/img/tipos-pokemon.png');
+                        margin: 0px 10px 0px 6px;
+                    }
+
+                    .texto {
+                        display: flex;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+
+                        p {
+                            margin: 0;
+                            padding: 0;
+                            color: white;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .circulo {
+                    display: flex;
+                    margin-left: auto;
+                    margin-right: 6px;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .cir {
+                        width: 28px;
+                        height: 28px;
+                        border-radius: 50%;
+                        background-color: #4B4B4B;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icon {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contte {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+
+            .contenedor-busqueda-avanzada {
+                width: 875px;
+                margin: 0;
+                background-color: white;
+
+                .contenedor-externo-imagen {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    margin: auto;
+                    margin-top: 40px;
+                }
+
+                .botones-de-card {
+                    height: 84px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -30px;
+                    margin-bottom: 50px;
+
+                    .contenedor {
+                        width: fit-content;
+                        height: 42.4px;
+                        background-color: #30A7D7;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        border-radius: 5px;
+
+                        .numero-pagina {
+                            padding: 11.81px 19.7px 10.63px;
+
+                            span {
+                                color: white;
+                                font-size: 15.6px;
+                                font-weight: 500;
+                            }
+                        }
+
+                        .boton {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            width: 43.4px;
+                            height: 40px;
+
+                            .icono {
+                                color: white;
+                                width: 30px;
+                                height: 30px;
+                            }
+
+                            &:hover {
+                                background-color: #1B82B1;
+                                transition: 0.2s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedor-interno-imagen {
+            margin-bottom: 30px;
+
+            .flex-avanzado {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .img-avanzada {
+
+                    &:hover {
+                        animation: sube-y-vuelve 0.4s ease-in-out forwards;
+
+                        @keyframes sube-y-vuelve {
+                            0% {
+                                transform: translateY(-5px);
+                            }
+
+                            100% {
+                                transform: translateY(0px);
+                            }
+                        }
+
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contenedor-externo-imagen {
+        width: 100%;
+
+        .contenedor-interno-imagen {
+            margin-bottom: 22px !important;
+            width: 42%;
+
+            .img-avanzada {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .buscador-completo {
+        width: 100%;
+        margin: auto;
+
+        .contenedor {
+            width: 100%;
+            margin: auto;
+
+            .contenedor-tipo {
+                padding: 8.84px 14.015px;
+                border-top: 2px solid #A4A4A4;
+                border-bottom: 1px solid #313131;
+            }
+
+            .contenedor-tipo-contenido {
+                // width: 1279px;
+                width: 100%;
+                margin: auto;
+                background-color: #494949;
+
+                .contenedor-interno {
+                    background-color: #494949;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    // width: 875.4px;
+                    // width: 100%;
+                    max-width: 720px;
+                    width: 86%;
+
+                    .texto {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 48px;
+                        padding-top: 14px;
+
+                        p {
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    .input-range {
+                        height: 60px;
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+
+                        .span {
+                            width: 5%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            span {
+                                color: white;
+                                font-weight: 600;
+                                font-size: 20px;
+                            }
+                        }
+
+                        input {
+                            width: 80%;
+                            border: none;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .titulo-rareza {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        margin-bottom: 14px;
+                        width: 100%;
+
+                        button {
+                            font-size: 16.8px;
+                            font-weight: 500;
+                            padding: 12.6px 21px 11.34px;
+                        }
+                    }
+
+                    .distribuidor {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        width: 100%;
+
+                        .tipos-de-rareza {
+                            // width: 32%;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 12px;
+
+                            .contenedor {
+                                width: 100%;
+                                background-color: #373737;
+                                height: 38px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                border-radius: 1.2em;
+                                cursor: pointer;
+
+                                .texto {
+                                    display: flex;
+                                    padding: 0;
+                                    margin: 0;
+                                    margin-left: 16px;
+
+                                    span {
+                                        color: white;
+                                        font-weight: 500;
+                                        font-size: 16.48px;
+                                    }
+                                }
+                            }
+
+                            .circle {
+                                margin-right: 6px;
+                                border-radius: 50%;
+                                background-color: #4B4B4B;
+                                height: 28px;
+                                width: 28px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                .iconooo {
+                                    color: black;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+
+                    .titulo-ilustrador {
+                        margin-top: 12px;
+                        margin-bottom: 6px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+
+                        h6 {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #919191;
+                        }
+                    }
+
+                    .input-search-ilustrador {
+                        width: 100%;
+
+                        form {
+
+                            input {
+                                padding: 6px 2px 6px 10px;
+                                width: 100%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .f {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .debilidades {
+                    cursor: pointer;
+                    background-color: #212121;
+                    padding: 2px;
+                    border-radius: 1.2em;
+                    height: 38px;
+                    display: flex;
+                    // margin-bottom: 6px;
+                    margin-bottom: 12px;
+                    // width: 32%;
+                    width: 100%;
+
+                    .icono0-texto {
+                        display: flex;
+                        align-items: center;
+
+                        .ic {
+                            width: 25px;
+                            height: 25px;
+                            background-image: url('/public/img/tipos-pokemon.png');
+                            margin: 0px 10px 0px 6px;
+                        }
+
+                        .texto {
+                            display: flex;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                color: white;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+
+                    .circulo {
+                        display: flex;
+                        margin-left: auto;
+                        margin-right: 6px;
+                        justify-content: flex-end;
+                        align-items: center;
+
+                        .cir {
+                            width: 28px;
+                            height: 28px;
+                            border-radius: 50%;
+                            background-color: #4B4B4B;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .icon {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedor-busqueda-avanzada {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .botones-de-card {
+            height: 84px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -30px;
+            margin-bottom: 50px;
+
+            .contenedor {
+                width: fit-content;
+                height: 42.4px;
+                background-color: #30A7D7;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 5px;
+
+                .numero-pagina {
+                    padding: 11.81px 19.7px 10.63px;
+
+                    span {
+                        color: white;
+                        font-size: 15.6px;
+                        font-weight: 500;
+                    }
+                }
+
+                .boton {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    width: 43.4px;
+                    height: 40px;
+
+                    .icono {
+                        color: white;
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    &:hover {
+                        background-color: #1B82B1;
+                        transition: 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .contenedor-interno-imagen {
+
+        .flex-avanzado {
+
+            .img-avanzada {
+                width: 208.58px;
+                height: 291.16px;
+            }
+        }
+    }
+}

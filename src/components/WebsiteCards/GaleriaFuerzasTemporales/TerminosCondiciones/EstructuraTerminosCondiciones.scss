@@ -1,0 +1,370 @@
+.contenedor-de-terminos-y-condiciones {
+    background-color: white;
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    max-width: 1279.97px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 5% 0 5%;
+
+    
+    .contenedor-informacion {
+        width: 24%;
+        background-color: white;
+        padding: 36px 0 16px 2%;
+
+        .informacion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background-color: #F2F2F2;
+            cursor: pointer;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            .texto {
+
+                p {
+                    margin: 0;
+                    color: #616161;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .icono {
+
+                .icon {
+                    width: 28px;
+                    height: 28px;
+                }
+
+            }
+
+            &:hover {
+                transition: 0.2 ease-in-out;
+                background-color: #1DAFEA;
+
+                .texto {
+
+                    p {
+                        transition: 0.2 ease-in-out;
+                        color: white;
+                    }
+                }
+
+                .icono {
+
+                    .icon {
+                        transition: 0.2 ease-in-out;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .seccion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background-color: #D9D9D9;
+            border-bottom: 1px solid #32323218;
+            cursor: pointer;
+
+            .texto {
+
+                p {
+                    margin: 0;
+                    color: #616161;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            &:hover {
+                background-color: #1DAFEA;
+
+                .texto {
+
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .contenedor-contenido {
+        width: 76%;
+        background-color: white;
+        padding: 36px 2% 16px 2%;
+
+        .contenedor {
+
+            .titulo {
+                margin-bottom: 28.48px;
+
+                h3 {
+                    color: black;
+                    font-size: 28.48px;
+                }
+            }
+
+            .parrafo {
+                margin: 8px 0 12px 0;
+
+                span {
+                    font-size: 16px;
+                    color: #919191;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #919191;
+                }
+
+                strong {
+                    color: #919191;
+                    font-size: 16px;
+                }
+
+                .celeste {
+                    color: #1b53ba;
+                    font-size: 16px;
+                }
+            }
+
+            .div-de-coppa {
+                margin: 8px 0 14px;
+                width: 100%;
+                display: flex;
+
+                .contenedor-texto {
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+
+                    .texto {
+                        p {
+                            color: #919191;
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .contenedor-imagen {
+                    width: 30%;
+
+                    .img {
+                        img {
+                            width: 146px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .boton-cookies {
+                width: 100%;
+                margin: 8px 0 14px;
+
+                .boton {
+                    border: 2px solid #68b631;
+                    background-color: #F0F0F0;
+                    width: 160px;
+                    height: 37.81px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    p {
+                        color: #68b631;
+                        margin: 0;
+                        font-size: 12.8px;
+                    }
+
+                    &:hover {
+                        background-color: #68B631;
+
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .texto-centrado {
+                text-align: center;
+
+                p {
+                    margin: 0;
+                    font-size: 16px;
+                    color: #919191;
+                }
+            }
+
+            .lista {
+                padding: 8px 8px 8px 40px;
+                margin: 0 0 8px;
+
+                ul {
+                    list-style-type: decimal;
+
+                    li {
+                        margin: 8px 0 12px;
+                        font-size: 16px;
+                        color: #919191;
+
+                        .celeste {
+                            color: #1b53ba;
+                            font-size: 16px;
+                        }
+
+                        .link-celeste {
+                            color: #1b53ba;
+                            font-size: 16px;
+                        }
+
+                        a {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .lista-normal {
+                margin: 0 0 8px;
+                padding: 8px 8px 8px 40px;
+
+                ul {
+                    list-style-type: disc;
+
+                    li {
+                        color: #616161;
+                        font-size: 16px;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .parrafo-aparte {
+                margin: 8px 0 12px 0;
+
+                span {
+                    font-size: 16px;
+                    color: #1b53ba;
+                    font-weight: 500;
+                }
+            }
+
+            .tabla-ajustada {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .contenido {
+                    width: 33.33%;
+                    color: #919191;
+                }
+            }
+
+            .lista-tri {
+                width: 100%;
+                background-color: #D4D4D4;
+                display: flex;
+                border-radius: 5px;
+                margin: 10px 0px;
+                
+                .contenedor {
+                    width: 33.33%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 16px;
+                    
+                    .interior {
+                        strong {
+                            color: #717171;
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                        
+                        span {
+                            color: #717171;
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .ltoscura {
+                background-color: #D4D4D4;
+            }
+
+            .ltclara {
+                background-color: #F1F1F1;
+            }
+
+            .separador-de-texto {
+                width: 100%;
+                margin: 8px 0 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .texto {
+                    width: 50%;
+
+                    p {
+                        text-align: center;
+                        color: #919191;
+                        margin: 0;
+                        font-size: 16px
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 959px) {
+    .contenedor-de-terminos-y-condiciones {
+        padding-top: 0px;
+        flex-direction: column;
+
+        .contenedor-informacion {
+            width: 100%;
+            padding: 24px 5% 16px 5%;
+        }
+
+        .contenedor-contenido {
+            width: 100%;
+            padding: 24px 5% 16px 5%;
+        }
+    }
+}
+
+@media(max-width: 459px) {
+    .contenedor-de-terminos-y-condiciones {
+        padding-top: 0px;
+        flex-direction: column;
+        padding: 0px 0 0 0;
+
+        .contenedor-informacion {
+            width: 100%;
+            padding: 24px 5% 16px 5%;
+        }
+
+        .contenedor-contenido {
+            width: 100%;
+            padding: 24px 5% 16px 5%;
+        }
+    }
+}

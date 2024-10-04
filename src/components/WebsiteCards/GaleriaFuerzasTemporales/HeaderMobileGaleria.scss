@@ -1,0 +1,141 @@
+.header-mobile-galeria {
+    width: 100%;
+    margin: auto;
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .cont-principal {
+            width: 450px;
+            margin: auto;
+            height: 65px;
+            background-color: #E4E2E2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+
+            .contenedor-texto-icon {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 24px 12px 24px 24px;
+                width: 100%;
+
+                .texto {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        margin: 0;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: black;
+                        letter-spacing: 1px;
+                        line-height: 1;
+                    }
+                }
+
+                .contenedor-boton {
+                    width: 40px;
+                    height: 40px;
+                    background-color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+
+                    .boton {
+
+                        .icon {
+                            color: white;
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cont-secundario {
+            width: 450px;
+            margin: auto;
+            height: 28px;
+            background-color: #E4E2E2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .contenedor-texto-icon {
+
+                .texto {
+                    padding: 0 24px;
+
+                    p {
+                        margin: 0;
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            &:hover{
+                background-color: blue;
+
+                .texto{
+
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 639px) {
+    .header-mobile-galeria{
+        .contenedor{
+
+            .cont-principal{
+
+                .contenedor-texto-icon{
+
+                    .texto{
+
+                        p{
+                            font-size: 12.8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header-mobile-galeria{
+        .contenedor{
+
+            .cont-principal{
+                width: 93%;
+            }
+            
+            .cont-secundario{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-mobile-galeria{
+        display: none;
+    }
+}
