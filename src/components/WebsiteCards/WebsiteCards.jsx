@@ -44,7 +44,7 @@ export default function WebsiteCards() {
                         <div className="contenedor-de-cartas-destacadas">
                             <div className="contenedor-de-carta">
                                 <div className="img">
-                                    <img src="/public/img/carta-destacada-uno.png" alt="Ondulagua ex" onClick={() => setAgrandarImagen('/public/img/carta-destacada-uno.png')} />
+                                    <img src="/img/carta-destacada-uno.png" alt="Ondulagua ex" onClick={() => setAgrandarImagen('/img/carta-destacada-uno.png')} />
                                 </div>
                                 <div className="boton">
                                     <div className="contenedor-boton">
@@ -56,7 +56,7 @@ export default function WebsiteCards() {
                         <div className="contenedor-de-cartas-destacadas">
                             <div className="contenedor-de-carta">
                                 <div className="img">
-                                    <img src="/public/img/carta-destacada-dos.png" alt="Ferroverdor ex" onClick={() => setAgrandarImagen('/public/img/carta-destacada-dos.png')} />
+                                    <img src="/img/carta-destacada-dos.png" alt="Ferroverdor ex" onClick={() => setAgrandarImagen('/img/carta-destacada-dos.png')} />
                                 </div>
                                 <div className="boton">
                                     <div className="contenedor-boton">
@@ -68,7 +68,7 @@ export default function WebsiteCards() {
                         <div className="contenedor-de-cartas-destacadas">
                             <div className="contenedor-de-carta">
                                 <div className="img">
-                                    <img src="/public/img/carta-destacada-tres.png" alt="Electrofuria ex" onClick={() => setAgrandarImagen('/public/img/carta-destacada-tres.png')} />
+                                    <img src="/img/carta-destacada-tres.png" alt="Electrofuria ex" onClick={() => setAgrandarImagen('/img/carta-destacada-tres.png')} />
                                 </div>
                                 <div className="boton">
                                     <div className="contenedor-boton">
@@ -80,7 +80,7 @@ export default function WebsiteCards() {
                         <div className="contenedor-de-cartas-destacadas">
                             <div className="contenedor-de-carta">
                                 <div className="img">
-                                    <img src="/public/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" onClick={() => setAgrandarImagen('/public/img/carta-destacada-cuatro.png')} />
+                                    <img src="/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" onClick={() => setAgrandarImagen('/img/carta-destacada-cuatro.png')} />
                                 </div>
                                 <div className="boton">
                                     <div className="contenedor-boton">
@@ -104,25 +104,25 @@ export default function WebsiteCards() {
                 <div className="contenedor">
                     <div className="parte-superior p-s-uno">
                         <div className="img-lateral img-lateral-inferior">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                         </div>
                         <div className="acomodador-borde">
                             <div className="img" style={{ backgroundColor: "white" }}>
-                                <img src="/public/img/borde-galeria.png" alt="Borde" style={{ rotate: "180deg" }} />
+                                <img src="/img/borde-galeria.png" alt="Borde" style={{ rotate: "180deg" }} />
                             </div>
                         </div>
                         <div className="img-lateral img-lateral-inferior">
-                            <img src="/public/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
+                            <img src="/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
                         </div>
                     </div>
                     <div className="contenedor">
                         <div className="contenido-galeria">
                             <div className="pack-cartas">
                                 <div className="img rotacion-uno">
-                                    <img src="/public/img/galeria-farigiraf.png" alt="Carta de Farigiraf ex" onClick={() => setAgrandarImagen('/public/img/galeria-farigiraf.png')} />
+                                    <img src="/img/galeria-farigiraf.png" alt="Carta de Farigiraf ex" onClick={() => setAgrandarImagen('/img/galeria-farigiraf.png')} />
                                 </div>
                                 <div className="img rotacion-dos">
-                                    <img src="/public/img/galeria-morti.png" alt="Carta de Conviccion de Morti" onClick={() => setAgrandarImagen('/public/img/galeria-morti.png')} />
+                                    <img src="/img/galeria-morti.png" alt="Carta de Conviccion de Morti" onClick={() => setAgrandarImagen('/img/galeria-morti.png')} />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -142,10 +142,10 @@ export default function WebsiteCards() {
                             </div>
                             <div className="pack-cartas">
                                 <div className="img rotacion-tres">
-                                    <img src="/public/img/galeria-colagrito.png" alt="Carta de Colagrito" onClick={() => setAgrandarImagen('/public/img/galeria-colagrito.png')} />
+                                    <img src="/img/galeria-colagrito.png" alt="Carta de Colagrito" onClick={() => setAgrandarImagen('/img/galeria-colagrito.png')} />
                                 </div>
                                 <div className="img rotacion-cuatro">
-                                    <img src="/public/img/galeria-relicanth.png" alt="Carta de Relicanth" onClick={() => setAgrandarImagen('/public/img/galeria-relicanth.png')} />
+                                    <img src="/img/galeria-relicanth.png" alt="Carta de Relicanth" onClick={() => setAgrandarImagen('/img/galeria-relicanth.png')} />
                                 </div>
                             </div>
                         </div>
@@ -153,15 +153,15 @@ export default function WebsiteCards() {
                     <GaleriaCartas />
                     <div className="parte-superior p-s-dos">
                         <div className="img-lateral">
-                            <img src="/public/img/galeria-borde-inferior-izquierdo.png" alt=" Borde inferior derecho" />
+                            <img src="/img/galeria-borde-inferior-izquierdo.png" alt=" Borde inferior derecho" />
                         </div>
                         <div className="acomodador-borde">
                             <div className="img">
-                                <img src="/public/img/borde-galeria.png" alt="Borde" />
+                                <img src="/img/borde-galeria.png" alt="Borde" />
                             </div>
                         </div>
                         <div className="img-lateral">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                         </div>
                     </div>
                 </div>
@@ -176,13 +176,13 @@ export default function WebsiteCards() {
                         <div className="card">
                             <div className="imagenes">
                                 <div className="img-ilustrativa">
-                                    <img src="/public/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
+                                    <img src="/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
                                 </div>
                                 <div className="img-producto">
-                                    <img src="/public/img/producto-destacado-uno.png" alt="Caja de Entrenador Elite" />
+                                    <img src="/img/producto-destacado-uno.png" alt="Caja de Entrenador Elite" />
                                 </div>
                                 <div className="img-ilustrativa d-flex justify-content-end">
-                                    <img src="/public/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
+                                    <img src="/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -204,13 +204,13 @@ export default function WebsiteCards() {
                         <div className="card">
                             <div className="imagenes">
                                 <div className="img-ilustrativa">
-                                    <img src="/public/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
+                                    <img src="/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
                                 </div>
                                 <div className="img-producto">
-                                    <img src="/public/img/producto-destacado-dos.png" alt="Caja de Combina y Combate" />
+                                    <img src="/img/producto-destacado-dos.png" alt="Caja de Combina y Combate" />
                                 </div>
                                 <div className="img-ilustrativa d-flex justify-content-end">
-                                    <img src="/public/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
+                                    <img src="/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -232,13 +232,13 @@ export default function WebsiteCards() {
                         <div className="card">
                             <div className="imagenes">
                                 <div className="img-ilustrativa">
-                                    <img src="/public/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
+                                    <img src="/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
                                 </div>
                                 <div className="img-producto">
-                                    <img src="/public/img/producto-destacado-tres.png" alt="Caja de paquetes de mejora" />
+                                    <img src="/img/producto-destacado-tres.png" alt="Caja de paquetes de mejora" />
                                 </div>
                                 <div className="img-ilustrativa d-flex justify-content-end">
-                                    <img src="/public/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
+                                    <img src="/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -260,13 +260,13 @@ export default function WebsiteCards() {
                         <div className="card">
                             <div className="imagenes">
                                 <div className="img-ilustrativa">
-                                    <img src="/public/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
+                                    <img src="/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
                                 </div>
                                 <div className="img-producto">
-                                    <img src="/public/img/producto-destacado-cuatro.png" alt="Caja de Expositor de paquetes" />
+                                    <img src="/img/producto-destacado-cuatro.png" alt="Caja de Expositor de paquetes" />
                                 </div>
                                 <div className="img-ilustrativa d-flex justify-content-end">
-                                    <img src="/public/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
+                                    <img src="/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -288,13 +288,13 @@ export default function WebsiteCards() {
                         <div className="card">
                             <div className="imagenes">
                                 <div className="img-ilustrativa">
-                                    <img src="/public/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
+                                    <img src="/img/borde-violeta.png" alt="Imagen ilustrativa violeta" />
                                 </div>
                                 <div className="img-producto">
-                                    <img src="/public/img/producto-destacado-cinco.png" alt="Caja de Entrenador Elite" />
+                                    <img src="/img/producto-destacado-cinco.png" alt="Caja de Entrenador Elite" />
                                 </div>
                                 <div className="img-ilustrativa d-flex justify-content-end">
-                                    <img src="/public/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
+                                    <img src="/img/borde-bordo.png" alt="Imagen ilustrativa bordo" />
                                 </div>
                             </div>
                             <div className="contenido">
@@ -322,15 +322,15 @@ export default function WebsiteCards() {
                 <div className="contenedor">
                     <div className="parte-superior p-s-uno parte-superior-borde-novedades" style={{ display: "none" }}>
                         <div className="img-lateral img-lateral-inferior">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                         </div>
                         <div className="acomodador-borde">
                             <div className="img" style={{ backgroundColor: "white" }}>
-                                <img src="/public/img/borde-galeria.png" alt="Borde" style={{ rotate: "180deg" }} />
+                                <img src="/img/borde-galeria.png" alt="Borde" style={{ rotate: "180deg" }} />
                             </div>
                         </div>
                         <div className="img-lateral img-lateral-inferior">
-                            <img src="/public/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
+                            <img src="/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
                         </div>
                     </div>
 
@@ -358,32 +358,32 @@ export default function WebsiteCards() {
                                 </div>
                                 <div className="cartas">
                                     <div className="img">
-                                        <img src="/public/img/tambores-del-despertar.png" alt="Tambores del Despertar" onClick={() => setAgrandarImagen("/public/img/tambores-del-despertar.png")} />
+                                        <img src="/img/tambores-del-despertar.png" alt="Tambores del Despertar" onClick={() => setAgrandarImagen("/img/tambores-del-despertar.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/capsula-reinicio.png" alt="Capsula Reinicio" onClick={() => setAgrandarImagen("/public/img/capsula-reinicio.png")} />
+                                        <img src="/img/capsula-reinicio.png" alt="Capsula Reinicio" onClick={() => setAgrandarImagen("/img/capsula-reinicio.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/capturador-supremo.png" alt="Capturador Supremo" onClick={() => setAgrandarImagen("/public/img/capturador-supremo.png")} />
+                                        <img src="/img/capturador-supremo.png" alt="Capturador Supremo" onClick={() => setAgrandarImagen("/img/capturador-supremo.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/master-ball.png" alt="Master Ball" onClick={() => setAgrandarImagen("/public/img/master-ball.png")} />
+                                        <img src="/img/master-ball.png" alt="Master Ball" onClick={() => setAgrandarImagen("/img/master-ball.png")} />
                                     </div>
                                 </div>
                             </div>
                             <div className="contenedor-descripcion-cartas">
                                 <div className="cartas">
                                     <div className="img">
-                                        <img src="/public/img/flamariete-ex.png" alt="Flamariete ex" onClick={() => setAgrandarImagen("/public/img/flamariete-ex.png")} />
+                                        <img src="/img/flamariete-ex.png" alt="Flamariete ex" onClick={() => setAgrandarImagen("/img/flamariete-ex.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/flamariete-ex-dos.png" alt="Flamariete ex" onClick={() => setAgrandarImagen("/public/img/flamariete-ex-dos.png")} />
+                                        <img src="/img/flamariete-ex-dos.png" alt="Flamariete ex" onClick={() => setAgrandarImagen("/img/flamariete-ex-dos.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/ferromole-ex.png" alt="Ferromole ex" onClick={() => setAgrandarImagen("/public/img/ferromole-ex.png")} />
+                                        <img src="/img/ferromole-ex.png" alt="Ferromole ex" onClick={() => setAgrandarImagen("/img/ferromole-ex.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/ferromole-ex-dos.png" alt="Ferromole ex" onClick={() => setAgrandarImagen("/public/img/ferromole-ex-dos.png")} />
+                                        <img src="/img/ferromole-ex-dos.png" alt="Ferromole ex" onClick={() => setAgrandarImagen("/img/ferromole-ex-dos.png")} />
                                     </div>
                                 </div>
                                 <div className="descripcion">
@@ -406,32 +406,32 @@ export default function WebsiteCards() {
                                 </div>
                                 <div className="cartas">
                                     <div className="img">
-                                        <img src="/public/img/gastly.png" alt="Gastly" onClick={() => setAgrandarImagen("/public/img/gastly.png")} />
+                                        <img src="/img/gastly.png" alt="Gastly" onClick={() => setAgrandarImagen("/img/gastly.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/grotle.png" alt="Grotle" onClick={() => setAgrandarImagen("/public/img/grotle.png")} />
+                                        <img src="/img/grotle.png" alt="Grotle" onClick={() => setAgrandarImagen("/img/grotle.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/minccino-ex.png" alt="Minccino" onClick={() => setAgrandarImagen("/public/img/minccino-ex.png")} />
+                                        <img src="/img/minccino-ex.png" alt="Minccino" onClick={() => setAgrandarImagen("/img/minccino-ex.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/cinccino.png" alt="Cinccino" onClick={() => setAgrandarImagen("/public/img/cinccino.png")} />
+                                        <img src="/img/cinccino.png" alt="Cinccino" onClick={() => setAgrandarImagen("/img/cinccino.png")} />
                                     </div>
                                 </div>
                             </div>
                             <div className="contenedor-descripcion-cartas">
                                 <div className="cartas">
                                     <div className="img">
-                                        <img src="/public/img/miraidon-carta.png" alt="Miraidon" onClick={() => setAgrandarImagen("/public/img/miraidon-carta.png")} />
+                                        <img src="/img/miraidon-carta.png" alt="Miraidon" onClick={() => setAgrandarImagen("/img/miraidon-carta.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/koraidon-cart.png" alt="Koraidon" onClick={() => setAgrandarImagen("/public/img/koraidon-cart.png")} />
+                                        <img src="/img/koraidon-cart.png" alt="Koraidon" onClick={() => setAgrandarImagen("/img/koraidon-cart.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/colmilargo.png" alt="Colmilargo" onClick={() => setAgrandarImagen("/public/img/colmilargo.png")} />
+                                        <img src="/img/colmilargo.png" alt="Colmilargo" onClick={() => setAgrandarImagen("/img/colmilargo.png")} />
                                     </div>
                                     <div className="img">
-                                        <img src="/public/img/ferroverdor.png" alt="Ferroverdor ex" onClick={() => setAgrandarImagen("/public/img/ferroverdor.png")} />
+                                        <img src="/img/ferroverdor.png" alt="Ferroverdor ex" onClick={() => setAgrandarImagen("/img/ferroverdor.png")} />
                                     </div>
                                 </div>
                                 <div className="descripcion">
@@ -447,18 +447,17 @@ export default function WebsiteCards() {
                     </div>
 
                     <div className="parte-superior p-s-dos parte-superior-borde-novedades"
-                        // style={{ marginBottom: '-144px', display: 'none' }}  >
                         style={{ display: 'none' }}  >
                         <div className="img-lateral">
-                            <img src="/public/img/galeria-borde-inferior-izquierdo.png" alt=" Borde inferior derecho" />
+                            <img src="/img/galeria-borde-inferior-izquierdo.png" alt=" Borde inferior derecho" />
                         </div>
                         <div className="acomodador-borde">
                             <div className="img">
-                                <img src="/public/img/borde-galeria.png" alt="Borde" />
+                                <img src="/img/borde-galeria.png" alt="Borde" />
                             </div>
                         </div>
                         <div className="img-lateral">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                         </div>
                     </div>
                 </div>
@@ -479,10 +478,10 @@ export default function WebsiteCards() {
                     <div className="imagenes-contenedor">
                         <div className="imagenes">
                             <div className="img">
-                                <img src="/public/img/pokemon-protagonista-uno.png" alt="Deerling" onClick={() => setAgrandarImagen('/public/img/pokemon-protagonista-uno.png')} />
+                                <img src="/img/pokemon-protagonista-uno.png" alt="Deerling" onClick={() => setAgrandarImagen('/img/pokemon-protagonista-uno.png')} />
                             </div>
                             <div className="img">
-                                <img src="/public/img/pokemon-protagonista-dos.png" alt="Sawsbuck" onClick={() => setAgrandarImagen('/public/img/pokemon-protagonista-dos.png')} />
+                                <img src="/img/pokemon-protagonista-dos.png" alt="Sawsbuck" onClick={() => setAgrandarImagen('/img/pokemon-protagonista-dos.png')} />
                             </div>
                         </div>
                     </div>
@@ -499,13 +498,13 @@ export default function WebsiteCards() {
                     <div className="imagenes-contenedor tres-imagenes">
                         <div className="imagenes">
                             <div className="img">
-                                <img src="/public/img/excadrill.png" alt="Excadrill" onClick={() => setAgrandarImagen('/public/img/excadrill.png')} />
+                                <img src="/img/excadrill.png" alt="Excadrill" onClick={() => setAgrandarImagen('/img/excadrill.png')} />
                             </div>
                             <div className="img">
-                                <img src="/public/img/metagross.png" alt="Metagross" onClick={() => setAgrandarImagen('/public/img/metagross.png')} />
+                                <img src="/img/metagross.png" alt="Metagross" onClick={() => setAgrandarImagen('/img/metagross.png')} />
                             </div>
                             <div className="img">
-                                <img src="/public/img/mudsdale.png" alt="Mudsdale" onClick={() => setAgrandarImagen('/public/img/mudsdale.png')} />
+                                <img src="/img/mudsdale.png" alt="Mudsdale" onClick={() => setAgrandarImagen('/img/mudsdale.png')} />
                             </div>
                         </div>
                     </div>
@@ -535,7 +534,7 @@ export default function WebsiteCards() {
                     <div className="contenedor-cards">
                         <div className="card">
                             <div className="img">
-                                <img src="/public/img/fondo-uno.jpg" alt="Fondo de pantalla" />
+                                <img src="/img/fondo-uno.jpg" alt="Fondo de pantalla" />
                             </div>
                             <div className="contenido">
                                 <div className="texto">
@@ -561,7 +560,7 @@ export default function WebsiteCards() {
                         </div>
                         <div className="card">
                             <div className="img">
-                                <img src="/public/img/fondo-dos.jpg" alt="Fondo de pantalla" />
+                                <img src="/img/fondo-dos.jpg" alt="Fondo de pantalla" />
                             </div>
                             <div className="contenido">
                                 <div className="texto">
@@ -587,7 +586,7 @@ export default function WebsiteCards() {
                         </div>
                         <div className="card">
                             <div className="img">
-                                <img src="/public/img/fondo-tres.jpg" alt="Fondo de pantalla" />
+                                <img src="/img/fondo-tres.jpg" alt="Fondo de pantalla" />
                             </div>
                             <div className="contenido">
                                 <div className="texto">
@@ -613,7 +612,7 @@ export default function WebsiteCards() {
                         </div>
                         <div className="card">
                             <div className="img">
-                                <img src="/public/img/fondo-cuatro.jpg" alt="Fondo de pantalla" />
+                                <img src="/img/fondo-cuatro.jpg" alt="Fondo de pantalla" />
                             </div>
                             <div className="contenido">
                                 <div className="texto">
@@ -647,17 +646,17 @@ export default function WebsiteCards() {
                     <div className="contenido">
                         <div className="imagenes">
                             <div className="img imagen-uno">
-                                <img src="/public/img/pokemon-live-footer.png" alt="Pokemon Live" />
+                                <img src="/img/pokemon-live-footer.png" alt="Pokemon Live" />
                             </div>
                             <div className="img imagen-dos">
-                                <img src="/public/img/consola.png" alt="Consola Nintendo" />
+                                <img src="/img/consola.png" alt="Consola Nintendo" />
                             </div>
                             <div className="dos-images">
                                 <div className="img">
-                                    <img src="/public/img/avatar-uno.png" alt="Avatar 1" />
+                                    <img src="/img/avatar-uno.png" alt="Avatar 1" />
                                 </div>
                                 <div className="img">
-                                    <img src="/public/img/avatar-dos.png" alt="Avatar 2" />
+                                    <img src="/img/avatar-dos.png" alt="Avatar 2" />
                                 </div>
                             </div>
                         </div>

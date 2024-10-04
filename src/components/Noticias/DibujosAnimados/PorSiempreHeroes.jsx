@@ -6,7 +6,7 @@ export default function PorSiempreHeroes() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/dibujo-seis.png" />
+            <PresentacionInicio imagen="/img/dibujo-seis.png" />
 
             <StructureSeccions
 

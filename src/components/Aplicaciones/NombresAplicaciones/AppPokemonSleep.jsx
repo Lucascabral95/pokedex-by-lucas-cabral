@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp.jsx";
-
 
 export default function AppPokemonSleep() {
   return (
@@ -35,7 +33,7 @@ export default function AppPokemonSleep() {
               <div className="linea-azul"></div>
             </div>
             <div className="app-img">
-              <img src="/public/img/pokemon-go-plus.jpg" alt="Pokemon Go Plus" />
+              <img src="/img/pokemon-go-plus.jpg" alt="Pokemon Go Plus" />
             </div>
             <div className="parrafo">
               <p className="texto-normal">Investigar el sueño de los Pokémon será mucho más fácil con el accesorio Pokémon GO Plus +, con el que podrás registrar tu sueño con sólo pulsar un botón. Pokémon GO Plus + utiliza la tecnología Bluetooth de baja energía para conectarse con Pokémon Sleep. Cuando llegue la hora de irte a la cama, mantén pulsado el botón central del accesorio, colócalo al lado de tu almohada y vete a dormir. Además de ayudarte a registrar tu sueño, gracias a Pokémon GO Plus +, Pikachu puede avisarte cuando sea la hora de despertarte o de irte a dormir.</p>
@@ -49,9 +47,9 @@ export default function AppPokemonSleep() {
           </>
         }
 
-        imagen="/public/img/app-dos.jpg"
+        imagen="/img/app-dos.jpg"
 
-        imagenLogo="/public/img/pokemon-sleep-logo.png"
+        imagenLogo="/img/pokemon-sleep-logo.png"
         cuerpoLogo={
           <>
             <p>Genero: <strong>Seguimiento del sueño</strong></p>

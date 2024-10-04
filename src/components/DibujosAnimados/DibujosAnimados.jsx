@@ -7,7 +7,7 @@ export default function DibujosAnimados() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/dibujo-diez.png" />
+            <PresentacionInicio imagen="/img/dibujo-diez.png" />
 
             <StructureSeccions
 
@@ -27,7 +27,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.netflix.com/ar/" target="_blank">
                                     <Link to="/">
                                         <div className="img-img">
-                                            <img src="/public/img/netflix.png" alt="Netflix" />
+                                            <img src="/img/netflix.png" alt="Netflix" />
                                         </div>
                                     </Link>
                                 </a>
@@ -36,7 +36,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.primevideo.com/?ref_=sd_allcat_apv" target="_blank">
                                     <Link to="/">
                                         <div className="img-img">
-                                            <img src="/public/img/primevideo.png" alt="Prime Video" />
+                                            <img src="/img/primevideo.png" alt="Prime Video" />
                                         </div>
                                     </Link>
                                 </a>
@@ -45,7 +45,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.roku.com/es-mx/" target="_blank">
                                     <Link to="">
                                         <div className="img-img">
-                                            <img src="/public/img/roku.png" alt="The Roku Channel" />
+                                            <img src="/img/roku.png" alt="The Roku Channel" />
                                         </div>
                                     </Link>
                                 </a>
@@ -54,7 +54,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.youtube.com/playlist?list=PLfU52v5ZmY_591DFVDVwvqZavje4D-07g" target="_blank">
                                     <Link to="/">
                                         <div className="img-img">
-                                            <img src="/public/img/youtube.png" alt="Youtube" />
+                                            <img src="/img/youtube.png" alt="Youtube" />
                                         </div>
                                     </Link>
                                 </a>
@@ -66,7 +66,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.amazon.com/gp/video/storefront/ref=sxts_1_0_7afea99e-eb2e-4566-8436-75b72ba9b801?ie=UTF8&benefitId=vdppokuspdzypnep15k&pd_rd_w=B9JSI&content-id=amzn1.sym.7afea99e-eb2e-4566-8436-75b72ba9b801:amzn1.sym.7afea99e-eb2e-4566-8436-75b72ba9b801&pf_rd_p=7afea99e-eb2e-4566-8436-75b72ba9b801&pf_rd_r=D9D7HGR7J2WNFNZXT1F4&pd_rd_wg=yBxML&pd_rd_r=304a8f19-2f2f-4269-b372-6af7ea059975&qid=1692808164" target="_blank">
                                     <Link to="">
                                         <div className="img-img">
-                                            <img src="/public/img/amazon.png" alt="Amazon" />
+                                            <img src="/img/amazon.png" alt="Amazon" />
                                         </div>
                                     </Link>
                                 </a>
@@ -75,7 +75,7 @@ export default function DibujosAnimados() {
                                 <a href="https://www.apple.com/mx/itunes/" target="_blank">
                                     <Link to="/">
                                         <div className="img-img">
-                                            <img src="/public/img/itunesstore.png" alt="iTunes Store" />
+                                            <img src="/img/itunesstore.png" alt="iTunes Store" />
                                         </div>
                                     </Link>
                                 </a>
@@ -84,7 +84,7 @@ export default function DibujosAnimados() {
                                 <a href="https://play.google.com/store/movies" target="_blank">
                                     <Link to="/">
                                         <div className="img-img">
-                                            <img src="/public/img/googleplay.png" alt="Google Play" />
+                                            <img src="/img/googleplay.png" alt="Google Play" />
                                         </div>
                                     </Link>
                                 </a>

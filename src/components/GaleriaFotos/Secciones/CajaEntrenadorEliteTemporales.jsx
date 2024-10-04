@@ -6,7 +6,7 @@ export default function CajaEntrenadorEliteTemporales() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/galeria-cartas-cinco.png"} />
+            <PresentacionInicio imagen={"/img/galeria-cartas-cinco.png"} />
 
             <StructureSeccions
 

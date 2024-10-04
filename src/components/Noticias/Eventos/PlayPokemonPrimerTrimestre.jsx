@@ -6,7 +6,7 @@ export default function PlayPokemonPrimerTrimestre() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-uno.png" />
+            <PresentacionInicio imagen="/img/evento-uno.png" />
 
             <StructureSeccions
 

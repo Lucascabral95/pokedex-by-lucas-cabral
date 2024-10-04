@@ -8,10 +8,10 @@ export default function GaleriaCartas() {
 
                     <div className="cartas cartas-uno">
                         <div className="img imagen-uno">
-                            <img src="/public/img/galeria-farigiraf.png" alt="Carta de Farigiraf ex" />
+                            <img src="/img/galeria-farigiraf.png" alt="Carta de Farigiraf ex" />
                         </div>
                         <div className="img imagen-dos">
-                            <img src="/public/img/galeria-morti.png" alt="Carta de Conviccion de Morti" />
+                            <img src="/img/galeria-morti.png" alt="Carta de Conviccion de Morti" />
                         </div>
                     </div>
 
@@ -31,10 +31,10 @@ export default function GaleriaCartas() {
 
                     <div className="cartas cartas-dos">
                         <div className="img imagen-tres">
-                            <img src="/public/img/galeria-colagrito.png" alt="Carta de Colagrito" />
+                            <img src="/img/galeria-colagrito.png" alt="Carta de Colagrito" />
                         </div>
                         <div className="img imagen-cuatro">
-                            <img src="/public/img/galeria-relicanth.png" alt="Carta de Relicanth" />
+                            <img src="/img/galeria-relicanth.png" alt="Carta de Relicanth" />
                         </div>
                     </div>
 

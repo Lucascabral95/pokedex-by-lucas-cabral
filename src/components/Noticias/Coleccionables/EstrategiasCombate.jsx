@@ -6,7 +6,7 @@ export default function EstrategiasCombate() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/cartas-live.png" />
+            <PresentacionInicio imagen="/img/cartas-live.png" />
 
             <StructureSeccions
 
@@ -65,7 +65,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-54">
                                 <div className="im-im" >
-                                    <img src="/public/img/charizardex.png" alt="charizardex" />
+                                    <img src="/img/charizardex.png" alt="charizardex" />
                                 </div>
                             </Link>
                         </div>
@@ -294,7 +294,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv2-61">
                                 <div className="im-im" >
-                                    <img src="/public/img/chiend-pao.png" alt="Chiend Pao" />
+                                    <img src="/img/chiend-pao.png" alt="Chiend Pao" />
                                 </div>
                             </Link>
                         </div>
@@ -528,7 +528,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4-139">
                                 <div className="im-im" >
-                                    <img src="/public/img/gholdengo.png" alt="Gholdengo" />
+                                    <img src="/img/gholdengo.png" alt="Gholdengo" />
                                 </div>
                             </Link>
                         </div>
@@ -743,7 +743,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/swsh11-131">
                                 <div className="im-im" >
-                                    <img src="/public/img/giratina.png" alt="Giratina V-ASTRO" />
+                                    <img src="/img/giratina.png" alt="Giratina V-ASTRO" />
                                 </div>
                             </Link>
                         </div>
@@ -936,7 +936,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/swshp-SWSH298">
                                 <div className="im-im" >
-                                    <img src="/public/img/zoroark.png" alt="Zoroark V-ASTRO" />
+                                    <img src="/img/zoroark.png" alt="Zoroark V-ASTRO" />
                                 </div>
                             </Link>
                         </div>
@@ -1137,7 +1137,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="//card/detail/swsh12-139">
                             <div className="im-im" >
-                                <img src="/public/img/lugia.png" alt="Lugia V-ASTRO" />
+                                <img src="/img/lugia.png" alt="Lugia V-ASTRO" />
                             </div>
                             </Link>
                         </div>
@@ -1352,7 +1352,7 @@ export default function EstrategiasCombate() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4-58">
                                 <div className="im-im" >
-                                    <img src="/public/img/mewtwoex.png" alt="Mewtwo ex" />
+                                    <img src="/img/mewtwoex.png" alt="Mewtwo ex" />
                                 </div>
                             </Link>
                         </div>
@@ -1580,7 +1580,7 @@ export default function EstrategiasCombate() {
                         </div>
                         <div className="carta-encapsulada">
                             <div className="im-im" >
-                                <img src="/public/img/bramalunaex.png" alt="Bramaluna ex" />
+                                <img src="/img/bramalunaex.png" alt="Bramaluna ex" />
                             </div>
                         </div>
 

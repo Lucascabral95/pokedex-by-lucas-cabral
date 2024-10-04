@@ -6,7 +6,7 @@ export default function JCCPokemon() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-seis.png" />
+            <PresentacionInicio imagen="/img/evento-seis.png" />
 
             <StructureSeccions
 
@@ -31,7 +31,7 @@ export default function JCCPokemon() {
                         </div>
                         <div className="carta-encapsulada">
                             <div className="im-im" >
-                                <img src="/public/img/battle-vip-pass.png" alt="Battle VIP Pass" />
+                                <img src="/img/battle-vip-pass.png" alt="Battle VIP Pass" />
                             </div>
                         </div>
                         <div className="parrafo">

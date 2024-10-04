@@ -44,7 +44,7 @@ export default function StructureApp(props) {
                         {props.cuerpoGooglePlay &&
                             <div className="contenedor-google-play">
                                 <div className="img-img">
-                                    <img src="/public/img/google-play.jpg" alt="Google Play" />
+                                    <img src="/img/google-play.jpg" alt="Google Play" />
                                 </div>
                                 <div className="contenido">
                                     {props.cuerpoGooglePlay &&
@@ -58,7 +58,7 @@ export default function StructureApp(props) {
                         {props.cuerpoAppStore &&
                             <div className="contenedor-google-play">
                                 <div className="img-img">
-                                    <img src="/public/img/app-store.jpg" alt="App Store" />
+                                    <img src="/img/app-store.jpg" alt="App Store" />
                                 </div>
                                 <div className="contenido">
                                     {props.cuerpoAppStore &&
@@ -72,7 +72,7 @@ export default function StructureApp(props) {
                         {props.cuerpoNintendoSwitch &&
                             <div className="contenedor-google-play">
                                 <div className="img-img">
-                                    <img src="/public/img/nintendo-switch.jpg" alt="Nintendo Switch" />
+                                    <img src="/img/nintendo-switch.jpg" alt="Nintendo Switch" />
                                 </div>
                                 <div className="contenido">
                                     {props.cuerpoNintendoSwitch &&
@@ -86,7 +86,7 @@ export default function StructureApp(props) {
                         {props.cuerpoAmazon &&
                             <div className="contenedor-google-play">
                                 <div className="img-img">
-                                    <img src="/public/img/amazon-amazon.jpg" alt="Amazon Store" />
+                                    <img src="/img/amazon-amazon.jpg" alt="Amazon Store" />
                                 </div>
                                 <div className="contenido">
                                     {props.cuerpoAmazon &&

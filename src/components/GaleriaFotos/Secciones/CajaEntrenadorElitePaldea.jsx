@@ -6,7 +6,7 @@ export default function CajaEntrenadorElitePaldea() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-catorce.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-catorce.png'} />
 
             <StructureSeccions
 

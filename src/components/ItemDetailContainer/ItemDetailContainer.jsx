@@ -465,7 +465,7 @@ export default function ItemDetailContainer() {
                         <div className="img-img img-izquierda" style={{ backgroundColor: botonSeleccionado.izquierda ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }}
                             onMouseOver={() => setBotonSeleccionado({ ...botonSeleccionado, izquierda: true })} onMouseOut={() => setBotonSeleccionado({ ...botonSeleccionado, izquierda: false })}
                             onClick={() => cambiarDePokemon('anterior')}>
-                            <img style={{ backgroundColor: botonSeleccionado.izquierda ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }} src="/public/img/curva-pokedex-izquierda.png" alt="Recodo Pokedex"
+                            <img style={{ backgroundColor: botonSeleccionado.izquierda ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }} src="/img/curva-pokedex-izquierda.png" alt="Recodo Pokedex"
                                 onMouseOver={() => setBotonSeleccionado({ ...botonSeleccionado, izquierda: true })} onMouseOut={() => setBotonSeleccionado({ ...botonSeleccionado, izquierda: false })}
                                 onClick={() => cambiarDePokemon('anterior')} />
                         </div>
@@ -487,7 +487,7 @@ export default function ItemDetailContainer() {
                         <div className="img-img img-derecha" style={{ backgroundColor: botonSeleccionado.derecha ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }}
                             onMouseOver={() => setBotonSeleccionado({ ...botonSeleccionado, derecha: true })} onMouseOut={() => setBotonSeleccionado({ ...botonSeleccionado, derecha: false })}
                             onClick={() => cambiarDePokemon('siguiente')}>
-                            <img src="/public/img/curva-pokedex-derecha.png" alt="Recodo Pokedex" style={{ backgroundColor: botonSeleccionado.derecha ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }}
+                            <img src="/img/curva-pokedex-derecha.png" alt="Recodo Pokedex" style={{ backgroundColor: botonSeleccionado.derecha ? '#30A7D7' : '#A4A4A4', transition: 'background-color 0.2s' }}
                                 onMouseOver={() => setBotonSeleccionado({ ...botonSeleccionado, derecha: true })} onMouseOut={() => setBotonSeleccionado({ ...botonSeleccionado, derecha: false })}
                                 onClick={() => cambiarDePokemon('siguiente')} />
                         </div>

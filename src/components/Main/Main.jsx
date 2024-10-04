@@ -51,11 +51,11 @@ export default function Main() {
                     </div>
                     <div className="segundo-contenedor">
                         <div className="cont">
-                            <img src="/public/img/borde-derecho.png" alt="Recodo izquierdo" className="primera-img" />
+                            <img src="/img/borde-derecho.png" alt="Recodo izquierdo" className="primera-img" />
                             <div className="t-t">
                                 <p className="texto-sorpresa"> Mostrar búsqueda avanzada </p>
                             </div>
-                            <img src="/public/img/borde-izquierdo.png" alt="recodo derecho" className="segunda-img" />
+                            <img src="/img/borde-izquierdo.png" alt="recodo derecho" className="segunda-img" />
                         </div>
                     </div>
                 </div>

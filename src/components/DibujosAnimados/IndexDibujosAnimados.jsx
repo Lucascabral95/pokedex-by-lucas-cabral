@@ -17,7 +17,7 @@ export default function IndexDibujosAnimados() {
                         <div className="contenedor-imagen-mas-grande">
                             <Link to="/noticias/disfruta-ya-de-la-serie-horizontes-pokemon-en-netflix">
                                 <div className="img-img">
-                                    <img src="/public/img/dibujo-dos.png" alt="Horizonte Serie Netflix" />
+                                    <img src="/img/dibujo-dos.png" alt="Horizonte Serie Netflix" />
                                 </div>
                                 <div className="contenido">
                                     <div className="titulo">
@@ -33,7 +33,7 @@ export default function IndexDibujosAnimados() {
                             <div className="imagee imagee-uno">
                                 <Link to="/noticias/trivia-de-la-serie-viajes-definitivos-pokemon">
                                     <div className="im">
-                                        <img src="/public/img/dibujo-cuatro.png" alt="Viajes Defitivos Quiz" />
+                                        <img src="/img/dibujo-cuatro.png" alt="Viajes Defitivos Quiz" />
                                     </div>
                                 </Link>
                                 <Link to="/noticias/trivia-de-la-serie-viajes-definitivos-pokemon">
@@ -45,7 +45,7 @@ export default function IndexDibujosAnimados() {
                             <div className="imagee imagee-dos">
                                 <Link to="/dibujos-animados/series">
                                     <div className="im">
-                                        <img src="/public/img/dibujo-once.jpg" alt="Serie Pokemon" />
+                                        <img src="/img/dibujo-once.jpg" alt="Serie Pokemon" />
                                     </div>
                                 </Link>
                                 <Link to="/dibujos-animados/series">
@@ -62,7 +62,7 @@ export default function IndexDibujosAnimados() {
                     <>
                         <div className="contenedor-imagen-mas-grande" onClick={() => window.location.href = '/noticias/tv-pokemon-llega-a-su-fin-en-marzo-de-2024'}>
                             <div className="img-img">
-                                <img src="/public/img/dibujo-cinco.jpg" alt="Pokemon TV" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
+                                <img src="/img/dibujo-cinco.jpg" alt="Pokemon TV" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
                             </div>
                             <div className="contenido cimg-uno">
                                 <div className="titulo">
@@ -73,7 +73,7 @@ export default function IndexDibujosAnimados() {
 
                         <div className="contenedor-imagen-mas-grande" style={{ marginTop: '16px' }} onClick={() => window.location.href = '/dibujos-animados/donde-ver-los-episodios-y-peliculas-pokemon'}>
                             <div className="img-img">
-                                <img src="/public/img/dibujo-diez.png" alt="Pokemon TV" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
+                                <img src="/img/dibujo-diez.png" alt="Pokemon TV" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
                             </div>
                             <div className="contenido cimg-dos">
                                 <div className="titulo">
@@ -84,7 +84,7 @@ export default function IndexDibujosAnimados() {
                         <div className="contenedor-chico-peliculas" onClick={() => window.location.href = '/dibujos-animados/peliculas'}>
                             <div className="img-img">
                                 <div className="img">
-                                    <img src="/public/img/peliculas-pokemon.jpg" alt="Peliculas Pokemon" />
+                                    <img src="/img/peliculas-pokemon.jpg" alt="Peliculas Pokemon" />
                                 </div>
                             </div>
                             <div className="cont">

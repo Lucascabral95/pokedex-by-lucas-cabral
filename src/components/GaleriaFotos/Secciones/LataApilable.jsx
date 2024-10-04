@@ -6,7 +6,7 @@ export default function LataApilable() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-dieciseis.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-dieciseis.png'} />
 
             <StructureSeccions
 

@@ -51,9 +51,9 @@ export default function AppPokemonSmile() {
           </>
         }
 
-        imagen="/public/img/app-ocho.jpg"
+        imagen="/img/app-ocho.jpg"
 
-        imagenLogo="/public/img/pokemon-smile-uno.jpg"
+        imagenLogo="/img/pokemon-smile-uno.jpg"
         cuerpoLogo={
           <>
             <p>Genero: <strong>Seguimiento del sueño</strong></p>

@@ -6,7 +6,7 @@ export default function VientosPaldea() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/dibujo-siete.png" />
+            <PresentacionInicio imagen="/img/dibujo-siete.png" />
 
             <StructureSeccions
 

@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp.jsx";
-
 
 export default function AppPokemonLive() {
   return (
@@ -8,7 +6,7 @@ export default function AppPokemonLive() {
 
       <StructureApp
 
-        imagen="/public/img/pokemon-live-azul.png"
+        imagen="/img/pokemon-live-azul.png"
 
         cuerpoDeLaApp={
           <>
@@ -49,7 +47,7 @@ export default function AppPokemonLive() {
           </>
         }
 
-        imagenLogo="/public/img/pokemon-live-azul.png"
+        imagenLogo="/img/pokemon-live-azul.png"
 
         cuerpoLogo={
           <>
@@ -72,9 +70,9 @@ export default function AppPokemonLive() {
           </>
         }
 
-        cuerpoExtraImagenUno="/public/img/pokemon-live-uno.png"
+        cuerpoExtraImagenUno="/img/pokemon-live-uno.png"
         cuerpoExtraTituloUno="Visita la pagina web"
-        cuerpoExtraImagenDos="/public/img/pokemon-live-dos.jpg"
+        cuerpoExtraImagenDos="/img/pokemon-live-dos.jpg"
         cuerpoExtraTituloDos="Caneja codigos de JCC Pokemon Live"
 
       />

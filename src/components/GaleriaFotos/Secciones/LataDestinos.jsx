@@ -6,7 +6,7 @@ export default function LataDestinos() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-doce.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-doce.png'} />
 
             <StructureSeccions
 

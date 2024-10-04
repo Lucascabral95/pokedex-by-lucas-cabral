@@ -35,9 +35,9 @@ export default function AppPokemonCasaJuegos() {
           </>
         }
 
-        imagen="/public/img/app-once.jpg"
+        imagen="/img/app-once.jpg"
 
-        imagenLogo="/public/img/pokemon-casa-juegos-uno.jpg"
+        imagenLogo="/img/pokemon-casa-juegos-uno.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>21 de septiembre de 2017</strong></p>

@@ -33,7 +33,7 @@ export default function AsistenciaPokemon() {
                     <div className="div-final">
                         <div className="linea-delimitadora">  </div>
                         <div className="imagen">
-                            <img src="/public/img/tres-pokemons.png" alt="Tres Pokemons" />
+                            <img src="/img/tres-pokemons.png" alt="Tres Pokemons" />
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ export default function AsistenciaPokemon() {
 
                     <Link to={'/atencion-al-cliente'}>
                         <div className="img">
-                            <img src="/public/img/po-internacional.png" alt="The Pokemon Company Internacional" />
+                            <img src="/img/po-internacional.png" alt="The Pokemon Company Internacional" />
                         </div>
                     </Link>
 

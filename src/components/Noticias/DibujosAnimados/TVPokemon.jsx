@@ -6,7 +6,7 @@ export default function TVPokemon() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/dibujo-cinco.jpg" />
+            <PresentacionInicio imagen="/img/dibujo-cinco.jpg" />
 
             <StructureSeccions
 

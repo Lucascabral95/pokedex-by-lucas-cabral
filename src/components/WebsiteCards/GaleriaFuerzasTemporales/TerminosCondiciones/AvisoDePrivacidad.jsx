@@ -23,7 +23,7 @@ export default function AvisoDePrivacidad() {
                             </div>
                             <div className="contenedor-imagen">
                                 <div className="img">
-                                    <img src="/public/img/coppa-logo.png" alt="Caru Coppa" />
+                                    <img src="/img/coppa-logo.png" alt="Caru Coppa" />
                                 </div>
                             </div>
                         </div>

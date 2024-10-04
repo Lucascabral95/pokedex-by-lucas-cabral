@@ -6,13 +6,13 @@ export default function NovedadesExpansion() {
 
             <div className="contenedor-de-borde contenedor-de-borde-superior" style={{ display: "flex" }}>
                 <div className="img-lateral">
-                    <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                    <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                 </div>
                 <div className="img-media">
-                    <img src="/public/img/borde-galeria.png" alt="Borde medio" />
+                    <img src="/img/borde-galeria.png" alt="Borde medio" />
                 </div>
                 <div className="img-lateral">
-                    <img src="/public/img/galeria-borde-superior-derecho.png" alt="Borde superior derecho" />
+                    <img src="/img/galeria-borde-superior-derecho.png" alt="Borde superior derecho" />
                 </div>
             </div>
 
@@ -29,16 +29,16 @@ export default function NovedadesExpansion() {
 
                     <div className="contenedor-de-imagenes">
                         <div className="img">
-                            <img src="/public/img/tambores-del-despertar.png" alt="Tambores del Despertar" />
+                            <img src="/img/tambores-del-despertar.png" alt="Tambores del Despertar" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/capsula-reinicio.png" alt="Capsula Reinicio" />
+                            <img src="/img/capsula-reinicio.png" alt="Capsula Reinicio" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/capturador-supremo.png" alt="Capturador Supremo" />
+                            <img src="/img/capturador-supremo.png" alt="Capturador Supremo" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/master-ball.png" alt="Master Ball" />
+                            <img src="/img/master-ball.png" alt="Master Ball" />
                         </div>
                     </div>
 
@@ -54,16 +54,16 @@ export default function NovedadesExpansion() {
 
                     <div className="contenedor-de-imagenes">
                         <div className="img">
-                            <img src="/public/img/flamariete-ex.png" alt="Flamariete ex" />
+                            <img src="/img/flamariete-ex.png" alt="Flamariete ex" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/flamariete-ex-dos.png" alt="Flamariete ex" />
+                            <img src="/img/flamariete-ex-dos.png" alt="Flamariete ex" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/ferromole-ex.png" alt="Ferromole ex" />
+                            <img src="/img/ferromole-ex.png" alt="Ferromole ex" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/ferromole-ex-dos.png" alt="Ferromole ex" />
+                            <img src="/img/ferromole-ex-dos.png" alt="Ferromole ex" />
                         </div>
                     </div>
 
@@ -78,16 +78,16 @@ export default function NovedadesExpansion() {
 
                     <div className="contenedor-de-imagenes">
                         <div className="img">
-                            <img src="/public/img/gastly.png" alt="Gastly" />
+                            <img src="/img/gastly.png" alt="Gastly" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/grotle.png" alt="Grotle" />
+                            <img src="/img/grotle.png" alt="Grotle" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/minccino-ex.png" alt="Minccino" />
+                            <img src="/img/minccino-ex.png" alt="Minccino" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/cinccino.png" alt="Cinccino" />
+                            <img src="/img/cinccino.png" alt="Cinccino" />
                         </div>
                     </div>
 
@@ -102,16 +102,16 @@ export default function NovedadesExpansion() {
 
                     <div className="contenedor-de-imagenes">
                         <div className="img">
-                            <img src="/public/img/miraidon-carta.png" alt="Miraidon" />
+                            <img src="/img/miraidon-carta.png" alt="Miraidon" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/koraidon-cart.png" alt="Koraidon" />
+                            <img src="/img/koraidon-cart.png" alt="Koraidon" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/colmilargo.png" alt="Colmilargo" />
+                            <img src="/img/colmilargo.png" alt="Colmilargo" />
                         </div>
                         <div className="img">
-                            <img src="/public/img/ferroverdor.png" alt="Ferroverdor ex" />
+                            <img src="/img/ferroverdor.png" alt="Ferroverdor ex" />
                         </div>
                     </div>
 
@@ -128,13 +128,13 @@ export default function NovedadesExpansion() {
 
             <div className="contenedor-de-borde contenedor-de-borde-inferior" style={{ display: "flex" }}>
                 <div className="img-lateral">
-                    <img src="/public/img/galeria-borde-inferior-izquierdo.png" alt="Borde izquierdo" />
+                    <img src="/img/galeria-borde-inferior-izquierdo.png" alt="Borde izquierdo" />
                 </div>
                 <div className="img-media" >
-                    <img src="/public/img/borde-galeria.png" alt="Borde medio" />
+                    <img src="/img/borde-galeria.png" alt="Borde medio" />
                 </div>
                 <div className="img-lateral">
-                    <img src="/public/img/galeria-borde-inferior-derecho.png" alt="Borde derecho" />
+                    <img src="/img/galeria-borde-inferior-derecho.png" alt="Borde derecho" />
                 </div>
             </div>
 

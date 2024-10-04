@@ -7,7 +7,7 @@ export default function Mimikyu() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/carta-ocho.png" />
+            <PresentacionInicio imagen="/img/carta-ocho.png" />
 
             <StructureSeccions
 
@@ -37,7 +37,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-130">
                                 <div className="im-im" >
-                                    <img src="/public/img/baxcalibur.png" alt="Baxcalibur" />
+                                    <img src="/img/baxcalibur.png" alt="Baxcalibur" />
                                 </div>
                             </Link>
                         </div>
@@ -56,7 +56,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-160">
                                 <div className="im-im" >
-                                    <img src="/public/img/Mimikyu.png" alt="Mimikyu" />
+                                    <img src="/img/Mimikyu.png" alt="Mimikyu" />
                                 </div>
                             </Link>
                         </div>
@@ -75,7 +75,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-171">
                                 <div className="im-im" >
-                                    <img src="/public/img/Annihilape.png" alt="Annihilape" />
+                                    <img src="/img/Annihilape.png" alt="Annihilape" />
                                 </div>
                             </Link>
                         </div>
@@ -94,7 +94,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-181">
                                 <div className="im-im" >
-                                    <img src="/public/img/Murkrow.png" alt="Murkrow" />
+                                    <img src="/img/Murkrow.png" alt="Murkrow" />
                                 </div>
                             </Link>
                         </div>
@@ -113,7 +113,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-205">
                                 <div className="im-im" >
-                                    <img src="/public/img/skwovet.png" alt="Skwovet" />
+                                    <img src="/img/skwovet.png" alt="Skwovet" />
                                 </div>
                             </Link>
                         </div>
@@ -132,7 +132,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-191">
                                 <div className="im-im" >
-                                    <img src="/public/img/scizor.png" alt="Scizor" />
+                                    <img src="/img/scizor.png" alt="Scizor" />
                                 </div>
                             </Link>
                         </div>
@@ -151,7 +151,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-223">
                                 <div className="im-im" >
-                                    <img src="/public/img/squawkabillyex.png" alt="Squawkabilly ex" />
+                                    <img src="/img/squawkabillyex.png" alt="Squawkabilly ex" />
                                 </div>
                             </Link>
                         </div>
@@ -170,7 +170,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-221">
                                 <div className="im-im" >
-                                    <img src="/public/img/pidgeotex.png" alt="Pidgeot ex" />
+                                    <img src="/img/pidgeotex.png" alt="Pidgeot ex" />
                                 </div>
                             </Link>
                         </div>
@@ -189,7 +189,7 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-233">
                                 <div className="im-im" >
-                                    <img src="/public/img/gardevoirex.png" alt="Gardevoir ex" />
+                                    <img src="/img/gardevoirex.png" alt="Gardevoir ex" />
                                 </div>
                             </Link>
                         </div>
@@ -208,17 +208,13 @@ export default function Mimikyu() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv4pt5-234">
                                 <div className="im-im" >
-                                    <img src="/public/img/charizardexdos.png" alt="Charizard ex" />
+                                    <img src="/img/charizardexdos.png" alt="Charizard ex" />
                                 </div>
                             </Link>
                         </div>
                         <div className="parrafo">
                             <p className="texto-normal">Domina el campo de combate con un Charizard variocolor que parece listo para alzarse con la victoria. Charizard ex es una de las barajas más potentes en el formato Estándar y sigue teniendo presencia en los Campeonatos Regionales de esta temporada competitiva. La carta de <span className="texto-celeste">Charizard ex</span> de rareza Rara Ilustración Especial creada por AKIRA EGAWA nos dejó sin palabras cuando salió publicada en Escarlata y Púrpura-Llamas Obsidianas, y esta versión no se queda atrás. Ya queremos agregarla a nuestra próxima baraja.</p>
                         </div>
-
-
-
-
 
                         <div className="boton-abajo">
                             <button> Juego de Cartas Coleccionables </button>

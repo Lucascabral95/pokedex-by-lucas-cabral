@@ -105,24 +105,24 @@ export default function GaleriaFuerzasTemporales() {
                 <div className="contenedor-banner">
 
                     <div className="img-borde img-borde-violeta">
-                        <img src="/public/img/borde-violeta.png" alt="Borde violeta" />
+                        <img src="/img/borde-violeta.png" alt="Borde violeta" />
                     </div>
 
                     <div className="img-borde img-borde-violeta img-borde-violeta-medio">
                         <div className="img-interior">
-                            <img src="/public/img/borde-violeta.png" alt="Borde violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde violeta" />
                         </div>
                     </div>
                     <div className="img-borde img-borde-violeta img-borde-violeta-chico">
                         <div className="img-interior">
-                            <img src="/public/img/borde-violeta.png" alt="Borde violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde violeta" />
                         </div>
                     </div>
 
                     <div className="informacion-bi-cartas">
                         <div className="fuerzas-temporales-informacion">
                             <div className="img">
-                                <img src="/public/img/fuerzas-temporales-carta.png" alt="Fuerzas Temporales" />
+                                <img src="/img/fuerzas-temporales-carta.png" alt="Fuerzas Temporales" />
                             </div>
                             <div className="titulo">
                                 <h5>ECHA UN VISTAZO A LA EXPANSIÓN ESCARLATA Y PÚRPURA-FUERZAS TEMPORALES DE JCC POKÉMON.</h5>
@@ -134,27 +134,27 @@ export default function GaleriaFuerzasTemporales() {
                         </div>
                         <div className="dos-cartas">
                             <div className="img imagen-uno">
-                                <img src="/public/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" />
+                                <img src="/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" />
                             </div>
                             <div className="img imagen-dos">
-                                <img src="/public/img/carta-destacada-uno.png" alt="Ondulagua ex" />
+                                <img src="/img/carta-destacada-uno.png" alt="Ondulagua ex" />
                             </div>
                         </div>
                     </div>
 
                     <div className="img-borde img-borde-bordo">
-                        <img src="/public/img/borde-bordo.png" alt="Borde Bordo" />
+                        <img src="/img/borde-bordo.png" alt="Borde Bordo" />
                     </div>
 
                     <div className="img-borde img-borde-bordo img-borde-bordo-medio">
                         <div className="img-interior">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bordo" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bordo" />
                         </div>
                     </div>
 
                     <div className="img-borde img-borde-bordo img-borde-bordo-chico">
                         <div className="img-interior">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bordo" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bordo" />
                         </div>
                     </div>
 

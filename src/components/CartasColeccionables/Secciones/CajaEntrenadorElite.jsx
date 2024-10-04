@@ -8,7 +8,7 @@ export default function CajaEntrenadorElite() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/jcc-pokemon-dos.png'} />
+            <PresentacionInicio imagen={'/img/jcc-pokemon-dos.png'} />
 
             <StructureSeccions
 

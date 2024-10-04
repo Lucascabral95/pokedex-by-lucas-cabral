@@ -6,7 +6,7 @@ export default function GuiaDibujos() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/dibujo-ocho.png" />
+            <PresentacionInicio imagen="/img/dibujo-ocho.png" />
 
             <StructureSeccions superior={
                 <>
@@ -38,7 +38,7 @@ export default function GuiaDibujos() {
                             que sigue al dúo después de su increíble victoria mientras se lanzan hacia un viaje de pura nostalgia. Y asegúrate de sintonizar Netflix el 28 de diciembre de 2023 para el estreno de Concierge Pokémon. Esta serie animada en stop-motion se sitúa en el Resort Pokémon, un destino vacacional para Pokémon. </p>
                     </div>
                     <div className="contenedor-de-imagen">
-                        <img src="/public/img/dibujo-noticias-uno.png" alt="Dibujo" />
+                        <img src="/img/dibujo-noticias-uno.png" alt="Dibujo" />
                     </div>
                     <div className="parrafo">
                         <p className="texto-normal"> Hay mucho que ver en el canal oficial de Pokémon en YouTube. Échale un vistazo a Pokémon: Vientos de Paldea, una nueva serie de dibujos animados de cuatro episodios que sigue las aventuras de tres estudiantes de una academia en la región de Paldea mientras buscan cumplir sus sueños.
@@ -51,7 +51,7 @@ export default function GuiaDibujos() {
                         <div className="linea-separadora"></div>
                     </div>
                     <div className="contenedor-de-imagen">
-                        <img src="/public/img/dibujo-noticias-dos.png" alt="Dibujo" />
+                        <img src="/img/dibujo-noticias-dos.png" alt="Dibujo" />
                     </div>
                     <p className="parrafo">
                         <p className="texto-normal"> El canal oficial de Pokémon en YouTube también ofrece varias series animadas limitadas que le permite a los espectadores adentrarse aún más en el mundo Pokémon. No te pierdas las siguientes series: </p>
@@ -74,7 +74,7 @@ export default function GuiaDibujos() {
                         <div className="linea-separadora"></div>
                     </div>
                     <div className="contenedor-de-imagen">
-                        <img src="/public/img/dibujo-nueve.png" alt="Dibujo" />
+                        <img src="/img/dibujo-nueve.png" alt="Dibujo" />
                     </div>
                     <div className="parrafo">
                         <p className="texto-normal"> Ciertamente, hay muchos dibujos animados Pokémon para disfrutar, ¡pero hay todavía más en el horizonte! La serie Horizontes Pokémon se estrenará en Netflix el 23 de febrero de 2024. Esta nueva serie sigue las aventuras de Liko y Rod quienes, junto con sus compañeros Pokémon Sprigatito y Fuecoco, se embarcan en un viaje a través de diferentes regiones con nuevos amigos y adorables Pokémon. A lo largo de su camino, recibirán ayuda de Friede, Capitán Pikachu y otros miembros de la Tacleada de Voltionautas mientras trabajan juntos para evadir al grupo misterioso de los Exploradores.

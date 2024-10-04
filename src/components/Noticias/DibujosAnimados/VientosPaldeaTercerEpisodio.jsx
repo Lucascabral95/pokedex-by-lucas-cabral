@@ -6,7 +6,7 @@ export default function VientosPaldeaTercerEpisodio() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/tercer-episodio-paldea.png" />
+            <PresentacionInicio imagen="/img/tercer-episodio-paldea.png" />
 
             <StructureSeccions
 

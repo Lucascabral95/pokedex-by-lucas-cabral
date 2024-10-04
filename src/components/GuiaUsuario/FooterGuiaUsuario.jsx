@@ -13,7 +13,7 @@ export default function FooterGuiaUsuario() {
                     <div className="div">
                         <Link to={'/inicio'}>
                             <div className="img img-pokemon-company">
-                                <img src="/public/img/pokemon-company-gris.webp" alt="The Pokemon Company" />
+                                <img src="/img/pokemon-company-gris.webp" alt="The Pokemon Company" />
                             </div>
                         </Link>
                         <a href="https://caru.bbbprograms.org/seal/Confirmation/1596150491" target="_blank">

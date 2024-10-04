@@ -231,24 +231,24 @@ export default function Footer() {
                     <div className="icono iconos-de-logos">
                         <div className="imagen-logo">
                             <a title={`External: https://www.facebook.com/PokemonOficialLatAm`} target="_blank" href="https://www.facebook.com/PokemonOficialLatAm">
-                                <img src="/public/img/facebook.logo.png" alt="Facebook logo" />
+                                <img src="/img/facebook.logo.png" alt="Facebook logo" />
                             </a>
                         </div>
                         <div className="imagen-logo">
                             <a title={`External: https://www.youtube.com/PokemonLATAM`} target="_blank" href="https://www.youtube.com/PokemonLATAM">
-                                <img src="/public/img/youtube.logo.png" alt="Youtube logo" />
+                                <img src="/img/youtube.logo.png" alt="Youtube logo" />
                             </a>
                         </div>
                         <div className="imagen-logo">
                             <a title={`External: https://twitter.com/PokemonLATAM`} target="_blank" href="https://twitter.com/PokemonLATAM">
-                                <img src="/public/img/x.logo.png" alt="Twitter logo" />
+                                <img src="/img/x.logo.png" alt="Twitter logo" />
                             </a>
                         </div>
                     </div>
 
                     <div className="terminos-condiciones">
                         <div className="img-coppa">
-                            <img src="/public/img/coppa.png" alt="Coppa" />
+                            <img src="/img/coppa.png" alt="Coppa" />
                         </div>
                         <ul className="ul-terminos-condiciones">
                             <li>

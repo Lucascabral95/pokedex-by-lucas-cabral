@@ -58,7 +58,7 @@ export default function AppPokemonRumbleRush() {
           </>
         }
 
-        imagen="/public/img/app-nueve.jpg"
+        imagen="/img/app-nueve.jpg"
 
       />
 

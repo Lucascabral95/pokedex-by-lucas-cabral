@@ -11,7 +11,7 @@ export default function MejoraTuBaraja() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/jcc-pokemon-tres.png"} />
+            <PresentacionInicio imagen={"/img/jcc-pokemon-tres.png"} />
 
             <StructureSeccions
 
@@ -35,7 +35,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="contenedor-una-carta">
                             <div className="img">
-                                <img src="/public/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" onClick={() => setAgrandarImagen('/public/img/carta-destacada-cuatro.png')} />
+                                <img src="/img/carta-destacada-cuatro.png" alt="Ferrotesta ex" onClick={() => setAgrandarImagen('/img/carta-destacada-cuatro.png')} />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -56,7 +56,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="contenedor-una-carta">
                             <div className="img">
-                                <img src="/public/img/bramaluna.png" alt="Bramaluna" />
+                                <img src="/img/bramaluna.png" alt="Bramaluna" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -74,7 +74,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="contenedor-una-carta">
                             <div className="img">
-                                <img src="/public/img/cartas-coleccionables-ocho.png" alt="colmilargo" />
+                                <img src="/img/cartas-coleccionables-ocho.png" alt="colmilargo" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -92,7 +92,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="contenedor-una-carta">
                             <div className="img">
-                                <img src="/public/img/cinccino-coleccionable.png" alt="Cinccino" />
+                                <img src="/img/cinccino-coleccionable.png" alt="Cinccino" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -113,7 +113,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="contenedor-una-carta">
                             <div className="img">
-                                <img src="/public/img/capturador-supremo.png" alt="Capturador Supremo" />
+                                <img src="/img/capturador-supremo.png" alt="Capturador Supremo" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -136,7 +136,7 @@ export default function MejoraTuBaraja() {
                             </div>
                             <div className="contenido">
                                 <div className="img">
-                                    <img src="/public/img/ellis.jpg" alt="Ellis Longhurst" />
+                                    <img src="/img/ellis.jpg" alt="Ellis Longhurst" />
                                 </div>
                                 <div className="texto">
                                     <div className="text">
@@ -153,10 +153,6 @@ export default function MejoraTuBaraja() {
                             </Link>
                         </div>
 
-
-                        {/* {agrandarImagen &&
-                            <MaximizarImagen imagen={agrandarImagen} />
-                        } */}
                     </>
                 }
 
@@ -169,7 +165,7 @@ export default function MejoraTuBaraja() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

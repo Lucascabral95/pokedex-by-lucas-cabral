@@ -6,7 +6,7 @@ export default function PokemonParadoja() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/jcc-pokemon-cuatro.png'} />
+            <PresentacionInicio imagen={'/img/jcc-pokemon-cuatro.png'} />
 
             <StructureSeccions
 

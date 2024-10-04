@@ -6,7 +6,7 @@ export default function PlayPokemonActualizacion() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-ocho.jpg" />
+            <PresentacionInicio imagen="/img/evento-ocho.jpg" />
 
             <StructureSeccions
 

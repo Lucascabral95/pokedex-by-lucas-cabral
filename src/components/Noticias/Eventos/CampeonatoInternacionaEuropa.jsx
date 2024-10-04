@@ -6,7 +6,7 @@ export default function CampeonatoInternacionaEuropa() {
     return (
         <>
 
-            <PresentacionInicio imagen='/public/img/evento-tres.png' />
+            <PresentacionInicio imagen='/img/evento-tres.png' />
 
             <StructureSeccions
 
@@ -38,7 +38,7 @@ export default function CampeonatoInternacionaEuropa() {
                         </div>
                         <div className="contenedor-de-cartas-card">
                             <div className="img-img">
-                                <img src="/public/img/peleador-pokemon.png" alt="Ferropalmas" />
+                                <img src="/img/peleador-pokemon.png" alt="Ferropalmas" />
                             </div>
                             <div className="lista">
                                 <ul>
@@ -60,7 +60,7 @@ export default function CampeonatoInternacionaEuropa() {
                         </div>
                         <div className="carta-encapsulada">
                             <div className="im-im" >
-                                <img src="/public/img/electrofuria.png" alt="Electrofuria" />
+                                <img src="/img/electrofuria.png" alt="Electrofuria" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -75,22 +75,22 @@ export default function CampeonatoInternacionaEuropa() {
                         </div>
                         <div className="contenedor-de-muchos-pokemons">
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-uno.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-uno.png" alt="Imagen" />
                             </div>
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-dos.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-dos.png" alt="Imagen" />
                             </div>
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-tres.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-tres.png" alt="Imagen" />
                             </div>
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-cuatro.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-cuatro.png" alt="Imagen" />
                             </div>
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-cinco.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-cinco.png" alt="Imagen" />
                             </div>
                             <div className="picc">
-                                <img src="/public/img/muchos-pokemons-seis.png" alt="Imagen" />
+                                <img src="/img/muchos-pokemons-seis.png" alt="Imagen" />
                             </div>
                         </div>
                         <div className="linea-delimitante" style={{ margin: "56px 0px 34px 0px" }}> </div>

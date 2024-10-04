@@ -17,7 +17,7 @@ export default function CartasColeccionables() {
                         <div className="contenedor-imagen-mas-grande">
                             <Link to="/jcc-pokemon/ilustraciones-escarlata-purpura">
                                 <div className="img-img">
-                                    <img src="/public/img/jcc-pokemon-uno.png" alt="Pokemon Fuerzas-Temporales" />
+                                    <img src="/img/jcc-pokemon-uno.png" alt="Pokemon Fuerzas-Temporales" />
                                 </div>
                                 <div className="contenido contenido-cartas-coleccionables">
                                     <div className="titulo">
@@ -33,7 +33,7 @@ export default function CartasColeccionables() {
                             <div className="imagee imagee-dos">
                                 <Link to="/jcc-pokemon/pokemon-paradoja">
                                     <div className="im">
-                                        <img src="/public/img/jcc-pokemon-cuatro.png" alt="JCC Pokémon Paradoja" />
+                                        <img src="/img/jcc-pokemon-cuatro.png" alt="JCC Pokémon Paradoja" />
                                     </div>
                                 </Link>
                                 <Link to="/jcc-pokemon/pokemon-paradoja">
@@ -45,7 +45,7 @@ export default function CartasColeccionables() {
                             <div className="imagee imagee-uno">
                                 <Link to="/card/expansions/temporal-forces">
                                     <div className="im">
-                                        <img src="/public/img/jcc-pokemon-cinco.png" alt="JCC Pokémon Live" />
+                                        <img src="/img/jcc-pokemon-cinco.png" alt="JCC Pokémon Live" />
                                     </div>
                                 </Link>
                                 <Link to="/card/expansions/temporal-forces">
@@ -62,7 +62,7 @@ export default function CartasColeccionables() {
                     <>
                         <div className="contenedor-imagen-mas-grande" onClick={() => window.location.href = '/jcc-pokemon/caja-entrenador-elite'}>
                             <div className="img-img">
-                                <img src="/public/img/jcc-pokemon-dos.png" alt="Cajad de Entrenador Elite" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
+                                <img src="/img/jcc-pokemon-dos.png" alt="Cajad de Entrenador Elite" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
                             </div>
                             <div className="contenido cimg-uno cimg-uno-cartas-destacadas">
                                 <div className="titulo">
@@ -73,7 +73,7 @@ export default function CartasColeccionables() {
 
                         <div className="contenedor-imagen-mas-grande" style={{ marginTop: '16px' }} onClick={() => window.location.href = '/jcc-pokemon/mejora-tu-baraja'}>
                             <div className="img-img">
-                                <img src="/public/img/jcc-pokemon-tres.png" alt="Mejora de baraja" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
+                                <img src="/img/jcc-pokemon-tres.png" alt="Mejora de baraja" style={{ borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }} />
                             </div>
                             <div className="contenido cimg-dos cimg-dos-cartas-destacadas">
                                 <div className="titulo">
@@ -84,7 +84,7 @@ export default function CartasColeccionables() {
                         <div className="contenedor-chico-peliculas" onClick={() => window.location.href = '/jcc-pokemon/aprende-jcc-pokemon'}>
                             <div className="img-img">
                                 <div className="img">
-                                    <img src="/public/img/jcc-pokemon-seis.jpg" alt="Reglas de JCC Pokemon" />
+                                    <img src="/img/jcc-pokemon-seis.jpg" alt="Reglas de JCC Pokemon" />
                                 </div>
                             </div>
                             <div className="cont cont-cartas-coleccionables">

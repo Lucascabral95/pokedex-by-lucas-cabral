@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp.jsx";
-
 
 export default function AppPokemonMastersEX() {
   return (
@@ -24,7 +22,7 @@ export default function AppPokemonMastersEX() {
             </div>
             <div className="division-contenido-imagen">
               <div className="imag">
-                <img src="/public/img/mastersex-tres.jpg" alt="Passio" />
+                <img src="/img/mastersex-tres.jpg" alt="Passio" />
               </div>
               <div className="texto">
                 <p> Los acontecimientos de Pokémon Masters EX tienen lugar en la isla artificial de Passio. Aquí, a los Pokémon y a sus Entrenadores, los une un vínculo especial. Montones de Entrenadores, venidos de cada una de las regiones que han aparecido en juegos pasados de Pokémon, se congregan en Passio junto a sus compañeros Pokémon y forman parejas de compis. En tu rol como protagonista de Pokémon Masters EX, te embarcarás en una emocionante aventura con tu propio compañero Pokémon. Durante tu recorrido por la isla, te encontrarás con numerosos Entrenadores, harás mogollón de amigos y aunarás fuerzas con ellos conforme progresas en la historia. Cuando entables amistad con una pareja de compis, podrás añadirla a tu equipo y luchar a su lado para así alzaros como campeones de un torneo celebrado en Passio llamado World Pokémon Masters. </p>
@@ -38,7 +36,7 @@ export default function AppPokemonMastersEX() {
             </div>
             <div className="division-contenido-imagen">
               <div className="imag">
-                <img src="/public/img/mastersex-cuatro.jpg" alt="Entrenadores de leyenda" />
+                <img src="/img/mastersex-cuatro.jpg" alt="Entrenadores de leyenda" />
               </div>
               <div className="texto">
                 <p> En Pokémon Masters EX, todo gira en torno a la idea de conocer y colaborar con Entrenadores de otras regiones, lo que hace que la historia resulte más interesante y original. Entre las muchas parejas que encontrarás en Passio se encuentran Rojo, el Entrenador Pokémon legendario, y su Charizard; Azul, uno de los Entrenadores más fuertes del mundo y nieto del famoso Profesor Oak, y su Pidgeot; y Cintia, Campeona de Sinnoh, y su Garchomp. </p>
@@ -52,7 +50,7 @@ export default function AppPokemonMastersEX() {
             </div>
             <div className="division-contenido-imagen">
               <div className="imag">
-                <img src="/public/img/mastersex-cinco.jpg" alt="Combate de tres vs tres" />
+                <img src="/img/mastersex-cinco.jpg" alt="Combate de tres vs tres" />
               </div>
               <div className="texto">
                 <p> ¡Cuando hayas formado un equipo con otros compis, podrás participar en combates Pokémon! Los combates en Pokémon Masters EX se caracterizan por ser en equipos de tres contra tres y a tiempo real. Podrás atacar sin descanso siempre que la barra de movimientos esté lo suficientemente llena. Pero no te preocupes, ¡se irá llenando sola con el tiempo! Además de decidir cómo atacarán sus Pokémon los combates como de costumbre, en los combates de Pokémon Masters EX los Entrenadores podrán usar sus propios movimientos y objetos curativos por primera vez. Los movimientos de Entrenador pueden potenciar las características de sus Pokémon, entre otros efectos. Con tantos compis dándolo todo en el campo de batalla, tendrás que idear nuevas estrategias para poder acabar con la competencia. </p>
@@ -87,9 +85,9 @@ export default function AppPokemonMastersEX() {
           </>
         }
 
-        imagen="/public/img/app-cinco.jpg"
+        imagen="/img/app-cinco.jpg"
 
-        imagenLogo="/public/img/mastersex-dos.jpg"
+        imagenLogo="/img/mastersex-dos.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>29 de agosto 2019</strong></p>

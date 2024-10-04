@@ -6,7 +6,7 @@ export default function Sprigatito() {
     return (
         <>
 
-          <PresentacionInicio imagen="/public/img/sprigatito-presentacion.png" />
+          <PresentacionInicio imagen="/img/sprigatito-presentacion.png" />
 
             <StructureSeccions superior={
                 <>
@@ -24,14 +24,14 @@ export default function Sprigatito() {
                             Cuando lleve la Cinta Camarada y salte al terreno de combate, podrás ver el apodo "Sprigatito de Liko". </p>
                     </div>
                     <div className="contenedor-de-imagen">
-                        <img src="/public/img/sprigatito-combate.png" alt="Sprigatito combate" />
+                        <img src="/img/sprigatito-combate.png" alt="Sprigatito combate" />
                     </div>
                     <div className="parrafo">
                         <p className="texto-normal"> Liko y su compañera Pokémon Sprigatito aparecieron por primera vez en <span className="texto-celeste">la serie Horizontes Pokémon</span>. Junto a su amigo Rod, recorrerán el mundo Pokémon con los Tacleada de Voltionautas e intentarán resolver el misterio del colgante que la abuela de Liko le regaló.
                             Ya puedes disfrutar de la serie Horizontes Pokémon en <span className="texto-celeste">Netflix</span>. </p>
                     </div>
                     <div className="contenedor-de-imagen">
-                        <img src="/public/img/sprigatito-sonriendo.png" alt="Sprigatito sonriendo" />
+                        <img src="/img/sprigatito-sonriendo.png" alt="Sprigatito sonriendo" />
                     </div>
                     <div className="contenedor-lista">
                         <p>Sigue estos pasos para recibir tu regalo: </p>

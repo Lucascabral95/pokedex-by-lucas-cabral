@@ -6,7 +6,7 @@ export default function LotePaquetesDeMejora() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-siete.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-siete.png'} />
 
             <StructureSeccions
 

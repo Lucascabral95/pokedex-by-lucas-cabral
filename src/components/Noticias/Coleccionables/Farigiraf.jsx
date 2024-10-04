@@ -6,7 +6,7 @@ export default function Farigiraf() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/carta-cinco.png" />
+            <PresentacionInicio imagen="/img/carta-cinco.png" />
 
             <StructureSeccions
 
@@ -36,7 +36,7 @@ export default function Farigiraf() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-194">
                                 <div className="im-im" >
-                                    <img src="/public/img/farigrafex.png" alt="Farigraf ex" />
+                                    <img src="/img/farigrafex.png" alt="Farigraf ex" />
                                 </div>
                             </Link>
                         </div>
@@ -56,7 +56,7 @@ export default function Farigiraf() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-154">
                                 <div className="im-im" >
-                                    <img src="/public/img/cinturoncolosal.png" alt="Cinturón Colosal" />
+                                    <img src="/img/cinturoncolosal.png" alt="Cinturón Colosal" />
                                 </div>
                             </Link>
                         </div>
@@ -76,7 +76,7 @@ export default function Farigiraf() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-180">
                                 <div className="im-im" >
-                                    <img src="/public/img/lickitung.png" alt="Lickitung" />
+                                    <img src="/img/lickitung.png" alt="Lickitung" />
                                 </div>
                             </Link>
                         </div>
@@ -96,7 +96,7 @@ export default function Farigiraf() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-202">
                                 <div className="im-im" >
-                                    <img src="/public/img/silvio.png" alt="Silvio" />
+                                    <img src="/img/silvio.png" alt="Silvio" />
                                 </div>
                             </Link>
                         </div>
@@ -116,7 +116,7 @@ export default function Farigiraf() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-211">
                                 <div className="im-im" >
-                                    <img src="/public/img/morti.png" alt="Morti" />
+                                    <img src="/img/morti.png" alt="Morti" />
                                 </div>
                             </Link>
                         </div>
@@ -143,7 +143,7 @@ export default function Farigiraf() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

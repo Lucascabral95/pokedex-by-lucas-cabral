@@ -83,7 +83,7 @@ export default function Noticias() {
                             <div className="middle">
                                 <Link to="/noticias/escarlata-purpura">
                                     <div className="img-img">
-                                        <img src="/public/img/fuerzas-temporales-cartas.png" alt="Fuerzas Temporales Cartas" />
+                                        <img src="/img/fuerzas-temporales-cartas.png" alt="Fuerzas Temporales Cartas" />
                                     </div>
                                     <div className="contenido">
                                         <p className="fecha">21 de marzo de 2024</p>
@@ -99,7 +99,7 @@ export default function Noticias() {
                             <div className="middle">
                                 <Link to="/noticias/estrategias-para-las-barajas-coleccionables">
                                     <div className="img-img">
-                                        <img src="/public/img/cartas-live.png" alt="Cartas Live" />
+                                        <img src="/img/cartas-live.png" alt="Cartas Live" />
                                     </div>
                                     <div className="contenido">
                                         <p className="fecha">19 de marzo de 2024</p>
@@ -122,7 +122,7 @@ export default function Noticias() {
                     <div className="middle middle-mobile" style={{ display: 'none' }}>
                         <Link to="/noticias/escarlata-purpura">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-cartas.png" alt="Fuerzas Temporales Cartas" />
+                                <img src="/img/fuerzas-temporales-cartas.png" alt="Fuerzas Temporales Cartas" />
                             </div>
                             <div className="contenido">
                                 <p className="fecha">21 de marzo de 2024</p>
@@ -138,7 +138,7 @@ export default function Noticias() {
                     <div className="middle middle-mobile" style={{ display: 'none' }}>
                         <Link to="/noticias/barajas-iniciales">
                             <div className="img-img">
-                                <img src="/public/img/cartas-live.png" alt="Cartas Live" />
+                                <img src="/img/cartas-live.png" alt="Cartas Live" />
                             </div>
                             <div className="contenido">
                                 <p className="fecha">19 de marzo de 2024</p>

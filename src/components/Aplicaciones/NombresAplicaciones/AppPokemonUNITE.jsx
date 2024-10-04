@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp.jsx";
-
 
 export default function AppPokemonUNITE() {
   return (
@@ -64,12 +62,12 @@ export default function AppPokemonUNITE() {
           </>
         }
 
-        cuerpoExtraImagenUno="/public/img/pokemon-unite-uno.jpg"
+        cuerpoExtraImagenUno="/img/pokemon-unite-uno.jpg"
         cuerpoExtraTituloUno="Visita la pagina web"
 
-        imagen="/public/img/app-tres.jpg"
+        imagen="/img/app-tres.jpg"
 
-        imagenLogo="/public/img/app-tres.jpg"
+        imagenLogo="/img/app-tres.jpg"
         cuerpoLogo={
           <>
             <p>Genero: <strong>Combate estrategico por equipos</strong></p>

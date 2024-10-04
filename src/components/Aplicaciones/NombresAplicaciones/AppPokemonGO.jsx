@@ -17,7 +17,7 @@ export default function AppPokemonGO() {
               <p className="texto-normal"><span className="resal">V</span>iaja entre el mundo real y el mundo virtual de Pokémon con Pokémon GO, para dispositivos iPhone y Android. Con Pokémon GO descubrirás Pokémon en un mundo completamente nuevo, ¡tu propio mundo! Pokémon GO te da la oportunidad de explorar lugares reales y de buscar Pokémon por todos lados. Más y más Pokémon siguen apareciendo por todo el mundo, incluyendo Pokémon legendarios únicos y poderosos.</p>
             </div>
             <div className="app-img">
-              <img src="/public/img/pokemon-go-tres.jpg" alt="Pokemon Go Plus" />
+              <img src="/img/pokemon-go-tres.jpg" alt="Pokemon Go Plus" />
             </div>
             <div className="parrafo">
               <p className="texto-normal">A medida que te muevas por el lugar donde vives y los sitios que visites, tu smartphone podrá vibrar para hacerte saber que estás cerca de un Pokémon. Una vez que te encuentres con un Pokémon, apunta mirando la pantalla táctil de tu smartphone y lanza una Poké Ball para atraparlo, ¡pero ten cuidado, porque podría salir huyendo! También puedes buscar Poképaradas situadas en lugares interesantes, como instalaciones de arte, puntos históricos y monumentos públicos, donde puedes recoger más Poké Balls y otros objetos.</p>
@@ -125,7 +125,7 @@ export default function AppPokemonGO() {
               <p className="texto-normal">Un pequeño dispositivo llamado Poké Ball Plus te permite disfrutar del juego incluso cuando no estés usando tu smartphone. El dispositivo se conecta a tu teléfono celular a través de Bluetooth y, mediante una luz led y vibraciones, te avisa de acontecimientos del juego, como, por ejemplo, la aparición de un Pokémon en las proximidades. Además, puedes atrapar Pokémon o realizar otras acciones sencillas simplemente presionando el botón en el dispositivo.</p>
             </div>
             <div className="app-img">
-              <img src="/public/img/pokemon-go-cuatro.jpg" alt="Pokemon Go Plus" />
+              <img src="/img/pokemon-go-cuatro.jpg" alt="Pokemon Go Plus" />
             </div>
             <div className="parrafo">
               <p className="texto-normal">Hay también una fuerte conexión entre Pokémon GO y Pokémon: Let's Go, Pikachu! y Pokémon: Let's Go, Eevee!. Puedes llevar los Pokémon originalmente descubiertos en la región de Kanto que hayas capturado en Pokémon GO a estos dos nuevos juegos para Nintendo Switch.</p>
@@ -134,7 +134,7 @@ export default function AppPokemonGO() {
               <p className="texto-normal">Conectar Pokémon GO a Pokémon: Let's Go, Pikachu! o Pokémon: Let's Go, Eevee! es también una buena manera para encontrarte con el nuevo Pokémon singular Meltan y su forma evolucionada, Melmetal. Enviar Pokémon de Pokémon GO a uno de los juegos de Nintendo Switch hará que obtengas algunos objetos en la aplicación, como Caramelos para la especie de Pokémon que hayas enviado. Y la primera vez que envíes un Pokémon, también podrás recibir un objeto muy especial: ¡una Caja Misteriosa!</p>
             </div>
             <div className="app-img">
-              <img src="/public/img/pokemon-go-cinco.jpg" alt="Pokemon Go Plus" />
+              <img src="/img/pokemon-go-cinco.jpg" alt="Pokemon Go Plus" />
             </div>
             <div className="parrafo">
               <p className="texto-normal">Abrir una Caja Misteriosa en Pokémon GO hace que Meltan aparezca por un tiempo limitado. Toca un Meltan que veas en el mapa y después intenta atraparlo con una Poké Ball. Al coleccionar 400 Caramelos Meltan, podrás hacer que este Pokémon de tipo Acero evolucione al poderoso Melmetal.</p>
@@ -179,7 +179,7 @@ export default function AppPokemonGO() {
               <div className="linea-azul"></div>
             </div>
             <div className="app-img">
-              <img src="/public/img/pokemon-go-seis.jpg" alt="Pokemon Go Plus" />
+              <img src="/img/pokemon-go-seis.jpg" alt="Pokemon Go Plus" />
             </div>
             <div className="parrafo">
               <p className="texto-normal">Cuando te encuentres con un Pokémon salvaje, podrás encender la función de la cámara para que el Pokémon aparezca en el lugar real al que apunta tu cámara. Centra la imagen y oprime el botón para sacar la foto. Puedes guardar la imagen junto con las fotos de tu smartphone para que la puedas compartir como quieras.</p>
@@ -216,8 +216,8 @@ export default function AppPokemonGO() {
           </>
         }
 
-        imagen="/public/img/app-cuatro.jpg"
-        imagenLogo="/public/img/pokemon-go-uno.jpg"
+        imagen="/img/app-cuatro.jpg"
+        imagenLogo="/img/pokemon-go-uno.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>6 de julio de 2016</strong></p>

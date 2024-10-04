@@ -10,13 +10,13 @@ export default function ListaVerMas() {
 
                     <div className="contenedor-borde-inferior">
                         <div className="img-borde">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt="Borde superior izquierdo" />
                         </div>
                         <div className="img-borde-medio">
-                            <img src="/public/img/borde-galeria.png" alt="Borde superior medio" />
+                            <img src="/img/borde-galeria.png" alt="Borde superior medio" />
                         </div>
                         <div className="img-borde">
-                            <img src="/public/img/galeria-borde-superior-derecho.png" alt=" Borde superior derecho" />
+                            <img src="/img/galeria-borde-superior-derecho.png" alt=" Borde superior derecho" />
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ export default function ListaVerMas() {
 
                                 <div className="imagen">
                                     <div className="img">
-                                        <img src="/public/img/lista-cartas.png" alt="Lista de cartas" />
+                                        <img src="/img/lista-cartas.png" alt="Lista de cartas" />
                                     </div>
                                 </div>
                             </div>
@@ -47,13 +47,13 @@ export default function ListaVerMas() {
 
                     <div className="contenedor-borde-superior">
                         <div className="img-borde">
-                            <img src="/public/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
+                            <img src="/img/galeria-borde-superior-derecho.png" alt=" Borde inferior derecho" />
                         </div>
                         <div className="img-borde-medio">
-                            <img src="/public/img/borde-galeria.png" alt=" Borde inferior medio" />
+                            <img src="/img/borde-galeria.png" alt=" Borde inferior medio" />
                         </div>
                         <div className="img-borde">
-                            <img src="/public/img/galeria-borde-superior-izquierdo.png" alt=" Borde inferior izquierdo" />
+                            <img src="/img/galeria-borde-superior-izquierdo.png" alt=" Borde inferior izquierdo" />
                         </div>
                     </div>
 
@@ -66,10 +66,10 @@ export default function ListaVerMas() {
                     <div className="contenedor-de-contenido">
                         <div className="cartas primeras-cartas">
                             <div className="img  imagen-uno" >
-                                <img src="/public/img/galeria-farigiraf.png" alt="Ondulagua ex" />
+                                <img src="/img/galeria-farigiraf.png" alt="Ondulagua ex" />
                             </div>
                             <div className="img imagen-dos">
-                                <img src="/public/img/ferrotestaex.png" alt="Ferrotesta ex" />
+                                <img src="/img/ferrotestaex.png" alt="Ferrotesta ex" />
                             </div>
                         </div>
                         <div className="contenido-medio">
@@ -89,10 +89,10 @@ export default function ListaVerMas() {
                         </div>
                         <div className="cartas">
                             <div className="img imagen-tres">
-                                <img src="/public/img/electrofuriaex.png" alt="Electrofuria ex" />
+                                <img src="/img/electrofuriaex.png" alt="Electrofuria ex" />
                             </div>
                             <div className="img imagen-cuatro">
-                                <img src="/public/img/ferroverderex.png" alt="Ferroverder ex" />
+                                <img src="/img/ferroverderex.png" alt="Ferroverder ex" />
                             </div>
                         </div>
                     </div>

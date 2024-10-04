@@ -6,7 +6,7 @@ export default function Dragapult() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-nueve.png" />
+            <PresentacionInicio imagen="/img/evento-nueve.png" />
 
             <StructureSeccions
 
@@ -34,7 +34,7 @@ export default function Dragapult() {
                         </div>
                         <div className="contenedor-de-cartas-card">
                             <div className="img-img">
-                                <img src="/public/img/dragapult.png" alt="Dragaoult" />
+                                <img src="/img/dragapult.png" alt="Dragaoult" />
                             </div>
                             <div className="lista">
                                 <ul>
@@ -56,7 +56,7 @@ export default function Dragapult() {
                         </div>
                         <div className="carta-encapsulada">
                             <div className="im-im" >
-                                <img src="/public/img/ferropaladin.png" alt="Ferropaladin" />
+                                <img src="/img/ferropaladin.png" alt="Ferropaladin" />
                             </div>
                         </div>
                         <div className="parrafo">

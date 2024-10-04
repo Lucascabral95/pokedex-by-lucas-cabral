@@ -6,7 +6,7 @@ export default function PlayPokemonLocal() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-cuatro.png" />
+            <PresentacionInicio imagen="/img/evento-cuatro.png" />
 
             <StructureSeccions
 

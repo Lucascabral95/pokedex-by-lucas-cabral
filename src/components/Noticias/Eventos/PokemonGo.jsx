@@ -6,7 +6,7 @@ export default function PokemonGo() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-siete.png" />
+            <PresentacionInicio imagen="/img/evento-siete.png" />
 
             <StructureSeccions
 

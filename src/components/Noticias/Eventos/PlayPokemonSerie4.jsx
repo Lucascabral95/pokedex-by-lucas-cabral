@@ -6,7 +6,7 @@ export default function PlayPokemonSerie4() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/evento-cinco.png" />
+            <PresentacionInicio imagen="/img/evento-cinco.png" />
 
             <StructureSeccions
 

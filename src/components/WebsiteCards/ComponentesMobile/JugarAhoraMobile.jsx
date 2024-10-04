@@ -7,7 +7,7 @@ export default function JugarAhoraMobile() {
 
                 <div className="imagen-pokemon-live">
                     <div className="img">
-                        <img src="/public/img/pokemon-live-footer.png" alt="Pokemon Live" />
+                        <img src="/img/pokemon-live-footer.png" alt="Pokemon Live" />
                     </div>
                 </div>
 
@@ -24,13 +24,13 @@ export default function JugarAhoraMobile() {
 
                 <div className="imagenes-avatars-consola">
                     <div className="img-avatar">
-                        <img src="/public/img/avatar-uno.png" alt="Avatar 1" />
+                        <img src="/img/avatar-uno.png" alt="Avatar 1" />
                     </div>
                     <div className="img-consola">
-                        <img src="/public/img/consola.png" alt="Consola Nintendo" />
+                        <img src="/img/consola.png" alt="Consola Nintendo" />
                     </div>
                     <div className="img-avatar">
-                        <img src="/public/img/avatar-dos.png" alt="Avatar 2" />
+                        <img src="/img/avatar-dos.png" alt="Avatar 2" />
                     </div>
                 </div>
 

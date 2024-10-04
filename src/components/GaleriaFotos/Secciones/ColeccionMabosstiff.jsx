@@ -6,7 +6,7 @@ export default function ColeccionMabosstiff() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-dieciocho.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-dieciocho.png'} />
 
             <StructureSeccions
 

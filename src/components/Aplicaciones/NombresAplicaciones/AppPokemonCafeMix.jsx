@@ -31,9 +31,9 @@ export default function AppPokemonCafeMix() {
         </>
       }
 
-        imagen="/public/img/app-siete.jpg"
+        imagen="/img/app-siete.jpg"
 
-        imagenLogo="/public/img/pokemon-cafe-uno.jpg"
+        imagenLogo="/img/pokemon-cafe-uno.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>24 de junio de 2020</strong></p>

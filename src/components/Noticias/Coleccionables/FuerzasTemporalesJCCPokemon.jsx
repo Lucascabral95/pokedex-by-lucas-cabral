@@ -6,7 +6,7 @@ export default function FuerzasTemporalesJCCPokemon() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/carta-tres.png" />
+            <PresentacionInicio imagen="/img/carta-tres.png" />
 
             <StructureSeccions
 
@@ -42,7 +42,7 @@ export default function FuerzasTemporalesJCCPokemon() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-123">
                                 <div className="im-im" >
-                                    <img src="/public/img/electrofuriaex.png" alt="Electrofuria ex" />
+                                    <img src="/img/electrofuriaex.png" alt="Electrofuria ex" />
                                 </div>
                             </Link>
                         </div>
@@ -313,7 +313,7 @@ export default function FuerzasTemporalesJCCPokemon() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-208">
                                 <div className="im-img">
-                                    <img src="/public/img/electrofuria.png" alt="Electrofuria ex" />
+                                    <img src="/img/electrofuria.png" alt="Electrofuria ex" />
                                 </div>
                             </Link>
                         </div>
@@ -329,7 +329,7 @@ export default function FuerzasTemporalesJCCPokemon() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-81">
                                 <div className="im-im" >
-                                    <img src="/public/img/ferrotestaex.png" alt="Ferrotesta ex " />
+                                    <img src="/img/ferrotestaex.png" alt="Ferrotesta ex " />
                                 </div>
                             </Link>
                         </div>
@@ -575,7 +575,7 @@ export default function FuerzasTemporalesJCCPokemon() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-206">
                                 <div className="im-im">
-                                    <img src="/public/img/ferrotestaexd.png" alt="Ferrotesta ex" />
+                                    <img src="/img/ferrotestaexd.png" alt="Ferrotesta ex" />
                                 </div>
                             </Link>
                         </div>
@@ -598,7 +598,7 @@ export default function FuerzasTemporalesJCCPokemon() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp.jsx";
 
-
 export default function AppPokemonHome() {
   return (
     <>
@@ -79,7 +78,7 @@ export default function AppPokemonHome() {
             </div>
             <div className="imagen-con-marco">
               <div className="marco-img">
-                <img src="/public/img/pokemon-home-tress.png" alt="Todos los juegos de Pokemon" />
+                <img src="/img/pokemon-home-tress.png" alt="Todos los juegos de Pokemon" />
               </div>
             </div>
             <div className="parrafo">
@@ -133,7 +132,7 @@ export default function AppPokemonHome() {
               <p className="texto-normal">En Pokémon HOME encontrarás muchas más funciones para conectar tus juegos de la serie Pokémon. Al transferir Pokémon a Pokémon HOME, conseguirás puntos Pokémon HOME que podrás convertir en puntos de batalla (PB) en Pokémon Sword y Pokémon Shield o en puntos de liga (PL) en Pokémon Scarlet y Pokémon Violet.</p>
             </div>
             <div className="img-img-normal" style={{ widows: "100%" }}>
-              <img style={{ width: "100%", height: "auto" }} src="/public/img/pokemon-home-cuatro.png" alt="Vista Global de Pokemon Home" />
+              <img style={{ width: "100%", height: "auto" }} src="/img/pokemon-home-cuatro.png" alt="Vista Global de Pokemon Home" />
             </div>
             <div className="parrafo">
               <p className="texto-normal" style={{ fontSize: "14.4px" }}>En la vista global, podrás ver los Pokémon que hayas depositado en Pokémon HOME, así como sus habilidades y movimientos. Cuando envíes Pokémon de Pokémon HOME a otro juego conectado también podrás cambiar sus movimientos. Con el plan prémium de pago podrás acceder a la función Juez.</p>
@@ -145,13 +144,13 @@ export default function AppPokemonHome() {
               <div className="linea-azul"></div>
             </div>
             <div className="img-img-normal" style={{ widows: "100%" }}>
-              <img style={{ width: "100%", height: "auto" }} src="/public/img/pokemon-home-cinco.jpg" alt="Vista Global de Pokemon Home" />
+              <img style={{ width: "100%", height: "auto" }} src="/img/pokemon-home-cinco.jpg" alt="Vista Global de Pokemon Home" />
             </div>
             <div className="parrafo">
               <p className="texto-normal" style={{ fontSize: "14.4px" }}> Con el plan prémium de pago, se añadirán algunas funciones y otras se ampliarán. </p>
             </div>
             <div className="img-img-normal" style={{ widows: "100%" }}>
-              <img style={{ width: "100%", height: "auto" }} src="/public/img/pokemon-home-seis.jpg" alt="Vista Global de Pokemon Home" />
+              <img style={{ width: "100%", height: "auto" }} src="/img/pokemon-home-seis.jpg" alt="Vista Global de Pokemon Home" />
             </div>
             <div className="parrafo">
               <p className="texto-normal" style={{ fontSize: "14.4px" }}>Algunas funciones no estarán disponibles para todos los usuarios, de acuerdo con la política de privacidad y las condiciones de uso de Pokémon HOME.</p>
@@ -166,9 +165,9 @@ export default function AppPokemonHome() {
           </>
         }
 
-        imagen="/public/img/app-seis.jpg"
+        imagen="/img/app-seis.jpg"
 
-        imagenLogo="/public/img/pokemon-home-siete.jpg"
+        imagenLogo="/img/pokemon-home-siete.jpg"
         cuerpoLogo={
           <>
             <p>Genero: <strong>Seguimiento del sueño</strong></p>

@@ -5,7 +5,7 @@ export default function AprendeJccPokemon() {
     return (
         <>
 
-             <PresentacionInicio imagen={'/public/img/jcc-pokemon-uno.png'} />
+             <PresentacionInicio imagen={'/img/jcc-pokemon-uno.png'} />
 
              <StructureSeccions 
              
@@ -23,7 +23,7 @@ export default function AprendeJccPokemon() {
                     </div>
                     <div className="imagen-tabla">
                         <div className="img-img">
-                            <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                            <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                         </div>
                         <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                             <div className="parte two">

@@ -15,7 +15,7 @@ export default function CartasDesplegable() {
                             </div>
                             <div className="imagen-detalle imagen-detalle-cartas">
                                 <div className="img">
-                                    <img src="/public/img/pack-cartas-uno.png" alt="Fuerzas Temporales" />
+                                    <img src="/img/pack-cartas-uno.png" alt="Fuerzas Temporales" />
                                 </div>
                                 <div className="detalle">
                                     <h4> Escarlata y Purpura-Feruzas Temporales de JCC Pokemon </h4>
@@ -23,7 +23,7 @@ export default function CartasDesplegable() {
                             </div>
                             <div className="imagen-detalle imagen-detalle-cartas">
                                 <div className="img">
-                                    <img src="/public/img/pack-cartas-dos.png" alt="Destinos de Paldea" />
+                                    <img src="/img/pack-cartas-dos.png" alt="Destinos de Paldea" />
                                 </div>
                                 <div className="detalle">
                                     <h4> Escarlata y Purpura_Destinos de Paldea de JCC Pokemon </h4>
@@ -31,7 +31,7 @@ export default function CartasDesplegable() {
                             </div>
                             <div className="imagen-detalle imagen-detalle-cartas">
                                 <div className="img">
-                                    <img src="/public/img/pack-cartas-tres.png" alt="Destinos de Paldea" />
+                                    <img src="/img/pack-cartas-tres.png" alt="Destinos de Paldea" />
                                 </div>
                                 <div className="detalle">
                                     <h4> Escarlata y Purpura-Brecha Paradojica de JCC Pokemon </h4>

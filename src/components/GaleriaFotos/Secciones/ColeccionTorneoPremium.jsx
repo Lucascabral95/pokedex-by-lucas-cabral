@@ -6,7 +6,7 @@ export default function ColeccionTorneoPremium() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-nueve.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-nueve.png'} />
 
             <StructureSeccions
 

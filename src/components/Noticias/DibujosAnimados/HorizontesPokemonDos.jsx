@@ -6,7 +6,7 @@ export default function HorizontesPokemonDos() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/dibujo-nueve.png"} />
+            <PresentacionInicio imagen={"/img/dibujo-nueve.png"} />
 
             <StructureSeccions
 

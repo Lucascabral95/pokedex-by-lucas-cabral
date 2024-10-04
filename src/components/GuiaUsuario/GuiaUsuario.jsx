@@ -28,8 +28,8 @@ export default function GuiaUsuario() {
 
                 <div className="imagen-principal-central">
                     <div className="img">
-                        <img src="/public/img/guia-pokemon-uno.webp" alt="Diversion para todos" />
-                        <img style={{ display: "none" }} className="familia-mobile" src="/public/img/familia-mobile.webp" alt="Diversion para todos" />
+                        <img src="/img/guia-pokemon-uno.webp" alt="Diversion para todos" />
+                        <img style={{ display: "none" }} className="familia-mobile" src="/img/familia-mobile.webp" alt="Diversion para todos" />
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ export default function GuiaUsuario() {
                     <div className="contenedor-imagen">
                         <div className="img-pikachu">
                             <div className="img">
-                                <img src="/public/img/guia-pokemon-ocho.webp" alt="Pikachu sonriente" />
+                                <img src="/img/guia-pokemon-ocho.webp" alt="Pikachu sonriente" />
                             </div>
                         </div>
                         <div className="imagen-texto">
@@ -71,26 +71,26 @@ export default function GuiaUsuario() {
                         <div className="div-cuadro">
                             <div className="snorlax">
                                 <div className="img img-snorlax">
-                                    <img src="/public/img/guia-poke-uno.webp" alt="Snorlax" />
+                                    <img src="/img/guia-poke-uno.webp" alt="Snorlax" />
                                 </div>
                                 <div className="snorlax-dos">
                                     <div className="img img-mudkip">
-                                        <img src="/public/img/guia-poke-dos.webp" alt=" Mudkip " />
+                                        <img src="/img/guia-poke-dos.webp" alt=" Mudkip " />
                                     </div>
                                     <div className="img img-eevee">
-                                        <img src="/public/img/guia-poke-tres.webp" alt="Eeevee" />
+                                        <img src="/img/guia-poke-tres.webp" alt="Eeevee" />
                                     </div>
                                 </div>
                             </div>
                             <div className="eevee">
                                 <div className="img img-squirtle">
-                                    <img src="/public/img/guia-poke-cuatro.webp" alt=" Squirtle" />
+                                    <img src="/img/guia-poke-cuatro.webp" alt=" Squirtle" />
                                 </div>
                                 <div className="img img-pokebola">
-                                    <img src="/public/img/guia-poke-seis.webp" alt="Pokebola" />
+                                    <img src="/img/guia-poke-seis.webp" alt="Pokebola" />
                                 </div>
                                 <div className="img img-bulbasur">
-                                    <img src="/public/img/guia-poke-cinco.webp" alt="Bulbasur" />
+                                    <img src="/img/guia-poke-cinco.webp" alt="Bulbasur" />
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ export default function GuiaUsuario() {
                     <div className="contenido-medio">
                         <div className="img">
                             <div className="imagen">
-                                <img src="/public/img/guia-pokemon-tres.webp" alt="Jugador de cartas Pokemon" />
+                                <img src="/img/guia-pokemon-tres.webp" alt="Jugador de cartas Pokemon" />
                             </div>
                         </div>
                         <div className="contenido">
@@ -172,7 +172,7 @@ export default function GuiaUsuario() {
                     </div>
                     <div className="imagen">
                         <div className="img">
-                            <img src="/public/img/guia-pokemon-cuatro.webp" alt="Fans de Pokemon jugando" />
+                            <img src="/img/guia-pokemon-cuatro.webp" alt="Fans de Pokemon jugando" />
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ export default function GuiaUsuario() {
                     <div className="animacion">
                         <div className="imagen">
                             <div className="img">
-                                <img src="/public/img/guia-pokemon-cinco.webp" alt="Dibjuos de Pokemon" />
+                                <img src="/img/guia-pokemon-cinco.webp" alt="Dibjuos de Pokemon" />
                             </div>
                         </div>
                         <div className="contenido">
@@ -218,7 +218,7 @@ export default function GuiaUsuario() {
                     </div>
                     <div className="imagen">
                         <div className="img">
-                            <img src="/public/img/guia-pokemon-seis.webp" alt="Fan de Pokemon posando" />
+                            <img src="/img/guia-pokemon-seis.webp" alt="Fan de Pokemon posando" />
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ export default function GuiaUsuario() {
                     <div className="comprometidos-con-la-proteccion-infantil">
                         <div className="imagen">
                             <div className="img">
-                                <img src="/public/img/guia-pokemon-siete.webp" alt="Chicos felices" />
+                                <img src="/img/guia-pokemon-siete.webp" alt="Chicos felices" />
                             </div>
                         </div>
                         <div className="contenido">

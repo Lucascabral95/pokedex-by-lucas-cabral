@@ -14,7 +14,7 @@ export default function ExpansionesHeaderCard() {
                             </div>
                             <div className="imagen-detalle">
                                 <div className="img">
-                                    <img src="/public/img/fuerzas-temporaless.png" alt="Fuerzas Temporales" />
+                                    <img src="/img/fuerzas-temporaless.png" alt="Fuerzas Temporales" />
                                 </div>
                                 <div className="detalle">
                                     <h4>Escarlata y Purpura-Fuerzas Temporales de JCC Pokemon</h4>
@@ -22,7 +22,7 @@ export default function ExpansionesHeaderCard() {
                             </div>
                             <div className="imagen-detalle">
                                 <div className="img">
-                                    <img src="/public/img/destinos-paldea.png" alt="Destinos de Paldea" />
+                                    <img src="/img/destinos-paldea.png" alt="Destinos de Paldea" />
                                 </div>
                                 <div className="detalle">
                                     <h4>Escarlata y Purpura-Destinos de Paldea de JCC Pokemon</h4>
@@ -30,7 +30,7 @@ export default function ExpansionesHeaderCard() {
                             </div>
                             <div className="imagen-detalle">
                                 <div className="img">
-                                    <img src="/public/img/brecha-paradojica.png" alt="Destinos de Paldea" />
+                                    <img src="/img/brecha-paradojica.png" alt="Destinos de Paldea" />
                                 </div>
                                 <div className="detalle">
                                     <h4>Escarlata y Purpura-Brecha Paradojica de JCC Pokemon</h4>

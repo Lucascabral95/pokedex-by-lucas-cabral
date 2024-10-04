@@ -64,13 +64,13 @@ export default function FooterWebsiteCards() {
                         <div className="contenedor">
                             <div className="img-pokemon-company">
                                 <Link to="/inicio">
-                                    <img src="/public/img/pokemon-company.png" alt="The Pokemon Company" />
+                                    <img src="/img/pokemon-company.png" alt="The Pokemon Company" />
                                 </Link>
                             </div>
                             <div className="imagen-coppa">
                                 <div className="img-coppa">
                                     <a href="https://caru.bbbprograms.org/seal/confirmation/1596150491" target="_blank">
-                                        <img src="/public/img/coppa-logo.png" alt="Coppa Safe Harbor" />
+                                        <img src="/img/coppa-logo.png" alt="Coppa Safe Harbor" />
                                     </a>
                                 </div>
                             </div>

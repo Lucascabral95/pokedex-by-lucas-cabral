@@ -27,7 +27,6 @@ export default function Header() {
             case "dibujos":
                 return () => (window.location.href = "/dibujos-animados");
             case "eventos":
-                // return () => (window.location.href = "/eventos");
                 return () => (window.location.href = "/card/expansions/temporal-forces");
             case "noticias":
                 return () => (window.location.href = "/noticias");
@@ -53,27 +52,27 @@ export default function Header() {
                         <div className="interior-interior">
                             <div className="tag-chica shadow">
                                 <Link to="/">
-                                    <img src="/public/img/logo-pokemon.png" alt="Logo Pokemon" />
+                                    <img src="/img/logo-pokemon.png" alt="Logo Pokemon" />
                                 </Link>
                             </div>
                             <div className="tag-chica shadow">
                                 <Link to="/">
-                                    <img src="/public/img/quienes-somos.png" alt="Quienes somos" />
+                                    <img src="/img/quienes-somos.png" alt="Quienes somos" />
                                 </Link>
                             </div>
                             <div className="tag-larga">
                                 <Link to="/">
-                                    <img src="/public/img/pokemon-negro.png" alt="Pokemon Negro" />
+                                    <img src="/img/pokemon-negro.png" alt="Pokemon Negro" />
                                 </Link>
                             </div>
                             <div className="tag-larga">
                                 <Link to="/">
-                                    <img src="/public/img/scarlet-violet.jpg" alt="Scarlet Violet" />
+                                    <img src="/img/scarlet-violet.jpg" alt="Scarlet Violet" />
                                 </Link>
                             </div>
                             <div className="tag-larga">
                                 <Link to="/">
-                                    <img src="/public/img/foros-pokemon.png" alt="Foros de Pokemon" />
+                                    <img src="/img/foros-pokemon.png" alt="Foros de Pokemon" />
                                 </Link>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ export default function IlustracionesEscarlataPupura() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/jcc-pokemon-uno.png"} />
+            <PresentacionInicio imagen={"/img/jcc-pokemon-uno.png"} />
 
             <StructureSeccions
 
@@ -30,10 +30,10 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="contenedor-varias-cartas">
                             <div className="img-uno">
-                                <img src="/public/img/cartas-coleccionables-uno.png" alt="Totodile" />
+                                <img src="/img/cartas-coleccionables-uno.png" alt="Totodile" />
                             </div>
                             <div className="img-dos">
-                                <img src="/public/img/cartas-coleccionables-dos.png" alt="Mudsdale" />
+                                <img src="/img/cartas-coleccionables-dos.png" alt="Mudsdale" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -45,11 +45,11 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="contenedor-varias-cartas">
                             <div className="img-uno">
-                                <img src="/public/img/cartas-coleccionables-tres.png" alt="Grotle" />
+                                <img src="/img/cartas-coleccionables-tres.png" alt="Grotle" />
                             </div>
                             <div className="img-dos">
-                                <img src="/public/img/cartas-coleccionables-cuatro.png" alt="Ferropaladin" />
-                                <img style={{ marginTop: "4%" }} src="/public/img/cartas-coleccionables-cinco.png" alt="Erin" />
+                                <img src="/img/cartas-coleccionables-cuatro.png" alt="Ferropaladin" />
+                                <img style={{ marginTop: "4%" }} src="/img/cartas-coleccionables-cinco.png" alt="Erin" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -61,11 +61,11 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="contenedor-varias-cartas">
                             <div className="img-dos">
-                                <img src="/public/img/cartas-coleccionables-siete.png" alt="Carvanha" />
-                                <img style={{ marginTop: "4%" }} src="/public/img/cartas-coleccionables-seis.png" alt="Nuzleaf" />
+                                <img src="/img/cartas-coleccionables-siete.png" alt="Carvanha" />
+                                <img style={{ marginTop: "4%" }} src="/img/cartas-coleccionables-seis.png" alt="Nuzleaf" />
                             </div>
                             <div className="img-uno">
-                                <img src="/public/img/cartas-coleccionables-ocho.png" alt="Colmilargo" />
+                                <img src="/img/cartas-coleccionables-ocho.png" alt="Colmilargo" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -77,11 +77,11 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="contenedor-varias-cartas">
                             <div className="img-uno">
-                                <img src="/public/img/cartas-coleccionables-nueve.png" alt="Magcargo" />
+                                <img src="/img/cartas-coleccionables-nueve.png" alt="Magcargo" />
                             </div>
                             <div className="img-dos">
-                                <img src="/public/img/cartas-coleccionables-diez.png" alt="Keldeo" />
-                                <img style={{ marginTop: "4%" }} src="/public/img/cartas-coleccionables-once.png" alt="Gasstly" />
+                                <img src="/img/cartas-coleccionables-diez.png" alt="Keldeo" />
+                                <img style={{ marginTop: "4%" }} src="/img/cartas-coleccionables-once.png" alt="Gasstly" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -93,11 +93,11 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="contenedor-varias-cartas">
                             <div className="img-dos">
-                                <img src="/public/img/cartas-coleccionables-doce.png" alt="Snom" />
-                                <img style={{ marginTop: "4%" }} src="/public/img/cartas-coleccionables-trece.png" alt="Pikachu" />
+                                <img src="/img/cartas-coleccionables-doce.png" alt="Snom" />
+                                <img style={{ marginTop: "4%" }} src="/img/cartas-coleccionables-trece.png" alt="Pikachu" />
                             </div>
                             <div className="img-uno">
-                                <img src="/public/img/cartas-coleccionables-catorce.png" alt="Mr. Mime" />
+                                <img src="/img/cartas-coleccionables-catorce.png" alt="Mr. Mime" />
                             </div>
                         </div>
                         <div className="parrafo">
@@ -124,7 +124,7 @@ export default function IlustracionesEscarlataPupura() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

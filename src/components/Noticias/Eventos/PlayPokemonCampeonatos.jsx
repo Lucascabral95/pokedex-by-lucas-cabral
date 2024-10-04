@@ -6,7 +6,7 @@ export default function PlayPokemonCampeonatos() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/evento-dos.png"} />
+            <PresentacionInicio imagen={"/img/evento-dos.png"} />
 
             <StructureSeccions
 

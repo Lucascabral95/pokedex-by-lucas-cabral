@@ -48,7 +48,7 @@ export default function Inicio() {
                     <div className="div-imagen-mayor">
                         <Link to={'/card/expansions/temporal-forces'}>
                             <div className="img">
-                                <img src="/public/img/fuerzas-temporales.png" alt="Fuerza temporales" />
+                                <img src="/img/fuerzas-temporales.png" alt="Fuerza temporales" />
                             </div>
                         </Link>
                         <div className="texto">
@@ -68,7 +68,7 @@ export default function Inicio() {
                         <div className="contenedor ogerpon">
                             <Link to={'/noticias/ogerpon'}>
                                 <div className="img">
-                                    <img src="/public/img/inicio-gif.gif" alt="GIF Ogerpon" />
+                                    <img src="/img/inicio-gif.gif" alt="GIF Ogerpon" />
                                 </div>
                                 <div className="texto">
                                     <div className="tt">
@@ -80,7 +80,7 @@ export default function Inicio() {
                         <div className="contenedor c-f-t">
                             <Link to={'/noticias/escarlata-purpura'}>
                                 <div className="img">
-                                    <img src="/public/img/fuerzas-temporales-cartas.png" alt="Cartas Fuerzas Temporales" />
+                                    <img src="/img/fuerzas-temporales-cartas.png" alt="Cartas Fuerzas Temporales" />
                                 </div>
                                 <div className="texto">
                                     <div className="tt">
@@ -92,7 +92,7 @@ export default function Inicio() {
                         <div className="contenedor scarlatito">
                             <Link to={'/noticias/sprigatito'}>
                                 <div className="img">
-                                    <img src="/public/img/poke-scarlet-violet.png" alt="Scargatito" />
+                                    <img src="/img/poke-scarlet-violet.png" alt="Scargatito" />
                                 </div>
                                 <div className="texto">
                                     <div className="tt">

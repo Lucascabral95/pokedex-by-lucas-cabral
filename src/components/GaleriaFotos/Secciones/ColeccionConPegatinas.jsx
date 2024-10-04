@@ -6,7 +6,7 @@ export default function ColeccionConPegatinas() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-quince.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-quince.png'} />
 
             <StructureSeccions
 

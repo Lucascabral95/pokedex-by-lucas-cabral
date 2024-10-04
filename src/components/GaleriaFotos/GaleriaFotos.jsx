@@ -13,7 +13,7 @@ export default function GaleriaFotos() {
                         <div className="contenedor-de-imagen">
                             <Link to={'/card/expansions/temporal-forces'}>
                             <div className="img">
-                                <img src="/public/img/galeria-cartas-.png" alt="Portada de la Galeria" />
+                                <img src="/img/galeria-cartas-.png" alt="Portada de la Galeria" />
                             </div>
                             <div className="titulo-foto">
                                 <div className="tit">

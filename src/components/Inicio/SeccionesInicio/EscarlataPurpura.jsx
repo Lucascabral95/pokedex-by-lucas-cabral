@@ -6,7 +6,7 @@ export default function EscarlataPurpura() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/fuerzas-temporales-cartas.png" />
+            <PresentacionInicio imagen="/img/fuerzas-temporales-cartas.png" />
 
             <StructureSeccions superior={
                 <>

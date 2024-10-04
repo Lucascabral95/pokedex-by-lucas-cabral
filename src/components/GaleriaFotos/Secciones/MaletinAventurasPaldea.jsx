@@ -6,7 +6,7 @@ export default function MaletinAventurasPaldea() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-diecisiete.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-diecisiete.png'} />
 
             <StructureSeccions
 

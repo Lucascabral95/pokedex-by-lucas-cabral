@@ -6,7 +6,7 @@ export default function BarajaCombateDeluxe() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-once.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-once.png'} />
 
             <StructureSeccions
 

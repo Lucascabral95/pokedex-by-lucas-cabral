@@ -75,7 +75,7 @@ export default function HeaderCard() {
                 <div className="logo">
                     <Link to={"/expansions/temporal-forces"}>
                         <div className="img-img">
-                            <img src="/public/img/logo-juego-cartas-coleccionables.png" alt="Logo Pokemon de Cartas Colleccionables" />
+                            <img src="/img/logo-juego-cartas-coleccionables.png" alt="Logo Pokemon de Cartas Colleccionables" />
                         </div>
                     </Link>
                 </div>

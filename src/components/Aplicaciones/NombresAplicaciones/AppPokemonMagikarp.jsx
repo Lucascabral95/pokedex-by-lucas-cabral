@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import StructureApp from "../StructureApp";
-
 
 export default function AppPokemonMagikarp() {
   return (
@@ -56,9 +54,9 @@ export default function AppPokemonMagikarp() {
           </>
         }
 
-        imagen="/public/img/app-doce.jpg"
+        imagen="/img/app-doce.jpg"
 
-        imagenLogo="/public/img/pokemon-magikarp.jpg"
+        imagenLogo="/img/pokemon-magikarp.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>23 de mayo de 2017</strong></p>

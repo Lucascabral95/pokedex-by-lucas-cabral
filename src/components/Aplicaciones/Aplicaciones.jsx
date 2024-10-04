@@ -7,7 +7,7 @@ export default function Aplicaciones() {
 
             <StructureCartoon
 
-                imagen={"/public/img/pokemon-live-azul.png"}
+                imagen={"/img/pokemon-live-azul.png"}
                 titulo={"Juego de Cartas Coleccionables Pokemon Live"}
                 mapeo={Apps}
 

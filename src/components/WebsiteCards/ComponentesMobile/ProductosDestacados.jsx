@@ -9,13 +9,13 @@ export default function ProductosDestacados() {
                 <div className="card-mobile">
                     <div className="imagenes">
                         <div className="img-decorativa i-m-violeta">
-                            <img src="/public/img/borde-violeta.png" alt="Borde Violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-producto">
-                            <img src="/public/img/producto-destacado-uno.png" alt="Borde Violeta" />
+                            <img src="/img/producto-destacado-uno.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-decorativa i-m-bordo">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bord" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bord" />
                         </div>
                     </div>
                     <div className="contenido">
@@ -35,13 +35,13 @@ export default function ProductosDestacados() {
                 <div className="card-mobile">
                     <div className="imagenes">
                         <div className="img-decorativa i-m-violeta">
-                            <img src="/public/img/borde-violeta.png" alt="Borde Violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-producto">
-                            <img src="/public/img/producto-destacado-dos.png" alt="Caja Combina y Combate" />
+                            <img src="/img/producto-destacado-dos.png" alt="Caja Combina y Combate" />
                         </div>
                         <div className="img-decorativa i-m-bordo">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bord" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bord" />
                         </div>
                     </div>
                     <div className="contenido">
@@ -61,13 +61,13 @@ export default function ProductosDestacados() {
                 <div className="card-mobile">
                     <div className="imagenes">
                         <div className="img-decorativa i-m-violeta">
-                            <img src="/public/img/borde-violeta.png" alt="Borde Violeta" />
+                            <img src="/lic/img/borde-violeta.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-producto">
-                            <img src="/public/img/producto-destacado-tres.png" alt="Expositor de paquetes de mejora" />
+                            <img src="/img/producto-destacado-tres.png" alt="Expositor de paquetes de mejora" />
                         </div>
                         <div className="img-decorativa i-m-bordo">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bord" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bord" />
                         </div>
                     </div>
                     <div className="contenido">
@@ -87,13 +87,13 @@ export default function ProductosDestacados() {
                 <div className="card-mobile">
                     <div className="imagenes">
                         <div className="img-decorativa i-m-violeta">
-                            <img src="/public/img/borde-violeta.png" alt="Borde Violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-producto">
-                            <img src="/public/img/producto-destacado-cuatro.png" alt="Expositor de paquete de mejora" />
+                            <img src="/img/producto-destacado-cuatro.png" alt="Expositor de paquete de mejora" />
                         </div>
                         <div className="img-decorativa i-m-bordo">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bord" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bord" />
                         </div>
                     </div>
                     <div className="contenido">
@@ -113,13 +113,13 @@ export default function ProductosDestacados() {
                 <div className="card-mobile">
                     <div className="imagenes">
                         <div className="img-decorativa i-m-violeta">
-                            <img src="/public/img/borde-violeta.png" alt="Borde Violeta" />
+                            <img src="/img/borde-violeta.png" alt="Borde Violeta" />
                         </div>
                         <div className="img-producto">
-                            <img src="/public/img/producto-destacado-cinco.png" alt="Paquete de mejora en funda" />
+                            <img src="/img/producto-destacado-cinco.png" alt="Paquete de mejora en funda" />
                         </div>
                         <div className="img-decorativa i-m-bordo">
-                            <img src="/public/img/borde-bordo.png" alt="Borde Bord" />
+                            <img src="/img/borde-bordo.png" alt="Borde Bord" />
                         </div>
                     </div>
                     <div className="contenido">

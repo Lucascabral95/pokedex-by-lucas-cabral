@@ -6,7 +6,7 @@ export default function TriviaViajesDefinitivos() {
     return (
         <>
 
-            <PresentacionInicio imagen={"/public/img/dibujo-cuatro.png"} />
+            <PresentacionInicio imagen={"/img/dibujo-cuatro.png"} />
 
             <StructureSeccions
 

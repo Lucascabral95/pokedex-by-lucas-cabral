@@ -25,7 +25,7 @@ export default function Extras() {
                             <div className="contenedor c-ogerpon">
                                 <Link to={'/noticias/ogerpon'}>
                                     <div className="img">
-                                        <img src="/public/img/inicio-gif.gif" alt="Ogerpon y sus mascaras" />
+                                        <img src="/img/inicio-gif.gif" alt="Ogerpon y sus mascaras" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">
@@ -41,7 +41,7 @@ export default function Extras() {
                             <div className="contenedor c-fuerza-temporal">
                                 <Link to={'/jcc-pokemon/galeria-de-productos'}>
                                     <div className="img">
-                                        <img src="/public/img/fuerza-temporal-filter.png" alt="Galeria de productos" />
+                                        <img src="/img/fuerza-temporal-filter.png" alt="Galeria de productos" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">
@@ -57,7 +57,7 @@ export default function Extras() {
                             <div className="contenedor c-e-nigma">
                                 <Link to={'/jcc-pokemon/galeria-de-productos/coleccion-torneo-premium-e-nigma'}>
                                     <div className="img">
-                                        <img src="/public/img/galeria-cartas-nueve.png" alt="e-Nigma" />
+                                        <img src="/img/galeria-cartas-nueve.png" alt="e-Nigma" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">
@@ -73,7 +73,7 @@ export default function Extras() {
                             <div className="contenedor c-ddbb ">
                                 <Link to={'/cardlist'}>
                                     <div className="img">
-                                        <img src="/public/img/fuerza-temporal-filter.png" alt="Base de Datos de cartas" />
+                                        <img src="/img/fuerza-temporal-filter.png" alt="Base de Datos de cartas" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">
@@ -89,7 +89,7 @@ export default function Extras() {
                             <div className="contenedor c-noticias">
                                 <Link to={'/noticias'}>
                                     <div className="img">
-                                        <img src="/public/img/pokemon-logo.png" alt="Novedades Pokemon" />
+                                        <img src="/img/pokemon-logo.png" alt="Novedades Pokemon" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">
@@ -105,7 +105,7 @@ export default function Extras() {
                             <div className="contenedor c-aventura-jcc">
                                 <Link to={'/noticias/emprende-tu-aventura-en-pokemon'}>
                                     <div className="img">
-                                        <img src="/public/img/aventura-jcc-pokemon.png" alt="Aventura en JCC Pokemon" />
+                                        <img src="/img/aventura-jcc-pokemon.png" alt="Aventura en JCC Pokemon" />
                                     </div>
                                     <div className="contenido">
                                         <div className="titulo">

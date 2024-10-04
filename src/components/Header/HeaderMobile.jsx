@@ -29,12 +29,12 @@ export default function HeaderMobile() {
                 <div className="primer-contenedor">
                     <div className="primer-div">
                         <Link to={'/'}>
-                            <img src="/public/img/logo-pokemon.png" alt="Logo de Pokemon" />
+                            <img src="/img/logo-pokemon.png" alt="Logo de Pokemon" />
                         </Link>
                     </div>
                     <div className="segundo-div">
                         <Link to={'/'}>
-                            <img src="/public/img/quienes-somos.png" alt="Quienes somos" />
+                            <img src="/img/quienes-somos.png" alt="Quienes somos" />
                         </Link>
                     </div>
                     <div className="tercer-div" onClick={() => activeMenu ? null : setActiveCategorias(!activeCategorias)}>
@@ -174,16 +174,16 @@ export default function HeaderMobile() {
 
                 <div className="contenedor-de-secciones" style={{ display: activeCategorias ? "block" : "none" }}>
                     <div className="contenedor-imagen">
-                        <img src="/public/img/pokemon-negro.png" alt="Pokemon" />
+                        <img src="/img/pokemon-negro.png" alt="Pokemon" />
                     </div>
                     <div className="contenedor-imagen">
-                        <img src="/public/img/scarlet-violet.jpg" alt="Scarlet and Violet" />
+                        <img src="/img/scarlet-violet.jpg" alt="Scarlet and Violet" />
                     </div>
                     <div className="contenedor-imagen">
-                        <img src="/public/img/foros-pokemon.png" alt="Foros" />
+                        <img src="/img/foros-pokemon.png" alt="Foros" />
                     </div>
                     <div className="contenedor-imagen">
-                        <img src="/public/img/aplicaciones-pokemon.png" alt="Aplicaciones" />
+                        <img src="/img/aplicaciones-pokemon.png" alt="Aplicaciones" />
                     </div>
                 </div>
 

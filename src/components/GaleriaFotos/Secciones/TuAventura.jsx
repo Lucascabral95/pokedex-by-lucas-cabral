@@ -6,7 +6,7 @@ export default function TuAventura() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/aventura-jcc-pokemon.png'} />
+            <PresentacionInicio imagen={'/img/aventura-jcc-pokemon.png'} />
 
             <StructureSeccions
 

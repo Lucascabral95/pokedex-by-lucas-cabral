@@ -6,7 +6,7 @@ export default function JCCPokemonTres() {
     return (
         <>
 
-          <PresentacionInicio imagen='/public/img/carta-siete.png' />
+          <PresentacionInicio imagen='/img/carta-siete.png' />
 
           <StructureSeccions
           
@@ -39,7 +39,7 @@ export default function JCCPokemonTres() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-104">
                                 <div className="im-im" >
-                                    <img src="/public/img/gengarex.png" alt="Gengar ex" />
+                                    <img src="/img/gengarex.png" alt="Gengar ex" />
                                 </div>
                             </Link>
                         </div>
@@ -58,7 +58,7 @@ export default function JCCPokemonTres() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-144">
                                 <div className="im-im" >
-                                    <img src="/public/img/pokochosgemelos.png" alt="Pokochos Gemelos" />
+                                    <img src="/img/pokochosgemelos.png" alt="Pokochos Gemelos" />
                                 </div>
                             </Link>
                         </div>
@@ -77,7 +77,7 @@ export default function JCCPokemonTres() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-162">
                                 <div className="im-im" >
-                                    <img src="/public/img/energíaneosuperior.png" alt="Energía Neosuperior" />
+                                    <img src="/img/energíaneosuperior.png" alt="Energía Neosuperior" />
                                 </div>
                             </Link>
                         </div>
@@ -96,7 +96,7 @@ export default function JCCPokemonTres() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-184">
                                 <div className="im-im" >
-                                    <img src="/public/img/Drampa.png" alt="Drampa" />
+                                    <img src="/img/Drampa.png" alt="Drampa" />
                                 </div>
                             </Link>
                         </div>
@@ -115,7 +115,7 @@ export default function JCCPokemonTres() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/sv5-206">
                                 <div className="im-im" >
-                                    <img src="/public/img/ferrotestaex.png" alt="Ferrotesta ex" />
+                                    <img src="/img/ferrotestaex.png" alt="Ferrotesta ex" />
                                 </div>
                             </Link>
                         </div>
@@ -141,7 +141,7 @@ export default function JCCPokemonTres() {
                     </div>
                     <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

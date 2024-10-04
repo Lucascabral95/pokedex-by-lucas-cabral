@@ -6,7 +6,7 @@ export default function ColeccionPremiumArmarouge() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-seis.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-seis.png'} />
 
             <StructureSeccions
 

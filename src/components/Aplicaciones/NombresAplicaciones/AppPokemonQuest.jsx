@@ -80,9 +80,9 @@ export default function AppPokemonQuest() {
           </>
         }
 
-        imagen="/public/img/app-diez.jpg"
+        imagen="/img/app-diez.jpg"
 
-        imagenLogo="/public/img/pokemon-quest-uno.jpg"
+        imagenLogo="/img/pokemon-quest-uno.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>27 de junio de 2018</strong></p>

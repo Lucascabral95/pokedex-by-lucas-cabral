@@ -6,7 +6,7 @@ export default function JCCPokemonDos() {
     return (
         <>
 
-            <PresentacionInicio imagen='/public/img/carta-seis.png' />
+            <PresentacionInicio imagen='/img/carta-seis.png' />
 
             <StructureSeccions
 
@@ -39,7 +39,7 @@ export default function JCCPokemonDos() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/svp-89">
                                 <div className="im-im" >
-                                    <img src="/public/img/feraligart.png" alt="Feraligart" />
+                                    <img src="/img/feraligart.png" alt="Feraligart" />
                                 </div>
                             </Link>
                         </div>
@@ -55,7 +55,7 @@ export default function JCCPokemonDos() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/svp-90">
                                 <div className="im-im" >
-                                    <img src="/public/img/metang.png" alt="Metang" />
+                                    <img src="/img/metang.png" alt="Metang" />
                                 </div>
                             </Link>
                         </div>
@@ -74,7 +74,7 @@ export default function JCCPokemonDos() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/svp-91">
                                 <div className="im-im" >
-                                    <img src="/public/img/koraidon.png" alt="Koraidon" />
+                                    <img src="/img/koraidon.png" alt="Koraidon" />
                                 </div>
                             </Link>
                         </div>
@@ -90,7 +90,7 @@ export default function JCCPokemonDos() {
                         <div className="carta-encapsulada">
                             <Link to="/card/detail/svp-92">
                                 <div className="im-im" >
-                                    <img src="/public/img/miraidon.png" alt="Miraidon" />
+                                    <img src="/img/miraidon.png" alt="Miraidon" />
                                 </div>
                             </Link>
                         </div>
@@ -118,7 +118,7 @@ export default function JCCPokemonDos() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

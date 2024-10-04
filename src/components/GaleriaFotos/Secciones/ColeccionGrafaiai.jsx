@@ -6,7 +6,7 @@ export default function ColeccionGrafaiai() {
     return (
         <>
 
-            <PresentacionInicio imagen={'/public/img/galeria-cartas-diez.png'} />
+            <PresentacionInicio imagen={'/img/galeria-cartas-diez.png'} />
 
             <StructureSeccions
 

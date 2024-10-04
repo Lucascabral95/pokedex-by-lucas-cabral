@@ -44,9 +44,9 @@ export default function AppPokemonShuffle() {
           </>
         }
 
-        imagen="/public/img/app-trece.jpg"
+        imagen="/img/app-trece.jpg"
 
-        imagenLogo="/public/img/pokemon-shuffle-uno.jpg"
+        imagenLogo="/img/pokemon-shuffle-uno.jpg"
         cuerpoLogo={
           <>
             <p>Fecha de lanzamiento: <strong>20 de enero de 2016</strong></p>

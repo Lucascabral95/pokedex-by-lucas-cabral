@@ -6,7 +6,7 @@ export default function Ogerpon() {
     return (
         <>
 
-            <PresentacionInicio imagen="/public/img/oge.png" />
+            <PresentacionInicio imagen="/img/oge.png" />
 
             <StructureSeccions
                 superior={
@@ -62,7 +62,7 @@ export default function Ogerpon() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/mascara-crepuscular.png" alt="Mascarada Crepuscular" />
+                                <img src="/img/mascara-crepuscular.png" alt="Mascarada Crepuscular" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">

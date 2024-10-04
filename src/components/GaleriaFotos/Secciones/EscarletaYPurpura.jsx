@@ -16,7 +16,7 @@ export default function EscarletaYPurpura() {
                         </div>
                         <div className="imagen-tabla">
                             <div className="img-img">
-                                <img src="/public/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
+                                <img src="/img/fuerzas-temporales-icono.png" alt="Fuerzas temporales" />
                             </div>
                             <div className="tab-one" style={{ height: "50px", display: "flex", alignItems: "center" }}>
                                 <div className="parte two">
@@ -71,7 +71,7 @@ export default function EscarletaYPurpura() {
                             <h2> Escarlata y Púrpura-Fuerzas Temporales </h2>
                         </div>
                         <div className="img-single">
-                            <img src="/public/img/fuerza-temporal-uno.png" alt="Escarlata y Púrpura-Fuerzas Temporales" />
+                            <img src="/img/fuerza-temporal-uno.png" alt="Escarlata y Púrpura-Fuerzas Temporales" />
                         </div>
                         <div className="parrafo">
                             <p className="texto-normal">¡La lista de Pokémon del pasado y del futuro sigue aumentando! Ondulagua ex llega desde tiempos ancestrales junto a Electrofuria ex, mientras que Ferroverdor ex imparte justicia mística con tecnología de punta acompañado de Ferrotesta ex. Más allá del Área Cero, Wugtrio y Farigiraf mutan sus tipos como Pokémon ex Teracristal, y Entrenadores Pokémon de todo el mundo ansían el regreso de las excepcionales y poderosísimas cartas de AS TÁCTICO. ¡Prepárate para un combate atemporal entre bestias salvajes y apariciones cibernéticas con la expansión Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon!</p>
