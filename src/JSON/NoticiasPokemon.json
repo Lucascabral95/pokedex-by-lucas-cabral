@@ -2,7 +2,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/escarlata-purpura",
-        "imagen": "/public/img/fuerzas-temporales-cartas.png",
+        "imagen": "/img/fuerzas-temporales-cartas.png",
         "descripcion": "Se publica una noticia",
         "fecha": "21 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -12,7 +12,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/estrategias-para-las-barajas-coleccionables",
-        "imagen": "/public/img/cartas-live.png",
+        "imagen": "/img/cartas-live.png",
         "descripcion": "Se publica una noticia",
         "fecha": "19 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -22,7 +22,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/estrategias-para-las-barajas-del-pase-de-combate-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
-        "imagen": "/public/img/carta-tres.png",
+        "imagen": "/img/carta-tres.png",
         "descripcion": "Se publica una noticia",
         "fecha": "14 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -32,7 +32,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/ogerpon-debuta-en-la-expansion-escarlata-y-purpura-mascarada-crepuscular-de-jcc-pokemon",
-        "imagen": "/public/img/mascara-crepuscular.png",
+        "imagen": "/img/mascara-crepuscular.png",
         "descripcion": "Se publica una noticia",
         "fecha": "14 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -42,7 +42,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/farigiraf-ex-cinturon-colosal-y-mucho-mas-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
-        "imagen": "/public/img/carta-cinco.png",
+        "imagen": "/img/carta-cinco.png",
         "descripcion": "Se publica una noticia",
         "fecha": "08 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -52,7 +52,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/consigue-la-caja-de-combina-y-combate-de-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon-de-manera-anticipada",
-        "imagen": "/public/img/carta-seis.png",
+        "imagen": "/img/carta-seis.png",
         "descripcion": "Se publica una noticia",
         "fecha": "07 de marzo de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -62,7 +62,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/un-primer-vistazo-a-las-cartas-de-la-expansion-escarlata-y-purpura-fuerzas-temporales-de-jcc-pokemon",
-        "imagen": "/public/img/carta-siete.png",
+        "imagen": "/img/carta-siete.png",
         "descripcion": "Se publica una noticia",
         "fecha": "23 de febrero de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -72,7 +72,7 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/brilla-con-luz-propia-con-mimikyu-gardevoir-ex-charizard-ex-y-muchos-mas-en-escarlata-y-purpura-destinos-de-paldea",
-        "imagen": "/public/img/carta-ocho.png",
+        "imagen": "/img/carta-ocho.png",
         "descripcion": "Se publica una noticia",
         "fecha": "21 de febrero de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
@@ -82,33 +82,17 @@
     {
         "tipo": "Coleccionable",
         "link": "/noticias/consigue-paquetes-de-premio-de-play-pokemon-de-la-serie-4-en-tu-tienda-de-juegos-mas-cercana",
-        "imagen": "/public/img/carta-nueve.png",
+        "imagen": "/img/carta-nueve.png",
         "descripcion": "Se publica una noticia",
         "fecha": "07 de febrero de 2024",
         "subtitulo": "Juego de Cartas Coleccionables",
         "titulo": "Consigue paquetes de premio de Play! Pokémon de la Serie 4 en tu tienda de juegos más cercana",
         "cuerpo": "Participa en eventos en tu Liga local para obtener estos paquetes de premio especiales con populares cartas de JCC Pokémon."
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "tipo": "Dibujos",
         "link": "/noticias/sprigatito",
-        "imagen": "/public/img/dibujo-uno.png",
+        "imagen": "/img/dibujo-uno.png",
         "descripcion": "Se publica una noticia",
         "fecha": "15 de marzo de 2024",
         "subtitulo": "Diubjos animados",
@@ -118,7 +102,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/disfruta-ya-de-la-serie-horizontes-pokemon-en-netflix",
-        "imagen": "/public/img/dibujo-dos.png",
+        "imagen": "/img/dibujo-dos.png",
         "descripcion": "Se publica una noticia",
         "fecha": "07 de marzo de 2024",
         "subtitulo": "Dibujos animados",
@@ -128,7 +112,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/la-serie-horizontes-pokemon-se-estrenara-el-7-de-marzo",
-        "imagen": "/public/img/dibujo-tres.png",
+        "imagen": "/img/dibujo-tres.png",
         "descripcion": "Se publica una noticia",
         "fecha": "22 de enero de 2024",
         "subtitulo": "Dibujos animados",
@@ -138,7 +122,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/trivia-de-la-serie-viajes-definitivos-pokemon",
-        "imagen": "/public/img/dibujo-cuatro.png",
+        "imagen": "/img/dibujo-cuatro.png",
         "descripcion": "Se publica una noticia",
         "fecha": "10 de enero de 2024",
         "subtitulo": "Dibujos animados",
@@ -148,7 +132,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/tv-pokemon-llega-a-su-fin-en-marzo-de-2024",
-        "imagen": "/public/img/dibujo-cinco.jpg",
+        "imagen": "/img/dibujo-cinco.jpg",
         "descripcion": "Se publica una noticia",
         "fecha": "08 de enero de 2024",
         "subtitulo": "Dibujos animados",
@@ -158,7 +142,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/pokemon-por-siempre-y-heroes-pokemon-ya-estan-disponibles-para-su-compra-digital",
-        "imagen": "/public/img/dibujo-seis.png",
+        "imagen": "/img/dibujo-seis.png",
         "descripcion": "Se publica una noticia",
         "fecha": "22 de diciembre de 2023",
         "subtitulo": "Dibujos animados",
@@ -168,7 +152,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/el-cuarto-episodio-de-pokemon-vientos-de-paldea-ya-esta-disponible",
-        "imagen": "/public/img/dibujo-siete.png",
+        "imagen": "/img/dibujo-siete.png",
         "descripcion": "Se publica una noticia",
         "fecha": "13 de diciembre de 2023",
         "subtitulo": "Dibujos animados",
@@ -178,7 +162,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/barajas-iniciales",
-        "imagen": "/public/img/dibujo-ocho.png",
+        "imagen": "/img/dibujo-ocho.png",
         "descripcion": "Se publica una noticia",
         "fecha": "13 de diciembre de 2024",
         "subtitulo": "Dibujos animados",
@@ -188,7 +172,7 @@
     {
         "tipo": "Dibujos",
         "link": "/noticias/barajas-iniciales",
-        "imagen": "/public/img/dibujo-nueve.png",
+        "imagen": "/img/dibujo-nueve.png",
         "descripcion": "Se publica una noticia",
         "fecha": "29 de noviembre de 2023",
         "subtitulo": "Dibujos animados",
@@ -199,7 +183,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/actualizacion-de-los-reglamentos-de-play-pokemon-para-el-primer-trimestre-de-2024",
-        "imagen": "/public/img/evento-uno.png",
+        "imagen": "/img/evento-uno.png",
         "descripcion": "Se publica una noticia",
         "fecha": "18 de marzo de 2024",
         "subtitulo": "Diubjos animados",
@@ -209,7 +193,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/novedades-sobre-los-eventos-locales-de-junio-de-la-serie-de-campeonatos",
-        "imagen": "/public/img/evento-dos.png",
+        "imagen": "/img/evento-dos.png",
         "descripcion": "Se publica una noticia",
         "fecha": "18 de marzo de 2024",
         "subtitulo": "Diubjos animados",
@@ -219,7 +203,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/obten-un-pokemon-durante-la-transmision-del-campeonato-internacional-de-europa-2024",
-        "imagen": "/public/img/evento-tres.png",
+        "imagen": "/img/evento-tres.png",
         "descripcion": "Se publica una noticia",
         "fecha": "08 de marzo de 2024",
         "subtitulo": "Diubjos animados",
@@ -229,7 +213,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/celebra-el-dia-de-pokemon-en-un-evento-local-de-play-pokemon",
-        "imagen": "/public/img/evento-cuatro.png",
+        "imagen": "/img/evento-cuatro.png",
         "descripcion": "Se publica una noticia",
         "fecha": "20 de febrero de 2024",
         "subtitulo": "Diubjos animados",
@@ -239,7 +223,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/consigue-paquetes-de-premio-de-play-pokemon-de-la-serie-4-en-tu-tienda-de-juegos-mas-cercana",
-        "imagen": "/public/img/evento-cinco.png",
+        "imagen": "/img/evento-cinco.png",
         "descripcion": "Se publica una noticia",
         "fecha": "07 de enero de 2024",
         "subtitulo": "Diubjos animados",
@@ -249,7 +233,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/anuncio-de-la-rotacion-del-formato-estandar-de-jcc-pokemon-en-2024",
-        "imagen": "/public/img/evento-seis.png",
+        "imagen": "/img/evento-seis.png",
         "descripcion": "Se publica una noticia",
         "fecha": "12 de enero de 2023",
         "subtitulo": "Diubjos animados",
@@ -259,7 +243,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/pokemon-go-se-une-a-los-eventos-de-juego-organizado-en-latinoamerica",
-        "imagen": "/public/img/evento-siete.png",
+        "imagen": "/img/evento-siete.png",
         "descripcion": "Se publica una noticia",
         "fecha": "08 de enero de 2023",
         "subtitulo": "Diubjos animados",
@@ -269,7 +253,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/actualizacion-de-los-reglamentos-de-play-pokemon-para-el-cuarto-trimestre-de-2023",
-        "imagen": "/public/img/evento-ocho.jpg",
+        "imagen": "/img/evento-ocho.jpg",
         "descripcion": "Se publica una noticia",
         "fecha": "09 de noviembre de 2024",
         "subtitulo": "Diubjos animados",
@@ -279,7 +263,7 @@
     {
         "tipo": "Eventos",
         "link": "/noticias/consigue-al-dragapult-de-alex-gomez-berna-y-anade-la-carta-ferropaladin-ex-a-tu-coleccion-en-jcc-pokemon-live",
-        "imagen": "/public/img/evento-nueve.png",
+        "imagen": "/img/evento-nueve.png",
         "descripcion": "Se publica una noticia",
         "fecha": "26 de octubre de 2023",
         "subtitulo": "Diubjos animados",

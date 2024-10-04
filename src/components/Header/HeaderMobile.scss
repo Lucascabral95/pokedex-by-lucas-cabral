@@ -103,7 +103,7 @@
         }
 
         .contenedor-de-categorias {
-            background-image: url('/public/img/fondo-negro.png');
+            background-image: url('/img/fondo-negro.png');
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -190,7 +190,7 @@
             z-index: 1010;
 
             .contenedor-imagen {
-                background-image: url('/public/img/fondo-blanco.png');
+                background-image: url('/img/fondo-blanco.png');
                 margin: 20px 0px 0px;
                 width: 100%;
                 display: flex;

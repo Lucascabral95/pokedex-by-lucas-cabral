@@ -7,7 +7,7 @@
     // cartas destacadas (terminado)
     .contenedor-cartas-destacadas {
         padding: 72px 0 130px 0;
-        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-image: url("/img/fondo-cartas-definitivo.png");
         background-size: 10%;
         background-color: #202225;
         width: 100%;
@@ -321,7 +321,7 @@
         width: 100%;
         padding: 126px 0 70px;
         background-color: #034F69;
-        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-image: url("/img/fondo-cartas-definitivo.png");
         background-size: 10%;
 
         .contenedor {
@@ -543,7 +543,7 @@
 
                 .cartas {
                     width: 60%;
-                    background-image: url('/public/img/fondo-carta.png');
+                    background-image: url("/img/fondo-carta.png");
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: 100% 100%;
@@ -571,7 +571,7 @@
     .pokemon-protagonistas {
         background-color: #034F69;
         padding: 88px 0 88px;
-        background-image: url('/public/img/fondo-cartas-definitivo.png');
+        background-image: url("/img/fondo-cartas-definitivo.png");
         background-size: 10% 6.5%;
         width: 100%;
 
@@ -847,7 +847,7 @@
     // JUGAR AHORA (terminado)
     .jugar-ahora {
         width: 100%;
-        background-image: url('/public/img/fondo-puntitos.png');
+        background-image: url('/img/fondo-puntitos.png');
         background-color: #25282A;
         padding: 70px 0 0 0;
 
@@ -1300,7 +1300,7 @@
 
                     .cartas {
                         width: 60%;
-                        background-image: url('/public/img/fondo-carta.png');
+                        background-image: url('/img/fondo-carta.png');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: 100% 100%;

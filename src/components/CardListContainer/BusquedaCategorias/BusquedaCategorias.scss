@@ -1,6 +1,6 @@
 .buscador-completo {
     width: 100%;
-    background-image: url('/public/img/fondo-negro.png');
+    background-image: url('/img/fondo-negro.png');
 
     button {
         user-select: none;
@@ -244,7 +244,7 @@
                     .ic {
                         width: 25px;
                         height: 25px;
-                        background-image: url('/public/img/tipos-pokemon.png');
+                        background-image: url('/img/tipos-pokemon.png');
                         margin: 0px 10px 0px 6px;
                     }
 
@@ -592,9 +592,7 @@
                     border-radius: 1.2em;
                     height: 38px;
                     display: flex;
-                    // margin-bottom: 6px;
                     margin-bottom: 12px;
-                    // width: 32%;
                     width: 100%;
 
                     .icono0-texto {
@@ -604,7 +602,7 @@
                         .ic {
                             width: 25px;
                             height: 25px;
-                            background-image: url('/public/img/tipos-pokemon.png');
+                            background-image: url('/img/tipos-pokemon.png');
                             margin: 0px 10px 0px 6px;
                         }
 

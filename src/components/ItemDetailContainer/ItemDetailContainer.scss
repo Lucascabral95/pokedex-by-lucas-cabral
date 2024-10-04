@@ -312,7 +312,7 @@
         background-color: white;
 
         .interior-contenedor-evoluciones-involuciones {
-            background-image: url('/public/img/fondo-gris.png');
+            background-image: url('/img/fondo-gris.png');
             margin: auto;
             width: 880px;
             border-radius: 5px;
@@ -438,7 +438,6 @@
         width: 100%;
         margin: auto;
         transform: translateY(-8px);
-        // padding-top: 66px;
         padding-top: 22px;
 
         .contenedor-de-todo {
@@ -454,8 +453,6 @@
                     height: 63px;
                     padding-left: 0%;
                     background-color: #A4A4A4;
-                    // height: 70px;
-                    // padding-left: 15%;
 
                     .interior-superior {
                         background-color: #A4A4A4;
@@ -489,16 +486,11 @@
                                 font-weight: 800;
                                 margin-bottom: 0px;
                                 width: 80px;
-                                // font-size: 24px;
                             }
                         }
 
                         .cont-nombre {
                             display: none;
-                            // display: flex;
-                            // justify-content: center;
-                            // align-items: center;
-                            // margin: 0px 12px;
 
                             p {
                                 display: none;
@@ -515,7 +507,6 @@
                 }
 
                 .segunda-mitad {
-                    // padding-right: 15%;
                     padding-right: 0;
 
                     .segunda-mitad-superior {
@@ -528,8 +519,6 @@
                             display: none;
 
                             p {
-                                // display: flex;
-                                // justify-content: flex-end;
                                 display: none;
                             }
                         }
@@ -606,18 +595,13 @@
             .cont-mayor {
                 margin: auto;
                 background-color: white;
-                // padding: 70px 14px;
                 padding: 36px 14px;
                 display: flex;
                 flex-direction: column;
                 width: 90%;
-                // justify-content: space-between;
-                // width: 912px;
-                // width: 100%;
 
                 .contenedor-mayor {
                     width: 100%;
-                    // width: 49%;
 
                     .img-img-img {
                         border-radius: 5px;
@@ -681,7 +665,6 @@
                     display: flex;
                     flex-direction: column;
                     width: 100%;
-                    // width: 49%;
 
                     p {
                         font-size: 18px;
@@ -699,7 +682,6 @@
                         flex-direction: column;
                         align-items: center;
                         margin: 0px 0px 0px 0px;
-                        // height: 243px;
 
                         .datos-fisicos {
                             width: 100%;
@@ -708,7 +690,6 @@
                             align-items: center;
                             flex-direction: column;
                             justify-content: center;
-                            // width: 50%;
 
                             .texto-blanco {
                                 color: white;
@@ -716,7 +697,6 @@
                                 font-weight: 400;
                                 margin-top: 10px 0px 0px 0px;
                                 margin-bottom: 0px;
-                                // margin-top: 8px;
                             }
 
                             .texto-negro {
@@ -725,7 +705,6 @@
                                 font-weight: 600;
                                 margin-top: 10px 0px 0px 0px;
                                 margin-bottom: 0px;
-                                // margin-top: 8px;
                             }
                         }
                     }
@@ -757,7 +736,6 @@
                                 margin-top: 8px;
                                 height: 32px;
                                 width: 207.5px;
-                                // width: 128px;
 
                                 p {
                                     font-size: 16px;
@@ -778,7 +756,7 @@
             margin: auto;
 
             .interior-contenedor-evoluciones-involuciones {
-                background-image: url('/public/img/fondo-gris.png');
+                background-image: url('/img/fondo-gris.png');
                 border-radius: 5px;
                 margin: auto;
                 width: 98%;
@@ -796,7 +774,6 @@
 
                 .contenedor-imagenes {
                     display: flex;
-                    // justify-content: space-evenly;
                     flex-direction: column;
                     padding: 0px 22px;
 
@@ -857,7 +834,6 @@
                         align-items: center;
                         justify-content: center;
                         transform: rotate(90deg);
-                        // height: 170px;
                         height: 48px;
                         margin-top: 16px;
                         margin-bottom: 16px;
@@ -874,7 +850,6 @@
             .contenedor-boton-pokedex {
                 background-color: white;
                 margin: auto;
-                // width: 880px;
                 width: 100%;
 
                 .contenedor {

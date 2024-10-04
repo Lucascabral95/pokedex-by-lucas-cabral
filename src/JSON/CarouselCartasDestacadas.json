@@ -1,69 +1,69 @@
 [
     {
-        "imagen": "/public/img/carousel-uno.png",
+        "imagen": "/img/carousel-uno.png",
         "link": "",
         "id": 1,
          "titulo": "Gengar ex",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-dos.png",
+        "imagen": "/img/carousel-dos.png",
         "link": "",
         "id": 2,
          "titulo": "Pokochos Gemelos",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-tres.png",
+        "imagen": "/img/carousel-tres.png",
         "link": "",
         "id": 3,
          "titulo": "Cinturon Colosal",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-cuatro.png",
+        "imagen": "/img/carousel-cuatro.png",
         "link": "",
         "id": 4,
          "titulo": "Energia Neosuperior",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-cinco.png",
+        "imagen": "/img/carousel-cinco.png",
         "link": "",
         "id": 5,
          "titulo": "Lickitung",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-seis.png",
+        "imagen": "/img/carousel-seis.png",
         "link": "",
         "id": 6,
          "titulo": "Drampa",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-siete.png",
+        "imagen": "/img/carousel-siete.png",
         "link": "",
         "id": 7,
          "titulo": "Farigiraf ex",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-ocho.png",
+        "imagen": "/img/carousel-ocho.png",
         "link": "",
         "id": 8,
          "titulo": "Silvio",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-nueve.png",
+        "imagen": "/img/carousel-nueve.png",
         "link": "",
         "id":  9,
          "titulo": "Ferrotesta",
         "descripcion": "Escarlata y Purpura-Fuerzas Temporales"
     }, 
     {
-        "imagen": "/public/img/carousel-diez.png",
+        "imagen": "/img/carousel-diez.png",
         "link": "",
         "id": 10,
          "titulo": "Conviccion de Morti",
