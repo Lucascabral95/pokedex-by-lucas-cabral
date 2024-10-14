@@ -2,7 +2,7 @@
 
 ## Instalación
 
-Instalar generador-de-colores con npm
+Instalar pokedex con npm
 
 ```bash
   git clone https://github.com/Lucascabral95/pokedex-by-lucas-cabral.git
